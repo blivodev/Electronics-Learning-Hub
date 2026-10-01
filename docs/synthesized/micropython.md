@@ -1,13 +1,26 @@
 # MicroPython — Fast Prototyping with a REPL
 
 > **Track:** Microcontrollers (general) · **Difficulty:** Beginner
-> **What you'll get:** the MicroPython REPL, hardware access from plain Python, and a
-> working WS2812 / NeoPixel LED project that's the fastest way to "make something glow".
+> **What you'll get:** the MicroPython REPL, hardware access from plain Python, non-blocking
+> `asyncio`, analog & I²C sensors, a working WS2812 / NeoPixel project, and networking on the
+> Pico W — the fastest way to "make something glow" and then make it talk to the internet.
 
 MicroPython is a lean reimplementation of Python 3 that runs *directly on* microcontrollers —
 no OS, no cloud, no compile step. You plug in a board, hit the **REPL**, and type
 `led.value(1)` and an LED lights up *immediately*. It is the fastest feedback loop in
 embedded electronics, which makes it perfect for prototyping, learning, and art projects.
+
+The trade-off to know up front: Python is **slower and larger** than C or Rust. On an ESP32 or
+Pico with hundreds of KB of RAM that's usually irrelevant for a hobby project. But it's exactly
+why the pros prototype in MicroPython and *port the winner* to C/Rust for production. That
+"prototype fast, polish in C" workflow is the single most practical lesson in this tutorial.
+
+```mermaid
+flowchart LR
+    A["Flash firmware once"] --> B["REPL & scripts<br/>Part 1"] --> C["GPIO blink & button<br/>Part 2"]
+    C --> D["asyncio (non-blocking)<br/>Part 3"] --> E["ADC + I2C sensors<br/>Part 4"]
+    E --> F["NeoPixel project<br/>Part 5"] --> G["Network / Pico W<br/>Part 6"] --> H["Files & main.py<br/>Part 7"]
+```
 
 ---
 
@@ -16,6 +29,13 @@ embedded electronics, which makes it perfect for prototyping, learning, and art 
 - A board that runs MicroPython: **Raspberry Pi Pico / Pico W**, **ESP32**, or **ESP8266**.
 - The [Thonny](https://thonny.org/) editor (it bundles a MicroPython installer and REPL) or `mpremote`.
 - A **WS2812B / NeoPixel** LED strip or ring (30 LEDs is plenty to start), plus a **100 Ω or 220 Ω resistor** and a decent **5 V power source** if your strip is long.
+- Optional for the analog/I²C parts: a **potentiometer** and a **BME280 or DHT22** sensor.
+
+> ⚠️ **First-time flash:** different boards need different firmware images. Download the right
+> `.uf2` (Pico) or `.bin` (ESP) for your exact board from the [official MicroPython downloads](https://micropython.org/download/).
+> For a Pico, hold the BOOTSEL button while plugging into USB and drag the `.uf2` onto the drive
+> that appears. For an ESP32, use `esptool` or the Thonny installer — do *not* drag-and-drop a `.bin`.
+> This is the number-one first-timer stall point.
 
 ## 🚀 Part 1 — The REPL: your board is a Python shell
 
@@ -38,10 +58,24 @@ whole point of the language track.
 flowchart LR
     A["Open Thonny<br/>connect board"] --> B["Firmware already flashed"]
     B --> C["REPL prompt >>>"]
-    C -->|"type a line"| D["executes instantly"]
-    D -->|"see the LED / print"| C
-    C -->|"done? save as main.py"| E["runs on every boot"]
+    C -->|\"type a line\"| D["executes instantly"]
+    D -->|\"see the LED / print\"| C
+    C -->|\"done? save as main.py\"| E["runs on every boot"]
 ```
+
+**Your first battery of useful REPL commands:**
+
+```python
+>>> import sys, machine, gc
+>>> sys.implementation          # which MicroPython version / platform
+>>> machine.freq()              # CPU clock in Hz
+>>> gc.mem_free()               # how much RAM is left
+>>> print(dir(machine))         # list everything in the machine module
+```
+
+> 💡 **Helpful habit:** when you don't know what a module offers, type `dir(module)`. MicroPython
+> modules are small, so the list is usually short and readable. When unsure what an object can do,
+> `help(object)` often prints its methods.
 
 ## 💡 Part 2 — Blink, then read a button
 
@@ -79,7 +113,107 @@ while True:
     sleep_ms(20)                # tiny debounce pause
 ```
 
-## 🌈 Part 3 — The project: a WS2812 / NeoPixel color loop
+> ⚠️ **Pitfall — pull directions are board-specific.** Just because the Pico's pull-up buttons
+> read `LOW` when pressed, the same wiring on another board may be reversed. Always check whether
+> YOUR board's pins have internal pull-ups and which way "pressed" reads before you spend an hour
+> wondering why your button logic is inverted.
+
+## ⏱️ Part 3 — `asyncio`: doing several things at once without `sleep` blocking
+
+`time.sleep()` blocks *everything* for the duration, exactly like Arduino's `delay()`. The moment
+you want to blink an LED *and* read a button *and* poll a sensor smoothly, blocking sleeps make it
+janky. MicroPython ships a stripped-down **`asyncio`**, letting you run several cooperative tasks
+in one "virtual" loop:
+
+```python
+# async_demo.py — blink an LED and blink a second LED at a different rate,
+# both at the same time, without one blocking the other.
+import asyncio
+from machine import Pin
+
+led1 = Pin(25, Pin.OUT)   # Pico onboard LED
+led2 = Pin(14, Pin.OUT)   # add an external LED on GPIO14 via a resistor
+
+async def blinker(pin, period_ms, name):
+    while True:
+        pin.toggle()
+        print(name, "toggled")
+        await asyncio.sleep_ms(period_ms)   # yield control; don't block
+
+async def main():
+    # Run both blinkers "simultaneously" (cooperatively interleaved)
+    t1 = asyncio.create_task(blinker(led1, 500, "led1"))
+    t2 = asyncio.create_task(blinker(led2, 200, "led2"))
+    await asyncio.gather(t1, t2)            # run until both finish (never here)
+
+asyncio.run(main())
+```
+
+**How it works:** `await asyncio.sleep_ms(...)` hands control back to the scheduler instead of
+blocking the whole CPU. Each `blinker` is a *task*; the scheduler time-slices between them so
+both LEDs blink at their own rates. This is MicroPython's answer to Arduino's "can't do two
+things at once" problem — and it maps directly onto the RTOS concept from the
+[MCU path](../paths/mcu/index.md).
+
+```mermaid
+sequenceDiagram
+    participant S as asyncio scheduler
+    participant A as led1 [500ms]
+    participant B as led2 [200ms]
+    S->>A: run
+    A->>S: await sleep 500 (yield)
+    S->>B: run
+    B->>S: await sleep 200 (yield)
+    note over S: neither tasks blocks the other
+```
+
+> 💡 **Pitfall — cooperative, not parallel.** `asyncio` only switches tasks at `await` points. If
+> one task runs a long, CPU-bound loop *without* an `await`, it will hog the CPU and the others
+> starve. Keep each task's between-`await` work short.
+
+## 🌡️ Part 4 — Analog (ADC) & I²C sensors: reading the real world
+
+**ADC** — read a potentiometer's voltage as a number. On the Pico `ADC(26)` reads the first of
+its three ADC pins; on an ESP32 use `ADC(Pin(36))`-style with `atten`.
+
+```python
+# adc.py — read a pot on ADC26 and convert the count to a 0-3.3V voltage.
+from machine import ADC, Pin
+from time import sleep
+
+adc = ADC(Pin(26))                 # Pico's ADC pin 0 is on GPIO26
+while True:
+    raw = adc.read_u16()           # 0..65535 (16-bit on Pico)
+    volts = raw / 65535 * 3.3      # scale to the board's reference voltage
+    pct = raw / 65535 * 100
+    print(f"{raw:5d} counts  {volts:.2f} V  {pct:5.1f}%")
+    sleep(0.2)
+```
+
+**I²C sensors** — a single two-wire bus (SCL + SDA) can host many sensors. The classic first
+example is a BME280 (temperature, humidity, pressure):
+
+```python
+# i2c_bme280.py — read a BME280 on the Pico's default I2C0 (GPIO 16=sda, 17=scl).
+from machine import Pin, I2C
+from time import sleep
+
+i2c = I2C(0, sda=Pin(16), scl=Pin(17), freq=400_000)  # 400 kHz
+print("I2C devices:", [hex(d) for d in i2c.scan()])    # should show 0x76 / 0x77
+
+import bme280                 # a common third-party driver; install via pip/thonny
+while True:
+    data = bme280.BME280(i2c=i2c).read_compensated_data()
+    print(f"{data[0]/100:.2f} C  {data[2]/25600:.1f}% RH")
+    sleep(2)
+```
+
+> ⚠️ **Pitfall — watch the pin numbers.** MicroPython drivers print a **pin number**, not a
+> friendly name. `Pin(16)` means GPIO16, and on a Pico that's physically pin 21 on the header.
+> Double-check against the board's pinout diagram before wiring, or you'll get nothing on the bus
+> and assume the sensor is dead (it's usually just the wrong pin).
+
+## 🌈 Part 5 — The project: a WS2812 / NeoPixel color loop
 
 WS2812 "NeoPixel" LEDs are individually addressable — one data wire, and each LED in the
 chain can be its own color. MicroPython has a built-in `neopixel` module, so this is
@@ -128,10 +262,149 @@ while True:
 2. **A series resistor on the data line** kills ringing/overshoot that corrupts the signal on
    longer wires. Add the 100–220 Ω in series close to the board.
 
+```mermaid
+flowchart LR
+    B["Board GPIO4"] --> R["100Ω"] --> D["WS2812 DATA"]
+    P["Board 5V"] --> V["WS2812 5V"]
+    G["Board GND"] --- W["WS2812 GND (SHARED!)"]
+```
+
+**Pitfall — power, not just data.** A 30-LED strip at full white can draw ~1.8 A. The USB port on
+a computer often can't supply that. For longer strips, power the strip from its own 5 V supply and
+**share the ground** with the board — data comes from the GPIO, power comes from the supply. This is
+why the series resistor and shared GND matter so much.
+
+## 🌐 Part 6 — Networking on the Pico W (or ESP32)
+
+The Pico **W** adds Wi-Fi (the plain Pico has none). The API is standard MicroPython `network`,
+identical on an ESP32. Here's a minimal web server that reports the board's temperature:
+
+```python
+# webserver.py — a tiny WebREPL-free HTTP server on a Pico W.
+import network, socket
+import machine
+
+ssid     = "YOUR_WIFI_NAME"     # <-- change me
+password = "YOUR_WIFI_PASS"     # <-- change me
+
+wlan = network.WLAN(network.STA_IF)
+wlan.active(True)
+wlan.connect(ssid, password)
+
+# Wait (with a timeout) for the connection to come up
+import time
+for _ in range(30):
+    if wlan.isconnected():
+        break
+    time.sleep(1)
+print("connected:", wlan.ifconfig())
+
+addr = socket.getaddrinfo("0.0.0.0", 80)[0][-1]
+s = socket.socket()
+s.bind(addr)
+s.listen(1)
+print("listening on http://%s" % wlan.ifconfig()[0])
+
+while True:
+    cl, addr = s.accept()
+    cl.recv(1024)                          # read the (ignored) HTTP request
+    cl.send(b"HTTP/1.0 200 OK\r\nContent-Type: text/html\r\n\r\n")
+    cl.send(b"<html><h1>Hello from MicroPython!</h1><p>CPU temp: ")
+    cl.send(str(machine.freq() // 1_000_000).encode())  # prints MHz, just a demo value
+    cl.send(b" MHz</p></html>")
+    cl.close()
+```
+
+> ⚠️ **Pitfall — don't block forever on connect.** If you never check `isconnected()`, a failed
+> network join hangs the whole board. Always poll with a timeout, and handle the "no network"
+> case (fall back to doing something offline) so the device stays usable.
+
+**Prototype-on-the-web workflow:** now that a board can open a socket, the path to "phone
+controls the LED" is the same pattern you saw in the [ESP32 in C++](../synthesized/esp32-cpp.md)
+tutorial — but written in 10 lines instead of 50.
+
+## 💾 Part 7 — Files, `main.py`, and deploying your project
+
+Unlike Arduino (which compiles everything into one image), MicroPython uses a tiny **filesystem**
+on the board. Your project is just files in the device root.
+
+- **`main.py`** — runs automatically on every boot/power-up. This is your entry point.
+- **`boot.py`** — runs *before* `main.py`; good for quick hardware setup (rarely needed).
+- Helper `.py` files are just importable modules, exactly like on a PC:
+  `import my_sensor` picks up `my_sensor.py` from the device root.
+
+**A clean project layout idea:**
+
+```
+/  (device root)
+├── main.py            # entry point: imports and starts your app
+├── driver.py          # your reusable module (sensor class, LED effects)
+└── secrets.py         # Wi-Fi credentials (import & use, don't hardcode everywhere)
+```
+
+**Secrets hygiene:** put Wi-Fi passwords in a `secrets.py` you import, and never commit it. When
+you move to [Rust](../synthesized/embedded-rust.md) or C, the same "one config module" habit pays
+off — but be aware that unlike you maybe assume, on the bare filesystem *anything* you store is
+readable, so don't put real secrets on a board you hand to someone.
+
+**To run a script now (not on boot):** in Thonny, just open it and press the **Run** button — it
+executes immediately regardless of `main.py`. Save it as `main.py` only once you're happy, so it
+survives a reboot.
+
+## 🧩 Part 7½ — Making your own reusable module (a class)
+
+Once a project grows, you'll want to wrap a piece of hardware in a small **class** and reuse it —
+exactly the same instinct as the [ESP32 C++ classes](../synthesized/esp32-cpp.md), but in Python.
+Here's a self-contained, reusable LED that knows how to blink at its own rate; save it as
+`led.py` and `import` it from anywhere.
+
+```python
+# led.py — a tiny reusable "Blinker" class you can import from your projects.
+from machine import Pin
+
+class Blinker:
+    """Owns one GPIO output pin and blinks it on a schedule."""
+    def __init__(self, pin_num, period_ms=500):
+        self.pin = Pin(pin_num, Pin.OUT)
+        self.period_ms = period_ms
+
+    def on(self):
+        self.pin.value(1)
+
+    def off(self):
+        self.pin.value(0)
+
+    def toggle(self):
+        self.pin.toggle()
+
+    def blink_times(self, n, wait_ms=None):
+        """Blink `n` times (blocking). Good for a boot 'hello' pattern."""
+        w = wait_ms or self.period_ms
+        for _ in range(n):
+            self.toggle()
+            time.sleep_ms(w)
+
+# To use it from main.py:
+#   from led import Blinker
+#   status = Blinker(25, period_ms=250)
+#   status.blink_times(3)      # 3 blinks on the onboard LED
+```
+
+Python classes are lightweight here — no header files, no separate declaration, just
+`self.` everywhere. This is a great place to start if you've never written a class: the
+`__init__` is the constructor that runs when you build a `Blinker(...)`, and each method
+(`on`, `off`, `toggle`) is just a named chunk of behavior attached to the object.
+
+> 💡 **Pitfall — remember `import time` inside a module that uses it.** Python modules don't
+> auto-share imports, so if `led.py` calls `time.sleep_ms`, it must `import time` itself. A
+> missing import inside a helper module shows up as a confusing `NameError` at *runtime*, not
+> at flash time — the single most common bug when splitting code across files.
+
 ## 📐 Why this matters
 
 - **REPL-first development** — you test ideas in seconds, not minutes.
 - **`machine` + device modules** (`machine`, `neopixel`, `esp`, `onewire`) are the standard portable API across Pico/ESP32/ESP8266.
+- **`asyncio` gives concurrency** without threads or a full RTOS — the same scheduling idea scales up to the [RTOS world](../synthesized/embedded-rust.md).
 - **Perfect for prototyping** — build the logic in Python, then port the winner to C/Rust for production.
 - **WS2812 is the gateway drug** to IoT art, clocks, and desktop builds — all without touching a compiler.
 
@@ -140,11 +413,17 @@ while True:
 - [Raspberry Pi Pico — Control the (I/O) World](https://www.youtube.com/watch?v=Zy64kZEM_bg) — the Pico's I/O from MicroPython.
 - [Raspberry Pi Pico Full Guide — Beginner to Pro](https://www.youtube.com/watch?v=4S0_BulQp20) — a thorough all-in-one walkthrough.
 - [NeoPixel LED Ring with ESP32 using MicroPython](https://www.youtube.com/watch?v=p5dFbF2WVNM) — see the color loop live on real hardware.
+- <https://www.youtube-nocookie.com/embed/gEwMEvUPAco> — the same "first flash" workflow the Arduino path uses, for comparing workflows.
 
 ## ✅ Next steps
 
 - Move the rainbow into a `main.py` so it runs on boot, then add a button to change the effect.
 - Read an analog sensor with `machine.ADC` and drive the brightness of a pixel.
 - Try the Pico **W**'s Wi-Fi: `import network` and post sensor data to a web service.
+- When your prototype works and you want it faster/smaller, port it to [Rust on embedded](../synthesized/embedded-rust.md) or revisit the [C fundamentals](../synthesized/arduino-c.md).
 
 > **New to a term?** Look it up in the [Glossary](../GLOSSARY/README.md).
+
+---
+
+*Choose your next step: [Microcontrollers path](../paths/mcu/index.md) or back to the [ESP32 path](../paths/esp32/index.md).*
