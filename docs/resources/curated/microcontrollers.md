@@ -32,6 +32,26 @@ A curated, working library for understanding microcontrollers themselves — the
 - **Making Embedded Systems (Elecia White, O'Reilly)** — https://www.amazon.com/Making-Embedded-Systems-Patterns-Practices/dp/1449302149 — The best practical bridge from hobby code to professional firmware patterns.
 - Practice bare metal on an AVR (see arduino.md's avr-libc link) or a cheap STM32 Nucleo board.
 
+## More RTOS & Real-Time Concepts
+
+- **Zephyr Documentation** — https://docs.zephyrproject.org/latest/index.html — The full Zephyr manual: kernel services, device-driver model, Devicetree, and 1,000+ supported boards.
+- **FreeRTOS Kernel (GitHub)** — https://github.com/FreeRTOS/FreeRTOS-Kernel — The isolated kernel source and per-MCU ports (including RISC-V and Arm); drop it straight into your own firmware.
+- **FreeRTOS Developer Documentation** — https://www.freertos.org/Documentation/02-Kernel/02-Kernel-features/00-Developer-docs — Kernel-feature and API reference for tasks, queues, semaphores, and SMP.
+
+## PIO & the RP2040 / RP2350
+
+- **RP2040 Datasheet** — https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf — The definitive manual for the Pico chip: QSPI XIP, dual Cortex-M0+, and the full Programmable I/O (PIO) subsystem chapter.
+- **Pico SDK Examples (GitHub)** — https://github.com/raspberrypi/pico-examples — Readable C/C++ examples for GPIO, timers, ADC, DMA, PIO, USB, and FreeRTOS on the Pico.
+- **Raspberry Pi Pico Python SDK (PIO guide)** — https://pip.raspberrypi.com/documents/RP-008355-DS-raspberry-pi-pico-python-sdk.pdf — Official PDF covering the `rp2` module and writing custom PIO programs from MicroPython — the friendliest way into PIO.
+- **Getting Started with Raspberry Pi Pico (C/C++ SDK)** — https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf — The official book: toolchain setup, building, flashing, and the first PIO/DMA examples from C.
+- **Raspberry Pi Pico-series C/C++ SDK Manual** — https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf — The complete SDK reference: every hardware API (GPIO, PIO, DMA, USB) with examples.
+
+## Register-Level Programming
+
+- **ATmega328P Datasheet** — https://www.microchip.com/en-us/product/ATmega328P — Microchip's official page and datasheet for the classic Uno chip; the register descriptions here make bare-metal GPIO/timers click.
+- **Embedded Programming: ATmega328P in Pure C** — https://siwit.co/AVR — A free lesson path that skips the Arduino abstraction and drives DDRx/PORTx/PINx, timers, and interrupts directly from registers.
+- **CircuitBread: Lessons in Electric Circuits, Vol. IV (Digital)** — https://www.circuitbread.com/textbooks/lessons-in-electric-circuits-volume-iv-digital — Free, public-domain digital-logic text (gates, counters, registers) that pairs with register-level firmware work.
+
 ## Concrete Boards to Learn On
 
 - **ST STM32 32-bit MCUs** — https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html — The industry's most popular Arm Cortex-M family; huge ecosystem and docs.

@@ -47,10 +47,40 @@ A curated, working library for learning the Espressif ESP32 family — official 
 - **Random Nerd: ESP32 Web Server** — https://randomnerdtutorials.com/esp32-web-server-arduino-ide/ — Great entry project: build an ESP32 web server and control outputs from a browser.
 - **Wokwi (in-browser simulator)** — https://wokwi.com/ — Free browser simulator for ESP32/Arduino; build and test circuits and firmware without hardware.
 - **Last Minute Engineers: ESP32 Overview** — https://lastminuteengineers.com/ — Clear getting-started guides for ESP32 and peripherals (pinouts, wiring).
+- **RNT: Getting Started with the ESP32** — https://randomnerdtutorials.com/getting-started-with-esp32/ — The canonical first guide: choosing a board, specs, pinout, and flashing your first sketch.
+- **RNT: ESP32 MQTT Publish/Subscribe** — https://randomnerdtutorials.com/esp32-mqtt-publish-subscribe-arduino-ide/ — A practical IoT entry project: ESP32 + Node-RED + Mosquitto messaging.
+- **RNT: ESP32 Flash Memory** — https://randomnerdtutorials.com/esp32-flash-memory/ — How to store and read data that survives reset and power loss.
+- **RNT: ESP32 Save Data with Preferences Library** — https://randomnerdtutorials.com/esp32-save-data-permanently-preferences/ — The simplest way to persist settings on an ESP32 using the `Preferences.h` wrapper over NVS.
 
 ## Community
 
 - **ESP32 Official Forum** — https://www.esp32.com/ — Espressif's community forum; great for chip-level and IDF questions.
+
+## ESP32-C3 & ESP32-S3 (RISC-V & AI Chips)
+
+- **ESP32-C3 Wireless Adventure (official book)** — https://espressif.github.io/esp32-c3-book-en/ — Espressif's free, full-length book walking from ESP-IDF setup through Wi-Fi, ESP RainMaker, and mass production; centered on the RISC-V C3.
+- **ESP32-C3 SoC product page** — https://www.espressif.com/en/products/socs/esp32-c3 — Official overview of the single-core RISC-V Wi-Fi/BLE 5 chip, with the datasheet and getting-started links.
+- **ESP-IDF Get Started: ESP32-C3** — https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/get-started/ — Official setup, idf.py targets, and first hello-world specifically for the C3.
+- **ESP32-S3 SoC product page** — https://www.espressif.com/en/products/socs/esp32-s3 — Official page for the dual-core Xtensa LX7 chip with Wi-Fi + BLE 5 + AI acceleration; datasheet and errata links.
+- **ESP32-S3 Datasheet (PDF)** — https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf — The full datasheet: pin map, power domains, ULP coprocessor, and peripherals.
+- **Getting Started with the ESP32-C3 Super Mini** — https://randomnerdtutorials.com/getting-started-esp32-c3-super-mini — Practical guide to the cheap ultra-low-power C3 board: pinout, Arduino IDE setup, deep sleep (~43 µA).
+
+## FreeRTOS on ESP32
+
+- **FreeRTOS Overview (ESP-IDF)** — https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/freertos.html — How ESP-IDF integrates FreeRTOS (the default RTOS for all ESP-IDF apps), including the SMP implementations on dual-core chips.
+- **FreeRTOS (free and open source)** — https://freertos.org/ — The kernel itself; extensive docs, task/queue/semaphore references, and the SMP + RISC-V ports used by ESP-IDF.
+
+## Power Management & Deep Sleep
+
+- **Sleep Modes (ESP-IDF API Reference)** — https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/sleep_modes.html — The definitive reference for light-sleep, deep-sleep, wake-up sources, and the RTC memory ULP workflow.
+- **Power Management (ESP-IDF)** — https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/power_management.html — Frequency scaling and power-save behavior for building battery-friendly firmware.
+- **Deep Sleep Example (ESP-IDF examples)** — https://github.com/espressif/esp-idf/tree/master/examples/system/deep_sleep — Copy-paste example demonstrating timer, EXT0/EXT1, and GPIO wake-up sources.
+- **ESP32 Deep Sleep with Arduino IDE and Wake Up Sources** — https://randomnerdtutorials.com/esp32-deep-sleep-arduino-ide-wake-up-sources/ — Beginner walkthrough of timer, touch, and external wake-up with code and wiring.
+
+## ESP-IDF Components & the Component Registry
+
+- **ESP Component Registry** — https://components.espressif.com/ — Espressif's official package hub for ESP-IDF: reusable components (sensors, displays, LVGL, ESP-DSP, led_strip) declared in `idf_component.yml`.
+- **IDF Component Manager Documentation** — https://docs.espressif.com/projects/idf-component-manager/en/latest/index.html — How to add dependencies, publish components, and manage your project's manifest.
 
 ## Suggested Reading Order
 

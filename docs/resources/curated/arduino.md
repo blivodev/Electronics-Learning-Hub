@@ -27,10 +27,16 @@ A curated, working bookmark library for learning Arduino — official docs, begi
 - **Make: Projects** — https://makezine.com/ — Maker magazine project ideas and how-tos that lean heavily on Arduino.
 - **All About Circuits** — https://www.allaboutcircuits.com/ — Textbook-quality EE tutorials that pair well with Arduino hands-on work.
 - **Instructables: Arduino Projects** — https://www.instructables.com/Arduino-Projects/ — Thousands of community Arduino builds, from simple to elaborate.
+- **Arduino Project Hub** — https://projecthub.arduino.cc/ — Arduino's official project showcase; filterable by board and category, with shareable code and wiring.
+- **Programming Electronics Academy** — https://www.programmingelectronics.com/ — Structured beginner courses and free lessons focused on confidently writing Arduino code.
+- **DroneBot Workshop** — https://dronebotworkshop.com/ — Clear, well-illustrated Arduino/ESP32/Pico tutorials and full project write-ups (also a great YouTube channel).
 
 ## AVR Bare-Metal & Under the Hood
 
 - **avr-libc (GitHub mirror)** — https://github.com/avrdudes/avr-libc/ — The standard C library for AVR microcontrollers; essential reference when programming outside the Arduino framework.
+- **avr-libc User Manual** — https://www.nongnu.org/avr-libc/user-manual/ — The official, searchable manual: headers, `avr/io.h` register macros, timers, and the startup code behind every bare-metal AVR program.
+- **Arduino AVR Core (GitHub)** — https://github.com/arduino/ArduinoCore-avr — The actual source of `digitalWrite`, `analogRead`, and the pin mapping tables — read it to see what the framework hides.
+- **ATmega328P Datasheet** — https://www.microchip.com/en-us/product/ATmega328P — Microchip's official page and datasheet for the Uno chip; the register descriptions (DDRx/PORTx/PINx, timers) power real bare-metal work.
 - **Wikipedia: AVR microcontrollers** — https://en.wikipedia.org/wiki/AVR_microcontrollers — Background on the architecture the classic Arduino runs on (ATmega328P), including the register and memory-map overview that makes bare-metal coding click.
 
 ## Books
