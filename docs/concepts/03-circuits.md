@@ -201,3 +201,85 @@ Verified, beginner-friendly walkthroughs:
 
 **Next up:** [Microcontroller basics](04-microcontrollers.md) — the chip that will run your
 circuits and turn them into *projects*.
+
+---
+
+## 🧪 Exercises & Projects
+
+> **Estimated total time:** ~2–2.5 hours. The schematic-reading exercises need only a
+> pencil; the project needs a breadboard, one LED, a push button, two resistors, and a
+> multimeter.
+
+### 📝 Exercises
+
+**🟢 Easy — read the schematic.** Draw the following circuit as a schematic *and* as a
+breadboard layout in your notebook (or trace it on paper). Check each box when both
+match.
+
+- [ ] A 9 V battery, a 470 Ω resistor, and an LED all in **series**. Mark the LED's
+      anode (+) so the drawing is unambiguous. Label each part with its letter code
+      (R1, D1, BT).
+- [ ] The *same* circuit drawn with a **ground symbol** (┴) instead of drawing the wire
+      all the way back to the battery. Note where the ┴ goes.
+
+**🟡 Medium — spot the connection.** Recall the breadboard rules (same row = connected;
+power rails run the length; no connection across the center channel).
+
+- [ ] You push the two legs of a resistor into rows A5 and A5 on the *same side*. Are
+      they connected? *(No — same row but the two legs of one part both in A5 means the
+      part is folded; they must be in *different* rows.)*
+- [ ] One wire is in **row B3** and another in **row C3**. Are they electrically joined?
+      *(Yes — same row on the same side of the channel.)*
+- [ ] A wire in **row E3** (left side) and one in **row F3** (right side, across the
+      channel). Connected? *(No — the center channel isolates the two sides.)*
+
+**🔴 Hard — troubleshoot a broken build.** A classmate's LED won't light. They show you
+their breadboard. Walk through the 5-step troubleshooting checklist from this page and
+write, for each step, the *one thing* you'd check first.
+
+- [ ] What's step 1 (power) and the most likely single fault there?
+- [ ] Trace a plausible "open loop" (a missing jumper) and name it.
+- [ ] Predict the symptom if the LED is in **backwards** vs. if the **resistor is
+      bypassed** (a short straight across the LED's two rails). Which one risks damaging
+      the LED? *(The bypassed resistor — a literal short.)*
+
+### 🛠️ Mini-Project: Breadboard a switch
+
+**Goal:** build a complete, closed-loop circuit you toggle by hand — and learn how an
+open circuit behaves — by adding a push button to your LED circuit.
+
+**Time:** ~30–40 minutes. **Components:** breadboard, one LED, a 220 Ω resistor, one push
+button, jumper wires, a 5 V source, and a multimeter.
+
+**Build steps:**
+
+1. Build the **LED + resistor circuit** exactly as you did on the components page: LED
+   across the channel, 220 Ω resistor from the LED anode's row to a free row.
+2. Add the **push button** straddling the center channel so its four legs land in four
+   different rows (say rows 5, 5 — the button's two pins on the near side, rows 5 and 6
+   on the far side).
+3. Wire so the current path is: **+5 V → button → resistor → LED → ground**. Concretely:
+   - Jumper **+ rail → one leg row of the button** (row 5, near side).
+   - Jumper **the button's opposite leg row (row 6, far side) → the free end of the
+     resistor** (where it connects through to the LED).
+   - Complete **LED cathode → − rail**.
+4. Power up. The LED stays **off** until you **press the button** — then it lights. That's
+   an *open circuit* (button open = break in the loop) becoming a *closed circuit*.
+
+**Verify with the multimeter:**
+
+- With the button **open**, measure voltage across the **button's two legs**: it reads
+  the full ~5 V even though no current flows (pressure, no flow — recall the electricity
+  page).
+- Press the button and re-measure: it should drop to ~0 V, and the LED row should now
+  show its ~2 V forward drop.
+
+**Extend it:** try the same button but wired so pressing it *turns the LED off* (put the
+button in the ground path instead). Explain why it toggles the opposite way. Then draw
+both versions as schematics — you've now made a real switch, the simplest possible
+"input" to any future microcontroller project.
+
+> **Tips:** a push button's four legs are internally connected in pairs (the two on each
+> side). If pressing it does nothing, rotate it 90° — it's a very common orientation
+> mistake. Always trace the loop on paper *before* powering; a short across the LED's rails
+> (resistor bypassed) is the one wiring error that can kill the LED.

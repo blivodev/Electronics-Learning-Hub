@@ -33,6 +33,12 @@ flowchart LR
     C -. "the battery lifts it back up" .-> A
 ```
 
+Sketch the whole circuit as a loop of water — pump, pipe, narrow section, and wheel:
+
+![Water analogy of a circuit](images/water-analogy.svg)
+
+*Voltage = water pressure (pump), current = the flow rate through the pipe, resistance = pipe narrowness. The water always returns to the low-pressure side to complete the loop.*
+
 ### Current (I) — the "flow"
 
 **Current is the flow of charge.** We measure it in **amperes** (amps, **A**). One amp is
@@ -212,3 +218,78 @@ the water analogy drawn out:
 
 **Next up:** [Ohm's law & components](02-components.md) — the parts (resistors, LEDs,
 capacitors, transistors, diodes) that you'll build on top of these ideas.
+
+---
+
+## 🧪 Exercises & Projects
+
+> **Estimated total time:** ~2–3 hours, split across a few sessions. Print the
+> Ohm's-law table from above and keep it next to you — you'll use it constantly.
+
+### 📝 Exercises
+
+**🟢 Easy — Ohm's law warm-up.** For each row, solve for the missing value. Show your
+working (`V = I × R`, `I = V / R`, or `R = V / I`). Checkbox each one off when it's done.
+
+- [ ] A 9 V battery pushes current through a 450 Ω resistor. What current flows?
+      *(Hint: `I = V / R` → 9 / 450 = 0.02 A = 20 mA.)*
+- [ ] A 5 V supply drives exactly 20 mA through a resistor. What's the resistance?
+      *(Answer: 250 Ω.)*
+- [ ] You measure 10 V across a 2 kΩ resistor. How much current is flowing?
+      *(Careful with the k — 2 kΩ = 2000 Ω.)*
+
+**🟡 Medium — pick the resistor.** You have a 3.3 V supply and an LED that drops ~2 V
+and wants no more than 20 mA.
+
+- [ ] How much voltage must the series resistor absorb? *(Hint: `3.3 − 2 = 1.3 V`.)*
+- [ ] What resistor value keeps current at ~20 mA? Compute `R = V / I`.
+      *(Answer: 65 Ω → use a common 100 Ω for margin.)*
+- [ ] Repeat the same two steps assuming the LED is blue and drops ~3 V. The resistor
+      now only has to absorb 0.3 V — explain in one sentence why a blue LED from 5 V
+      needs a *smaller* safety margin on the resistor.
+
+**🔴 Hard — series & parallel reasoning.** No calculator in your head; just the rules
+from this page.
+
+- [ ] Two resistors, 1 kΩ and 1 kΩ, are in **series** across 9 V. What is the total
+      resistance? What voltage appears across each resistor? *(They split 9 V evenly → 4.5 V each.)*
+- [ ] The same two resistors are moved to **parallel** across 9 V. What is the total
+      resistance? What current does the 9 V supply see? *(Total resistance halves to
+      500 Ω; supply current `9 / 500 = 18 mA`.)*
+- [ ] Explain in one paragraph why house wiring is **parallel**, not series — use the
+      word "independent" and reference what happens when one bulb blows.
+
+### 🛠️ Mini-Project: Build a voltage divider on a breadboard
+
+**Goal:** build a resistor voltage divider that turns a fixed supply into a smaller,
+adjustable-in-steps output — the same trick sensors and potentiometers use.
+
+**Time:** ~30–40 minutes. **Components:** breadboard, 3 jumper wires, two resistors
+(R1 = 1 kΩ, R2 = 2 kΩ), a 5 V source (a 5 V pin or a battery), and a multimeter.
+
+**Build steps:**
+
+1. Plug **R1** into the breadboard. It's two legs, so push each leg into a different
+   row on the same side (rows 1 and 2).
+2. Plug **R2** so one leg shares **row 2** with R1's lower leg, and the other leg goes
+   into **row 3**. Now R1 and R2 are in series, and **row 2 is their shared midpoint**.
+3. Run a **jumper from the + rail to row 1** (the top of R1).
+4. Run a **jumper from the − rail to row 3** (the bottom of R2).
+5. Feed **5 V into the + rail** and **0 V into the − rail**.
+6. Set your **multimeter to DC volts** and probe **row 2** against ground (− rail).
+
+**Verify it against the formula:** `V_out = V_in × (R2 / (R1 + R2)) = 5 × (2000/3000) ≈ 3.3 V`.
+The meter should read close to 3.3 V.
+
+**Extend it:** swap R2 for a different value and predict the output *before* you measure.
+Make a table of three different R2 values and compare predicted vs. measured. If they
+differ by more than ~5%, double-check the resistor values (read the color bands — that's
+next chapter).
+
+**Why it matters:** voltage dividers are how you'll read sensors (a light-dependent
+resistor changes one leg and the output voltage changes) and how you'll safely connect
+3.3 V and 5 V logic. You've built the first "real" building block.
+
+> **Tips:** color-code your jumpers (red = +, black = −, any other = the midpoint
+> signal). If the meter reads 0 or 5 V, you've probably got a leg in the wrong row —
+> same row = connected, so trace where each leg actually lands.

@@ -282,3 +282,112 @@ Verified, step-by-step build-alongs for each rung:
 Congratulations — that little blinking LED was the first step into a field where you can
 now read schematics, pick components with Ohm's law, and build devices that sense, act, and
 connect. Keep climbing the ladder, one working project at a time.
+
+---
+
+## 🧪 Exercises & Projects
+
+> **Estimated total time:** ~3–4 hours. You'll want a board (Arduino or ESP32), its USB
+> cable, and the Arduino IDE. The capstone project reuses hardware from every rung of the
+> ladder: breadboard, LED, button, 10 kΩ resistor, an HC-SR04 ultrasonic sensor (or a
+> light-dependent resistor), and jumper wires.
+
+### 📝 Exercises
+
+**🟢 Easy — order the ladder.** Each step unlocks one core skill. Match skill to rung.
+
+- [ ] Which rung teaches **analog/timed input** (reading the real world)?
+      *(Step 3 — Sensor.)*
+- [ ] Which rung introduces the idea that a GPIO pin **can't drive power directly**?
+      *(Step 4 — Motor / transistor.)*
+- [ ] Which rung moves you off the breadboard into **connected devices**?
+      *(Step 5 — Network / IoT.)*
+
+**🟡 Medium — one rung at a time.** These ask you to reason about a *single* ladder step.
+
+- [ ] In Step 2 (Button), explain in one sentence why the **10 kΩ pull-down resistor**
+      is needed at all. *(Without it, the input floats and reads random noise when the
+      button is up.)*
+- [ ] In Step 4 (Motor), name the *three* extra parts beyond the motor and state each
+      one's single job. *(Transistor = power switch; diode = clamps kickback;
+      resistor = limits the base current.)*
+- [ ] The sensor sketch converts a **time** into a **distance** (ultrasonic). Write the
+      one line that does that conversion and identify which constant represents the
+      speed of sound.
+
+**🔴 Hard — combine the rungs.** The *real* skill is stacking the ladder. Sketch code
+(or a careful plan) for each:
+
+- [ ] A light-based alarm: a light sensor (Step 3) that turns on the onboard LED (Step 1)
+      AND only rings a buzzer (Step 4) when it's dark enough. Which two `if` conditions
+      gate the buzzer?
+- [ ] A web-controlled night light: a button (Step 2) toggles a saved "on/off" state
+      that an ESP32 web page (Step 5) also flips. How would you share that one state
+      between the button's `loop()` and the server handler?
+- [ ] Diagnose: your sensor reads wildly when the room lights flicker. Which single
+      conceptual fix from the ladder (pull-up/grounding/averaging) applies, and why?
+
+### 🛠️ Mini-Project: The Sensor Ladder — distance-triggered reaction light
+
+**Goal:** chain three ladder rungs into one working system: read a **sensor** (Step 3),
+drive an **LED output** (Step 1), and add a **button** override (Step 2) — the same
+"sense → act → decide" skeleton behind most real projects.
+
+**Time:** ~50–60 minutes. **Components:** board, breadboard, an HC-SR04 sensor (or an
+LDR + 10 kΩ for the light version), one LED, a 220 Ω resistor, one push button, a 10 kΩ
+resistor, jumpers.
+
+**Build steps:**
+
+1. **Wire the sensor** exactly as in Step 3: VCC → 5 V, GND → ground, Trig → pin 9,
+   Echo → pin 10. (Light version: LDR + 10 kΩ voltage divider into an analog pin like A0.)
+2. **Wire an LED + 220 Ω** from a digital pin (say pin 8) to ground, long leg toward the pin.
+3. **Wire the button** with an internal pull-up: one leg to ground, the other to pin 2.
+4. **Upload** a program that unifies them:
+
+   ```cpp
+   const int trig = 9, echo = 10;
+   const int ledPin = 8;
+   const int btn = 2;
+   bool overrideOn = false;          // latched by the button
+
+   void setup() {
+     Serial.begin(9600);
+     pinMode(trig, OUTPUT); pinMode(echo, INPUT);
+     pinMode(ledPin, OUTPUT); pinMode(btn, INPUT_PULLUP);
+   }
+   void loop() {
+     // 1) measure distance (Step 3)
+     digitalWrite(trig, LOW);   delayMicroseconds(2);
+     digitalWrite(trig, HIGH);  delayMicroseconds(10);
+     digitalWrite(trig, LOW);
+     long us = pulseIn(echo, HIGH);
+     float cm = us * 0.034 / 2;
+
+     // 2) button toggles the override (Step 2) — press once to latch
+     if (digitalRead(btn) == LOW) { overrideOn = !overrideOn; delay(250); }
+
+     // 3) decide output (Step 1)
+     bool close = (cm < 30.0);                  // "sensed" condition
+     digitalWrite(ledPin, overrideOn ? HIGH : (close ? HIGH : LOW));
+
+     Serial.print("dist="); Serial.print(cm);
+     Serial.print("  override="); Serial.println(overrideOn);
+     delay(100);
+   }
+   ```
+
+5. **Run it:** the LED lights when your hand comes within ~30 cm (sense → act). Press the
+   button once and the LED latches on regardless (a human override), press again to
+   release.
+
+**The lesson:** every one of the ladder's skills is in this one 25-line sketch — input,
+output, sensing, and a decision. Change the `30.0` threshold, add a serial-print of the
+distance, or (on an ESP32) swap the LED for a web page toggle from Step 5 and you've
+built the skeleton of a real IoT device. That's the ladder working as designed.
+
+> **Tips:** start with just the sensor + Serial Monitor before adding the button and LED,
+> so you can see the distance numbers are sane first. If the LED flickers at the threshold
+> edge, widen it or read an average of a few samples — tiny noise on the measurement is
+> normal. The button latch uses a simple `delay(250)` for debounce; a proper debounce is
+> in the Arduino-C tutorial if you want the polished version.

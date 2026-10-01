@@ -419,3 +419,86 @@ is mostly a matter of swapping the HAL import and pin names.
 ---
 
 *Intermediate → Advanced: continue with the [MCU path](../paths/mcu/index.md) or back to the [ESP32 path](../paths/esp32/index.md).*
+
+---
+
+## 🧪 Exercises & Projects
+
+> **Estimated total time:** ~2–3 hours. You'll need the Rust toolchain (`rustup`, `cargo`)
+> with your chip's target added, plus a dev board (ESP32-C3, Arduino Uno via avr-hal, or a
+> Pico via embassy-rp). Some exercises check on your PC with plain `cargo`; the project
+> needs the board.
+
+### 📝 Exercises
+
+**🟢 Easy — ownership in 60 seconds.** These can be answered by reading Part 1; no board.
+
+- [ ] In `let t = s;` where `s` owns a `String`, can you still use `s` afterwards?
+      *(No — ownership moved to `t`; `s` is dead.)*
+- [ ] What does the borrow checker do that prevents two code paths from fighting over one
+      UART? *(It refuses to compile code with two owners of the same peripheral.)*
+- [ ] True or false: `no_std` gives you `String` and `Vec` by default. *(False — they need
+      an explicit heap allocator.)*
+
+**🟡 Medium — read the code.** Apply Parts 3–5 to these scenarios.
+
+- [ ] In the ESP32-C3 blink, `IO::new(peripherals.GPIO, ...)` is described as the *only*
+      way to get the pins. What guarantee does that enforce? *(Exactly one `IO` per chip —
+      you can't create two handles to the same pin.)*
+- [ ] `into_pull_up_input()` returns a *different type* than `into_floating_input()`.
+      What bug does this turn into a compile error? *(Treating a floating input as pulled
+      up — the classic flaky button.)*
+- [ ] Name the two error-handling idioms you'll see on `embedded-hal` `Result`s and say
+      when ignoring with `let _ =` is acceptable. *(`.unwrap()` vs `let _ =`; ignoring is
+      fine for a toggling LED, not for a real failure you care about.)*
+
+**🔴 Hard — fix the borrow errors.** These are the three lines from Part 5½. State the
+error and the one-line principle that fixes it.
+
+- [ ] `io.pins.gpio8.into_input()` then later `io.pins.gpio9.into_output()` → "use of
+      moved `io`". Fix? *(Take each pin once into its own binding; don't reach back through
+      `io` after a pin it owns moved.)*
+- [ ] Two async tasks both want mutable access to one UART. Fix? *(Share one owner behind
+      a critical-section `Mutex` or an Embassy channel.)*
+- [ ] `fn toggle_twice(pin: &impl OutputPin)` won't compile — toggling mutates. Fix?
+      *(Ask for `&mut impl OutputPin` when you mutate; `&` only when you read.)*
+
+### 🛠️ Mini-Project: A `no_std` blink, owned by the compiler
+
+**Goal:** write (or adapt) a real `no_std` blink for *your* board, then prove the compiler
+is catching hardware mistakes for you — the whole point of Rust on embedded.
+
+**Time:** ~60–90 minutes. **Components:** your chosen board + USB toolchain. No breadboard
+strictly required (onboard LED) — add an external LED + resistor if you like.
+
+**Build steps:**
+
+1. **Pick your board** and add its target, e.g. for an ESP32-C3:
+   `rustup target add riscv32imc-unknown-none-elf`, then set up the esp-rs quickstart
+   (`espup`) — or use the avr-hal/higher-level setup from your ecosystem's docs.
+2. **Flash the blink** from Part 3 (use the example matching your board — esp-rs for C3,
+   avr-hal for Uno, embassy for Pico). Confirm the onboard LED blinks. Check it off:
+
+- [ ] `cargo build` succeeds for your chip's target.
+- [ ] The board flashes and the LED blinks at ~500 ms.
+- [ ] You can change the delay to 200 ms, rebuild, reflash, and it blinks faster.
+
+3. **Break it on purpose.** Now the teaching moment. Try each of these and watch *where*
+   the compiler stops you *before* you ever flash (this is what makes Rust different):
+
+- [ ] Create a second `IO` from `peripherals.GPIO` again and try to use both — expect a
+      borrow/move error.
+- [ ] Call `led.set_high()` where the API wants `&mut` — expect a mutability error.
+- [ ] (If you're on an esp-rs/embassy board) try to use a `String` without an allocator —
+      expect a `no_std` "not found" error.
+
+**The lesson:** on Arduino, "two handles to one pin" is a silent, flaky bench bug. Here
+the compiler refuses to compile it. You've now felt the entire value proposition of Rust
+on embedded in one session — and you've got a working blink to extend into a button read
+(Part 4) or an async Embassy build (Part 6).
+
+> **Tips:** build *before* flashing every time — the toolchain is your safety net. If
+> `cargo` can't find your target, you forgot `rustup target add` (Part Prereqs). The `let _ =`
+> on `toggle()` is deliberate: the HAL returns `Result`, and ignoring it is fine for a demo
+> LED but not for a sensor you depend on. When moving boards later, only the HAL import and
+> pin name change — the ownership rules and `embedded-hal` traits stay the same.
