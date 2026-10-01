@@ -1,0 +1,59 @@
+site_name: Electronics Learning Hub
+site_description: A beginner-friendly electronics, circuits, and embedded systems learning resource — pick Arduino, ESP32, or microcontrollers and learn with projects, tutorials, and a wiki.
+docs_dir: docs
+
+nav:
+  - Home: index.md
+  - Choose a Path: paths/index.md
+  - Paths:
+      - Arduino (AVR): paths/arduino/index.md
+      - Arduino Beginner: paths/arduino/beginner.md
+      - ESP32 (Xtensa/RISC-V): paths/esp32/index.md
+      - ESP32 Beginner: paths/esp32/beginner.md
+      - Microcontrollers (General): paths/mcu/index.md
+      - Circuits & Schematics: paths/circuits/index.md
+  - Core Concepts:
+      - How electricity works: concepts/01-electricity.md
+      - Ohm's law & components: concepts/02-components.md
+      - Circuits & schematics: concepts/03-circuits.md
+      - Microcontroller basics: concepts/04-microcontrollers.md
+      - From breadboard to board: concepts/05-projects.md
+  - Synth. Tutorials:
+      - Arduino (C): synthesized/arduino-c.md
+      - ESP32 (C/C++): synthesized/esp32-cpp.md
+      - Rust on embedded: synthesized/embedded-rust.md
+      - MicroPython: synthesized/micropython.md
+  - Resources:
+      - "Curated Library": resources/curated/README.md
+      - Arduino: resources/curated/arduino.md
+      - ESP32: resources/curated/esp32.md
+      - Microcontrollers: resources/curated/microcontrollers.md
+      - Circuits & Electronics: resources/curated/circuits.md
+      - Videos: resources/curated/videos.md
+      - Communities: resources/curated/communities.md
+  - Glossary: GLOSSARY/README.md
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+  palette:
+    scheme: slate
+    primary: teal
+    accent: amber
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.details
+  - pymdownx.highlight
+  - tables
+  - admonition
