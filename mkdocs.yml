@@ -23,6 +23,11 @@ nav:
       - ESP32 (C/C++): synthesized/esp32-cpp.md
       - Rust on embedded: synthesized/embedded-rust.md
       - MicroPython: synthesized/micropython.md
+      - "RTOS on MCU (FreeRTOS)": synthesized/rtos-on-mcu.md
+      - "PCB Design with KiCad": synthesized/pcb-design-kicad.md
+      - "ESP32 Advanced (Wi-Fi/BLE/sleep)": synthesized/esp32-advanced.md
+      - "Raspberry Pi Pico (RP2040)": synthesized/raspberry-pi-pico.md
+      - "Arduino / AVR bare metal": synthesized/arduino-baremetal-avr.md
   - Resources:
       - "Curated Library": resources/curated/README.md
       - Arduino: resources/curated/arduino.md
