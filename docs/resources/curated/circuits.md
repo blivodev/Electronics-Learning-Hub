@@ -10,6 +10,21 @@ A curated, working library for learning circuit theory and the practical craft o
 - **Tinkercad Circuits** — https://www.tinkercad.com/ — Free browser tool that simulates real Arduino + breadboard circuits; ideal for total beginners.
 - **NI Multisim** — https://www.ni.com/en/support/downloads/software-products/download.multisim.html — The industry-grade simulator used in many electronics courses (free student/education options).
 - **Multisim Live** — https://www.multisim.com/ — Free browser version of Multisim by NI; no install needed for quick simulations.
+- **LTspice (Analog Devices)** — https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html — The free, fast, industry-standard SPICE simulator for analog circuits; schematic capture, transient/AC/noise analysis, and tons of op-amp models.
+
+## Digital Logic
+
+- **CircuitBread: Lessons in Electric Circuits, Vol. IV (Digital)** — https://www.circuitbread.com/textbooks/lessons-in-electric-circuits-volume-iv-digital — The free, public-domain digital logic text: gates, flip-flops, counters, and shift registers.
+- **CircuitBread: Digital Signals and Gates** — https://www.circuitbread.com/textbooks/lessons-in-electric-circuits-volume-iv-digital/logic-gates/digital-signals-and-gates — The perfect first lesson: how transistor circuits represent binary 1s and 0s as logic levels.
+- **Electronics Tutorials: Digital Logic** — https://www.electronics-tutorials.ws/logic/ — Clear, structured lessons on combinational and sequential logic, logic gates, and Boolean algebra.
+
+## Op-Amps & Filters
+
+- **SparkFun: Introduction to Operational Amplifiers with LTspice** — https://learn.sparkfun.com/tutorials/introduction-to-operational-amplifiers-with-ltspice/all — A friendly, simulation-first intro to op-amp behavior using free LTspice.
+- **Electronics Tutorials: Operational Amplifiers** — https://www.electronics-tutorials.ws/opamp/ — Complete op-amp curriculum: inverting/non-inverting, summing, integrator, comparator, and active filters.
+- **Electronics Tutorials: Op-Amp Basics** — https://www.electronics-tutorials.ws/opamp/opamp_1.html — The starting lesson: ideal characteristics, gain-bandwidth product, and the golden rules.
+- **CircuitBread: Op-Amp Video Series** — https://www.circuitbread.com/tutorials/series/operational-amplifiers-op-amps — Short, visual op-amp tutorials from fundamentals through comparators and integrators.
+- **CircuitBread: Fundamentals of EE — Operational Amplifiers** — https://www.circuitbread.com/textbooks/fundamentals-of-electrical-engineering-i/analog-signal-processing/operational-amplifiers — Textbook chapter deriving op-amp gain and real-world limitations.
 
 ## Schematics & Theory
 

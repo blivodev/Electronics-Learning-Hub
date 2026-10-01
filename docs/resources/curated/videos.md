@@ -42,10 +42,30 @@ A curated, working watch-list of the best verified electronics and embedded-syst
 - **ElectroBOOM** — https://www.youtube.com/@ElectroBOOM — Entertaining (and genuinely educational) mains-voltage experiments; great for circuit intuition and hard lessons.
 - **Keysight Labs** — https://www.youtube.com/@KeysightLabs — Test-and-measurement tutorials from the oscilloscope maker; excellent for learning to measure properly.
 
+## More ESP32 & Embedded Builds
+
+- **Phil's Lab** — https://www.youtube.com/@PhilsLab — Phil Salmony (ex-Cambridge, Altium consultant): DSP, STM32/ESP32, and PCB-design deep dives — the best bridge from hobby builds to professional-grade embedded.
+- **educ8s.tv** — https://www.youtube.com/@Educ8s — ESP32/ESP32-S3, Raspberry Pi Pico, and Arduino project walkthroughs with complete code; great for IoT inspiration.
+- **That Project** — https://www.youtube.com/c/ThatProject — ESP32/ESP32-S3 voice-recognition, BLE, and display projects, often with full source in GitHub.
+- **Robojax** — https://www.youtube.com/@robojax — Huge library of ESP32/Arduino sensor and actuator tutorials with downloadable code.
+- **Robotics Back-End** — https://www.youtube.com/@RoboticsBackEnd — Clear ESP32, Arduino, and (later) ROS 2 robotic-embedded tutorials with a strong focus on good firmware habits.
+- **Ralph S Bacon** — https://www.youtube.com/ralphbacon — Approachable Arduino/ESP8266/STM32 how-tos with tidied-up example code.
+
+## Simulation, Theory & Low-Level
+
+- **Wokwi** — https://www.youtube.com/@Wokwi — The official channel of the in-browser ESP32/Arduino/STM32 simulator; emulation demos and building-your-own-chip stories.
+- **Low Level (formerly Low Level Learning)** — https://www.youtube.com/@LowLevelLearning — Embedded C, ARM assembly, register-level programming, and ESP32 wireless-in-C from a low-level programmer with 1M+ subs.
+- **Branch Education** — https://www.youtube.com/@BranchEducation — Stunning 3D-animated breakdowns of how chips, displays, and signals actually work.
+- **Moritz Klein** — https://www.youtube.com/@MoritzKlein0 — DIY analog synth circuits built from basic components; outstanding for learning real circuit behavior hands-on.
+- **Fran Blanche / FranLab** — https://www.youtube.com/c/FranBlanche — Vintage tech restoration, motor/electronics experiments, and genuinely deep circuit explainers.
+- **Kevin Darrah** — https://www.youtube.com/c/Kevindarrah — Low-power embedded design, bare-board Arduino experiments, and teardowns with real bench work.
+- **Playful Technology** — https://www.youtube.com/c/PlayfulTechnology — ESP32/Arduino-driven escape-room props, LED builds, and playful interactive hardware.
+- **CircuitBread** — https://www.youtube.com/channel/UClKevSwDIU8NTyF2DAK0G0Q — Short, visual tutorials on op-amps, circuits 101, and power electronics from the CircuitBread team.
+
 ## Suggested Watching Order
 
 1. **Afrotechmods** and **Simple Electronics** for the fundamentals.
 2. **DroneBot Workshop** for your first Arduino/ESP32 builds.
 3. **GreatScott!** and **EEVblog** to learn debugging and measurement.
 4. **Ben Eater** when you're ready to understand machines from the gates up.
-5. Finish with **Andreas Spiess** for serious ESP32/IoT depth.
+5. Finish with **Andreas Spiess** and **Phil's Lab** for serious ESP32/embedded depth.
