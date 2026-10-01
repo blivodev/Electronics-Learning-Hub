@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300" font-family="Arial, Helvetica, sans-serif">
+  <title>Water Analogy of a Circuit</title>
+
+  <!-- Reservoir (battery) -->
+  <g font-size="13">
+    <text x="20" y="30" font-weight="bold" fill="#0b7285">The water circuit analogy</text>
+    <rect x="20" y="50" width="130" height="110" fill="#fff3bf" stroke="#f08c00" stroke-width="2" rx="6"/>
+    <text x="85" y="85" text-anchor="middle" font-weight="bold" fill="#e8590c">Pump / source</text>
+    <text x="85" y="105" text-anchor="middle" font-size="11" fill="#333">= BATTERY</text>
+    <text x="85" y="122" text-anchor="middle" font-size="11" fill="#333">(voltage = pressure)</text>
+    <text x="85" y="140" text-anchor="middle" font-size="11" fill="#666">high pressure side</text>
+  </g>
+
+  <!-- Pipe (wire) top -->
+  <line x1="150" y1="80" x2="300" y2="80" stroke="#0b7285" stroke-width="6"/>
+  <text x="225" y="70" text-anchor="middle" font-size="11" fill="#0b7285">wire = pipe</text>
+
+  <!-- Narrow pipe (resistor) -->
+  <g>
+    <rect x="300" y="62" width="120" height="36" fill="#ffe3e3" stroke="#c92a2a" stroke-width="2" rx="4"/>
+    <text x="360" y="79" text-anchor="middle" font-size="11" font-weight="bold" fill="#c92a2a">RESISTOR</text>
+    <text x="360" y="93" text-anchor="middle" font-size="10" fill="#666">narrow pipe</text>
+  </g>
+
+  <!-- Pipe bottom -->
+  <line x1="420" y1="80" x2="480" y2="80" stroke="#0b7285" stroke-width="6"/>
+
+  <!-- LED (paddle wheel) -->
+  <g>
+    <circle cx="500" cy="80" r="28" fill="#d3f9d8" stroke="#2b8a3e" stroke-width="2"/>
+    <text x="500" y="76" text-anchor="middle" font-size="11" font-weight="bold" fill="#2b8a3e">LED</text>
+    <text x="500" y="90" text-anchor="middle" font-size="10" fill="#666">paddle wheel</text>
+  </g>
+
+  <!-- Wire down and back -->
+  <line x1="500" y1="108" x2="500" y2="200" stroke="#0b7285" stroke-width="6"/>
+  <line x1="80" y1="200" x2="500" y2="200" stroke="#0b7285" stroke-width="6"/>
+  <line x1="80" y1="160" x2="80" y2="200" stroke="#0b7285" stroke-width="6"/>
+
+  <!-- Flow arrows -->
+  <g fill="#0b7285" font-size="12">
+    <text x="220" y="120">flow</text>
+    <text x="245" y="118">→</text>
+    <text x="360" y="120">current (I)</text>
+  </g>
+
+  <!-- Return to low pressure -->
+  <g font-size="12" fill="#666">
+    <rect x="400" y="230" width="220" height="22" fill="#f1f3f5" rx="3"/>
+    <text x="510" y="245" text-anchor="middle">water returns to low-pressure side (0 V / ground)</text>
+  </g>
+
+  <!-- Legend -->
+  <g font-size="11" fill="#444">
+    <circle cx="30" cy="270" r="6" fill="#fff3bf" stroke="#f08c00"/>
+    <text x="45" y="274">Voltage = water pressure (pump)</text>
+    <circle cx="230" cy="270" r="6" fill="#d3f9d8" stroke="#2b8a3e"/>
+    <text x="245" y="274">Current = flow rate through the pipe</text>
+    <circle cx="470" cy="270" r="6" fill="#ffe3e3" stroke="#c92a2a"/>
+    <text x="485" y="274">Resistance = pipe narrowness</text>
+  </g>
+</svg>

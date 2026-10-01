@@ -493,3 +493,75 @@ expensive ones.
 ---
 
 *Intermediate? Continue to [MOSFETs & timers](../concepts/02-components.md) or the [full Arduino path](../paths/arduino/index.md).*
+
+---
+
+## 🧪 Exercises & Projects
+
+> **Estimated total time:** ~2–3 hours. You'll need an Arduino Uno, its USB cable, the
+> Arduino IDE, and (for the lab) a breadboard, one LED, a 220 Ω resistor, a push button,
+> and jumper wires. Each exercise is designed to be done *on the bench*, not just on paper.
+
+### 📝 Exercises
+
+**🟢 Easy — pointer check.** These test the ownership/dereference ideas from Parts 1–2.
+
+- [ ] Explain in one line the difference between `&x` and `*p` when `p = &x`.
+      *(`&x` is an address; `*p` is the value at that address.)*
+- [ ] Write a one-line statement that stores a pointer to the variable `count`.
+- [ ] Given `uint8_t b = 0b00000100;`, what is `b` when you do `b ^= 0b00000100;` twice?
+      *(It returns to its original value — XOR toggles a bit, toggling twice restores it.)*
+
+**🟡 Medium — register reasoning.** Apply the bit-manipulation rules (set with `|=`,
+clear with `&= ~`, toggle with `^=`).
+
+- [ ] Part 5 used `DDRB |= (1 << LED_PIN)` to make pin 13 an output. Explain *why* `|=`
+      (not `=`) is required — what would break if you clobbered the whole byte?
+- [ ] Write the two lines that would instead make a pin an **input with pull-up**
+      (DDR clear + PORT set), as in the full project. 
+- [ ] In `pwm_fade.ino`, `analogWrite` drives the pin by setting a timer *compare
+      register*. Predict what `analogWrite(9, 255)` vs `analogWrite(9, 0)` do to the LED.
+
+**🔴 Hard — the classic bugs.** These are the three borrow/control-flow traps from the
+page. Write what's wrong and the fix.
+
+- [ ] `if (now - last == 500) { ... }` — why is an `==` elapsed-time check wrong, and
+      what comparison should it use?
+- [ ] A variable is changed inside an ISR but not declared `volatile`. Describe the
+      failure mode.
+- [ ] Your sketch uses `delay()` to blink an LED *and* read a button, and the button
+      feels laggy. Name the root cause and the two idiomatic fixes from the tutorial.
+
+### 🛠️ Mini-Project: Blink / Button / PWM lab
+
+**Goal:** a three-part bench lab that exercises every peripheral from the tutorial —
+register-level blink, a button-driven decision, and PWM dimming — all in one session.
+
+**Time:** ~60–75 minutes. **Components:** Uno, breadboard, one LED, a 220 Ω resistor, a
+push button, jumpers.
+
+**Part A — blink without `digitalWrite`.** Wire an LED + 220 Ω from pin 13 to ground.
+Upload `blink_register.ino` from Part 5. Verify it blinks with **no library calls** —
+then change `PORTB ^= (1 << LED_PIN)` to a `PORTB |= ...` / `PORTB &= ~...` pair that does
+the same toggle, and confirm it still works.
+
+**Part B — button → LED.** Add the button (pin 2, internal pull-up). Extend Part A so the
+LED blinks *only while the button is pressed*: read `PIND` for the button bit (as in the
+full project) and gate the toggle on it. Check each box as it works:
+
+- [ ] LED blinks with no button pressed.
+- [ ] LED stops (or holds) while the button is held.
+- [ ] A `Serial.println` tells you the raw button bit, so you can see the pull-up logic.
+
+**Part C — PWM fade.** Move the LED to pin 9. Upload `pwm_fade.ino` and watch it fade up
+and down. Then answer on the bench: what happens if you change the `delay(10)` to
+`delay(100)`? *(The fade slows — you're changing how long each duty step is held.)*
+
+**What you've proven:** all three of the page's headline peripherals — registers
+(A), inputs + control flow (B), and timers/PWM (C) — working on one breadboard. That's
+the complete mental model of an AVR, and it transfers directly to the ESP32 and beyond.
+
+> **Tips:** keep Part A's register code identical until B — don't mix `digitalWrite` and
+> register calls on the same pin or you'll confuse yourself about what you're verifying.
+> If the button seems inverted, re-read the pull-up logic: with a pull-up, `LOW` = pressed.
+> For Part C, pin 9 must be PWM-capable (it is — it's one of `~3,5,6,9,10,11` on the Uno).

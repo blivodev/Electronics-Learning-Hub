@@ -409,3 +409,90 @@ void loop() {}
 ---
 
 *Intermediate? Go deeper with [MicroPython on the ESP32](../synthesized/micropython.md) or the [full ESP32 path](../paths/esp32/index.md).*
+
+---
+
+## 🧪 Exercises & Projects
+
+> **Estimated total time:** ~2–3 hours. You'll need an ESP32 devkit, its USB cable, the
+> Arduino IDE with the **esp32** board package installed, and (for the lab) one LED, a
+> 220 Ω resistor, maybe a push button, and a Wi-Fi network you can join.
+
+### 📝 Exercises
+
+**🟢 Easy — classes & objects.** Reinforce Part 1's vocabulary.
+
+- [ ] Name the three C++ keywords that make a class, and say what each does.
+      *(`class` declares it; `public:`/`private:` control access; the constructor with an
+      initializer list sets it up.)*
+- [ ] In `Led builtin(2);`, what is `2` and what method does the object call to set up
+      the pin? *(The pin number; `begin()` → `pinMode`.)*
+- [ ] True or false: `digitalWrite(_pin, !digitalRead(_pin))` in `toggle()` flips the pin
+      state. *(True.)*
+
+**🟡 Medium — references & memory.** Apply Part 2.
+
+- [ ] `void f(int x)` vs `void f(int &x)` — which one *changes the caller's* variable,
+      and why?
+- [ ] On an ESP32, why should you **avoid `new` inside `loop()`**? *(Heap fragments over
+      time → slow leak / allocation failure.)*
+- [ ] When you pass a `Sensor` object you only *read*, why use `const Sensor &s` instead
+      of passing by value? *(No copy ≈ saves RAM; `const` says you won't modify it.)*
+
+**🔴 Hard — ESP32-specific gotchas.** These are the real-world traps from the page.
+
+- [ ] A project "works then randomly hangs at power-up." Name the single most likely
+      cause and the habit that prevents it. *(A boot-strapping pin (0/2/12) used for I/O;
+      check the pinout before committing a pin.)*
+- [ ] Something is sending 5 V into a GPIO pin. What's the risk and the fix?
+      *(The ESP32 is 3.3 V, not 5 V tolerant — potentially permanent damage; convert with
+      a voltage divider.)*
+- [ ] The Wi-Fi connect code blocks forever when the router is down. Write the fix and
+      the one helper pattern that solves it. *(A timeout + graceful fallback, e.g. the
+      `connectWithTimeout` function.)*
+
+### 🛠️ Mini-Project: Wi-Fi LED control (control it from your phone)
+
+**Goal:** build the tutorial's `wifi_led_server` project end-to-end, then extend it —
+you'll control a real LED from a phone browser over your Wi-Fi network.
+
+**Time:** ~60–90 minutes. **Components:** ESP32 devkit, one external LED + a 220 Ω
+resistor (or rely on the onboard LED), a Wi-Fi network, and a phone/computer on the same
+network.
+
+**Build steps:**
+
+1. **Prepare:** install the **esp32** board package, select *ESP32 Dev Module*, and plug
+   in the board. Run the `blink`-style test to confirm uploads work before networking.
+2. **External LED (optional):** wire it from a free GPIO (say GPIO2 or GPIO4) through
+   220 Ω to GND — long leg toward the pin. Note: **check your board's pinout first** to
+   avoid boot-strapping pins.
+3. **Upload `wifi_led_server`** from Part 5, replacing the two credential lines with your
+   network. Open Serial Monitor at **115200 baud** and watch for the IP address.
+4. **Control it:** on a phone/PC on the same network, open `http://<your-esp32-ip>` in a
+   browser. Click **Turn ON / Turn OFF** and watch the LED respond. Check each box:
+
+- [ ] The page loads and shows the two buttons.
+- [ ] `/on` lights the LED and `/off` turns it off.
+- [ ] The Serial Monitor shows the board connected with a valid IP.
+
+**Extend it (pick at least one):**
+
+- [ ] Add a **third route** `/blink` that makes the LED blink 5 times fast, then returns
+      to off. *(Reuse the `for`-loop blink idea from the Arduino tutorial; call
+      `digitalWrite` in a loop inside a lambda handler.)*
+- [ ] Make the page **report button state**: add a `/state` route that returns the
+      current LED level, and fetch it from the page with inline JS.
+- [ ] Replace the on/off with **PWM brightness** — `/dim?level=128` sets `analogWrite`
+      (remember `analogWriteResolution(8)`).
+
+**The lesson:** you've now crossed the biggest threshold in the tutorial — a class-wrapped
+C++ object plus the ESP32's Wi-Fi peripheral, talking to a browser. This is the exact
+pattern behind every "control your device from anywhere" IoT project; from here, adding a
+sensor page or publishing data is the same skeleton with different handlers.
+
+> **Tips:** if the page loads but buttons "do nothing," verify the LED is on a pin that
+> survives reboot and that `/on` vs `/off` route strings match exactly. If Wi-Fi never
+> connects, check the SSID/password and that the router runs 2.4 GHz (ESP32 classic Wi-Fi
+> doesn't do 5 GHz). And always put the `connectWithTimeout` pattern in place before you
+> trust the device unattended — a router reboot shouldn't brick your board.

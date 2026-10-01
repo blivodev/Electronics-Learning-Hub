@@ -38,6 +38,12 @@ flowchart TB
     GPIO -->|"PWM / switch"| MOTOR["Motor"]
 ```
 
+Same picture as a concrete hardware block diagram:
+
+![Microcontroller block diagram](images/mcu-block.svg)
+
+*Inside the chip: CPU, memory, and peripherals talk to each other, and the GPIO pins are the hands that reach out to LEDs, buttons, sensors, and motors in the outside world.*
+
 ## Microcontroller vs. CPU — the key difference
 
 Your laptop's **CPU** (microprocessor) is a super-powered brain that does *nothing else*:
@@ -202,3 +208,98 @@ Verified, beginner-friendly introductions:
 
 **Next up:** [From breadboard to board](05-projects.md) — a proven project ladder: blink →
 button → sensor → motor → network, with build steps you can follow today.
+
+---
+
+## 🧪 Exercises & Projects
+
+> **Estimated total time:** ~2–3 hours. You'll want a microcontroller board (Arduino Uno
+> or ESP32), its USB cable, and the Arduino IDE installed. The button project also needs
+> a breadboard, a push button, an LED, a 220 Ω resistor, and two wires.
+
+### 📝 Exercises
+
+**🟢 Easy — know your chip.** No code needed; answer from the page.
+
+- [ ] Name the four things a microcontroller bundles onto one chip that a bare CPU lacks.
+      *(CPU, memory, peripherals, GPIO — all on one die.)*
+- [ ] True or false: a microcontroller can drive a motor directly from a GPIO pin.
+      *(False — pins source ~20–40 mA; a motor wants hundreds. Use a transistor.)*
+- [ ] Where does your *program* live after power-off, and where do *variables* live
+      while it runs? *(Flash vs. RAM.)*
+
+**🟡 Medium — trace the blink.** Read this code and predict the behaviour *before* running:
+
+```cpp
+void setup() { pinMode(LED_BUILTIN, OUTPUT); }
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(500);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(200);
+}
+```
+
+- [ ] Write down exactly what the LED does (on/off and for how long). *(On 0.5 s, off
+      0.2 s — an uneven "SOS-ish" blink.)*
+- [ ] Rewrite it so the LED blinks **3 times fast (100 ms), then stays off 2 seconds,
+      then repeats**. Sketch the `loop()` logic. *(Tip: use a `for` loop for the 3 blinks.)*
+
+**🔴 Hard — why Arduino vs. ESP32?** For each project below, say which board you'd pick
+and *why*, citing a concrete spec from this page (clock, memory, Wi-Fi, logic level).
+
+- [ ] A battery-powered sensor that must last months and only blinks when tripped.
+- [ ] An IoT device that sends temperature readings to a phone over Wi-Fi.
+- [ ] A beginner's very first blink, maximum hand-holding.
+
+### 🛠️ Mini-Project: Blink, then a button turns it off
+
+**Goal:** flash the onboard LED on a schedule, then use a GPIO input (a button) to
+override it — your first two-way conversation between chip and the physical world.
+
+**Time:** ~40–50 minutes. **Components:** board + USB, breadboard, one push button, one
+LED, a 220 Ω resistor, two jumpers.
+
+**Build steps:**
+
+1. **Upload** the classic blink from the page (or the Medium exercise above) and watch
+   the onboard LED blink. Confirm upload works before adding hardware.
+2. Add an **external LED + 220 Ω resistor** from a free digital pin (say pin 9/GPIO4) to
+   ground, long leg toward the pin.
+3. Wire the **button** with an **internal pull-up** (the Arduino/ESP32 handles it in
+   software — no external resistor): one button leg to ground, the opposite leg to a
+   digital pin (say pin 2/GPIO0).
+4. Upload a **modified loop** that blinks the onboard LED *unless* the button is pressed,
+   in which case it keeps the external LED on solid:
+
+   ```cpp
+   const int btn = 2;      // adjust to your board's pin
+   const int ext = 9;      // adjust to your board's pin
+   void setup() {
+     pinMode(LED_BUILTIN, OUTPUT);
+     pinMode(ext, OUTPUT);
+     pinMode(btn, INPUT_PULLUP);   // pull-up: reads LOW when pressed
+   }
+   void loop() {
+     if (digitalRead(btn) == LOW) {   // pressed
+       digitalWrite(ext, HIGH);       // hold external LED on
+       digitalWrite(LED_BUILTIN, LOW);
+     } else {                         // released: back to blinking
+       digitalWrite(ext, LOW);
+       digitalWrite(LED_BUILTIN, !digitalRead(LED_BUILTIN)); // toggle
+       delay(500);
+     }
+   }
+   ```
+
+5. Verify: blinking normally; press and hold → external LED lights, blink stops.
+
+**The idea you've just exercised:** GPIO can be *input* or *output*, and software decides
+what the current flows do. A button press is just a voltage falling to ground that you
+read as `LOW`. That's the entire input-side of every future project (the 05-projects page
+climbs blink → button → sensor → motor from exactly here).
+
+> **Tips:** if the button input seems "random," you likely have a floating pin — with a
+> pull-up it's solid HIGH until pressed. If the LED is dim or won't light, check you
+> added the series resistor and got the long-leg polarity right. And remember GPIO pins
+> can't drive a motor — that's the transistor you'll meet on the projects page.

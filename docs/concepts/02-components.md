@@ -88,6 +88,10 @@ tolerance band is on the right).
 
 **Example:** *red-red-orange-gold* → 2, 2, ×1,000 → **22,000 Ω = 22 kΩ**, ±5%.
 
+![Resistor color code and series/parallel](images/resistor-series-parallel.svg)
+
+*Left: reading red-red-orange-gold as 22 kΩ. Right: resistors in series add their resistances (same current); in parallel they share the voltage and combine as the parallel formula.*
+
 **How to read a 5-band resistor:** same idea, but you get a third digit before the
 multiplier, which gives finer values.
 
@@ -229,3 +233,82 @@ Verified, beginner-friendly videos that show the parts doing their jobs:
 
 **Next up:** [Circuits & schematics](03-circuits.md) — reading symbols, using a breadboard,
 and wiring your first real LED + resistor circuit.
+
+---
+
+## 🧪 Exercises & Projects
+
+> **Estimated total time:** ~2 hours. Grab a handful of resistors, an LED, and your
+> multimeter before starting the project — nothing here needs a computer, just parts
+> and patience.
+
+### 📝 Exercises
+
+**🟢 Easy — resistor color-code quiz.** Decode these 4-band resistors the way you did
+*red-red-orange-gold* → 22 kΩ. Check each one off.
+
+- [ ] *brown-black-red-gold* → ? *(digits 1, 0, ×100 → 1000 Ω = 1 kΩ)*
+- [ ] *yellow-violet-orange-gold* → ? *(4, 7, ×1000 → 47,000 Ω = 47 kΩ)*
+- [ ] *green-blue-brown-gold* → ? *(5, 6, ×10 → 560 Ω)*
+- [ ] Now go **backwards**: pick up a real resistor from your kit, read its bands, and
+      verify with the multimeter (Ω range). Repeat for three different resistors.
+
+**🟡 Medium — size the LED resistor.** For each row, find the series resistor that keeps
+an LED at **20 mA**. Use `R = (V_supply − V_LED) / I`.
+
+- [ ] 5 V supply, red LED drops 2 V → `(5−2)/0.02 = 150 Ω` → common value **220 Ω**.
+- [ ] 3.3 V supply, same red LED → `(3.3−2)/0.02 = 65 Ω` → common value **100 Ω**.
+- [ ] 9 V supply, blue LED drops 3 V → `(9−3)/0.02 = 300 Ω` → common value **330 Ω**.
+- [ ] Explain in one sentence (using the capacitor page's idea) what happens if you
+      forget the resistor entirely.
+
+**🔴 Hard — apply what you know.** These mix the parts on one page.
+
+- [ ] A 2N2222 NPN transistor is switching a motor that draws 300 mA, but a GPIO pin can
+      only supply 20 mA. Sketch (in words) the three connections — base, collector,
+      emitter — and which one the small pin current goes to. *(Answer: small current into
+      the base; motor between supply and collector; emitter to ground.)*
+- [ ] You're told a capacitor "smooths power." Name the job it's doing and where you'd
+      place a 0.1 µF decoupling cap relative to a chip's power pin. *(Across the power
+      pins, as close to the chip as possible.)*
+- [ ] A diode is described as a "one-way valve." Predict what happens to current if you
+      install an LED backwards (cathode toward +). *(No current flows — it doesn't light
+      and nothing burns, unless there's no limiting resistor.)*
+
+### 🛠️ Mini-Project: The classic LED + resistor circuit, done properly
+
+**Goal:** light an LED from a battery/pin at a *measured* ~20 mA, verify Ohm's law with
+your own meters, and prove the resistor is doing real work.
+
+**Time:** ~30–40 minutes. **Components:** breadboard, one red LED, a 220 Ω resistor,
+0.1 µF capacitor (optional), a 5 V source, and a multimeter.
+
+**Build steps:**
+
+1. Put the **LED** across the breadboard center channel: long leg (anode) in row 1, short
+   leg (cathode) in row 2. Straddling the channel keeps the legs from shorting together.
+2. Plug the **220 Ω resistor** with one leg in **row 1** (same row as the anode) and the
+   other leg in **row 3**.
+3. **Jumper +5 V → row 3** (through the resistor first), and **row 2 (cathode) → − rail**.
+4. Connect power. The LED should glow. If it doesn't, flip the LED 180° and try again —
+   polarity is the #1 suspect.
+
+**Verify with your meters:**
+
+- Measure the **voltage across the LED** (~2 V).
+- Measure the **voltage across the resistor** (~3 V) — the two should add to ~5 V.
+- Measure **current** by putting the meter *in series* (break the wire between row 1 and
+  the resistor leg, put the meter between them). Expect ~14 mA (a touch under 20 because
+  of the 220 Ω margin).
+- Confirm `V_resistor / I ≈ R`: 3 V / 0.014 A ≈ 214 Ω ≈ the 220 Ω you installed.
+
+**Extend it:** swap in a 1 kΩ resistor and watch the LED dim and the current drop — the
+same circuit, a "narrower pipe." Then add a 0.1 µF cap across the power rails and notice
+the LED's glow steadier under load. You've now used resistors, an LED, and a capacitor —
+three of the five parts from this page, wired and verified.
+
+> **Tips:** read the resistor *before* you install it (bands left-to-right, tolerance
+> band on the right). A multimeter set to DC current will show a very small resistance if
+> you accidentally read the LED as a diode — switch to the Ω/continuity range to re-check
+> wiring. Never feed an LED power without its series resistor — it will be a very short
+> career.

@@ -427,3 +427,95 @@ Python classes are lightweight here — no header files, no separate declaration
 ---
 
 *Choose your next step: [Microcontrollers path](../paths/mcu/index.md) or back to the [ESP32 path](../paths/esp32/index.md).*
+
+---
+
+## 🧪 Exercises & Projects
+
+> **Estimated total time:** ~2–3 hours. You'll need a MicroPython board (Pico, Pico W, or
+> ESP32) and the Thonny editor (or `mpremote`). For the project you'll also want a
+> **WS2812B / NeoPixel** strip or ring of ~30 LEDs, a 100 Ω resistor, and a 5 V supply.
+
+### 📝 Exercises
+
+**🟢 Easy — REPL fluency.** Do all of these *live in the REPL* — the fastest way to learn
+the tool.
+
+- [ ] At the `>>>` prompt, run `import sys` then `sys.implementation` and note the
+      MicroPython version. What board/version do you have?
+- [ ] Run `print(dir(machine))` and name two modules/functions you recognize from the
+      tutorial.
+- [ ] Turn the onboard LED on and off by typing two lines (no file, just the REPL):
+      `led = machine.Pin(25, machine.Pin.OUT)` then `led.value(1)` / `led.value(0)`.
+      *(ESP32: use `Pin(2)`.)*
+
+**🟡 Medium — write the code.** Read these and predict before running.
+
+- [ ] `while True: led.toggle(); sleep(0.5)` — roughly how many blinks per second?
+      *(One full on-off cycle per second → ~1 blink/sec.)*
+- [ ] In `button.py`, the pull-up button reads `LOW` when pressed. Rewrite the one `if`
+      condition so the LED is on when the button is *released* instead.
+- [ ] Rewrite the two-LED `async_demo` so the first blinks at 200 ms and the second at
+      500 ms. Which `await asyncio.sleep_ms` value goes in which task?
+
+**🔴 Hard — the gotchas.** These hit the page's traps.
+
+- [ ] `Pin(16)` on a Pico — does that mean the 16th pin on the header? *(No — it's GPIO16,
+      which is physically a different header pin; always check the pinout.)*
+- [ ] Your WS2812 strip shows garbage or nothing. Name *two* likely causes from the
+      wiring section. *(Shared ground missing; no series resistor on data → ringing.)*
+- [ ] A 30-LED strip at full white draws ~1.8 A. Why shouldn't you power that from your
+      computer's USB, and what's the wiring fix? *(USB can't reliably supply it; power the
+      strip from its own 5 V supply and share ground with the board.)*
+
+### 🛠️ Mini-Project: REPL + NeoPixel — make the strip dance
+
+**Goal:** combine the REPL's instant feedback with the `neopixel` module to drive a
+WS2812 strip — first interactively, then from a saved script. This is the tutorial's
+"gateway drug" project turned into a graded lab.
+
+**Time:** ~60 minutes. **Components:** MicroPython board, a NeoPixel strip/ring (~30
+LEDs), a 100 Ω resistor (data line), jumper wires, 5 V for the strip.
+
+**Build steps:**
+
+1. **Wire the strip** exactly as in Part 5: data → 100 Ω → GPIO4; strip 5 V → 5 V; strip
+   GND → GND **shared** with the board. Connect only the *board's* USB until verification.
+2. **REPL first.** Flash a known strip length and light a single pixel — instantly:
+
+   ```python
+   from machine import Pin
+   import neopixel
+   strip = neopixel.NeoPixel(Pin(4, Pin.OUT), 30)   # 30 = your LED count
+   strip[0] = (255, 0, 0)    # red
+   strip.write()             # push to the strip
+   ```
+
+   Check each box:
+
+- [ ] One LED lights red. *(First LED may be the strip's second physical pixel on some
+      strips — that's normal.)*
+- [ ] `strip[5] = (0, 255, 0)` lights pixel 5 green, then `.write()`.
+- [ ] Setting `strip[0] = (0, 0, 0)` turns it off.
+
+3. **Save it.** Turn your REPL experiment into `main.py` using the `wheel()` rainbow from
+   Part 5, so it runs on boot. Confirm it survives a power cycle (unplug/replug).
+4. **Extend it (pick at least one):**
+
+- [ ] Add a **button** that cycles between red / green / blue when pressed (reuse the
+      pull-up button pattern).
+- [ ] Use `machine.ADC` to map a potentiometer to the rainbow position — turn the pot and
+      the hue shifts.
+- [ ] Caps the brightness so the strip never exceeds ~33% (multiply RGB by 0.33) — a
+      handy habit that keeps your USB happy.
+
+**The lesson:** you've done REPL-first development *and* a full `main.py` deploy — the
+two halves of MicroPython's workflow — driving real, individually-addressable LEDs. That's
+the entire skill set you need for IoT art, clocks, and desktop builds, and the same
+`import machine` API carries straight into the Pico W networking step.
+
+> **Tips:** shared GND is non-negotiable — no shared ground, no data. If only the first
+> pixel works oddly or colors bleed, suspect the data-line resistor/value. Never type Wi-Fi
+> credentials in a prompt entered through a shell-history tool; keep passwords in a
+> `secrets.py` you import — and remember anything you store on the board is readable, so
+> don't put real secrets on hardware you hand to someone.
