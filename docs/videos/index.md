@@ -113,6 +113,31 @@ this page (no new tab, no tracking cookies — embeds use YouTube's privacy-frie
 
 **Electronics Projects** — [channel: @greatscottlab](https://www.youtube.com/@greatscottlab)
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/n594CkrP6xE" title="How Relays Work - Basic working principle" frameborder="0" allowfullscreen></iframe>
+
+**How Relays Work - Basic working principle** — [channel: @EngineeringMindset](https://www.youtube.com/@EngineeringMindset)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/o4_NeqlJgOs" title="Electronic Basics #23: Transistor (MOSFET) as a Switch" frameborder="0" allowfullscreen></iframe>
+
+**Electronic Basics #23: Transistor (MOSFET) as a Switch** — [channel: @greatscottlab](https://www.youtube.com/@greatscottlab)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GtH8lAzQf2A" title="Electronic Basics #31: Schottky Diode & Zener Diode" frameborder="0" allowfullscreen></iframe>
+
+**Electronic Basics #31: Schottky Diode & Zener Diode** — [channel: @greatscottlab](https://www.youtube.com/@greatscottlab)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rbCXKhhzBN0" title="How CAPACITORS Work (ElectroBOOM101-006)" frameborder="0" allowfullscreen></iframe>
+
+**How CAPACITORS Work (ElectroBOOM101-006)** — [channel: @ElectroBOOM](https://www.youtube.com/@ElectroBOOM)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CQtSS6g00h0" title="How Transistors Work" frameborder="0" allowfullscreen></iframe>
+
+**How Transistors Work** — [channel: @EngineeringMindset](https://www.youtube.com/@EngineeringMindset)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IrB-FPcv1Dc" title="How to protect circuits from reversed voltage polarity!" frameborder="0" allowfullscreen></iframe>
+
+**How to protect circuits from reversed voltage polarity!** — [channel: @Afrotechmods](https://www.youtube.com/@Afrotechmods)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wxjerCHCEMg" title="Pull Up Resistor Tutorial (AddOhms #15)" frameborder="0" allowfullscreen></iframe>
+
+**Pull Up Resistor Tutorial (AddOhms #15)** — [channel: @AddOhms](https://www.youtube.com/@AddOhms)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dX9CGRZwD-w" title="How are Microchips Made? CPU Manufacturing Process Steps" frameborder="0" allowfullscreen></iframe>
+
+**How are Microchips Made? CPU Manufacturing Process Steps** — [channel: @BranchEducation](https://www.youtube.com/@BranchEducation)
+
 ---
 
 ## Arduino projects
@@ -184,6 +209,25 @@ this page (no new tab, no tracking cookies — embeds use YouTube's privacy-frie
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLBcrWxTa5CS2yEYhVdEIOQ0TRN7CkVL62" title="Qwiic Circuit Creations" frameborder="0" allowfullscreen></iframe>
 
 **Qwiic Circuit Creations** — [channel: @SparkFun](https://www.youtube.com/@SparkFun)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fJWR7dBuc18" title="Arduino Tutorial 1: Setting Up and Programming the Arduino for Absolute Beginners" frameborder="0" allowfullscreen></iframe>
+
+**Arduino Tutorial 1: Setting Up and Programming the Arduino for Absolute Beginners** — [channel: @paulmcwhorter](https://www.youtube.com/@paulmcwhorter)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nPOKOi1jIK0" title="Arduino Tutorial 4: Understanding Arduino Variables" frameborder="0" allowfullscreen></iframe>
+
+**Arduino Tutorial 4: Understanding Arduino Variables** — [channel: @paulmcwhorter](https://www.youtube.com/@paulmcwhorter)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7uHfjpU3OH0" title="SparkFun Getting Started with Arduino" frameborder="0" allowfullscreen></iframe>
+
+**SparkFun Getting Started with Arduino** — [channel: @SparkFun](https://www.youtube.com/@SparkFun)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/J3DYgzRvLT8" title="Electronic Basics #6: Standalone Arduino Circuit" frameborder="0" allowfullscreen></iframe>
+
+**Electronic Basics #6: Standalone Arduino Circuit** — [channel: @greatscottlab](https://www.youtube.com/@greatscottlab)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ygrsIqWOh3Y" title="Driving DC Motors with Microcontrollers" frameborder="0" allowfullscreen></iframe>
+
+**Driving DC Motors with Microcontrollers** — [channel: @DroneBotWorkshop](https://www.youtube.com/@DroneBotWorkshop)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pnf8ojsK6S4" title="Collin's Lab: Arduino" frameborder="0" allowfullscreen></iframe>
+
+**Collin's Lab: Arduino** — [channel: @adafruit](https://www.youtube.com/@adafruit)
 
 ---
 
@@ -261,6 +305,25 @@ this page (no new tab, no tracking cookies — embeds use YouTube's privacy-frie
 
 **DIY Solar Power** — [channel: @AndreasSpiess](https://www.youtube.com/@AndreasSpiess)
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3O_vrKAmshA" title="#159 Big ESP32 Boards Review and Test" frameborder="0" allowfullscreen></iframe>
+
+**#159 Big ESP32 Boards Review and Test** — [channel: @AndreasSpiess](https://www.youtube.com/@AndreasSpiess)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/mnoZYlyebBc" title="#366 9 New ESP32 Boards: Comparison and Tests" frameborder="0" allowfullscreen></iframe>
+
+**#366 9 New ESP32 Boards: Comparison and Tests** — [channel: @AndreasSpiess](https://www.youtube.com/@AndreasSpiess)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/684KSAvYbw4" title="#381 How to work with a Real Time Operating System (FreeRTOS)" frameborder="0" allowfullscreen></iframe>
+
+**#381 How to work with a Real Time Operating System (FreeRTOS)** — [channel: @AndreasSpiess](https://www.youtube.com/@AndreasSpiess)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/a5U1nnoJs6o" title="36'000 km range with a simple ESP32? LoRa world record" frameborder="0" allowfullscreen></iframe>
+
+**36'000 km range with a simple ESP32? LoRa world record** — [channel: @AndreasSpiess](https://www.youtube.com/@AndreasSpiess)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qQGM5oBKAZc" title="Arduino IoT Cloud Fundamentals - 2024 Step-by-Step Guide" frameborder="0" allowfullscreen></iframe>
+
+**Arduino IoT Cloud Fundamentals - 2024 Step-by-Step Guide** — [channel: @DroneBotWorkshop](https://www.youtube.com/@DroneBotWorkshop)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/heD1zw3bMhw" title="#64 What is the Ideal Battery Technology for 3.3V Devices like the ESP?" frameborder="0" allowfullscreen></iframe>
+
+**#64 What is the Ideal Battery Technology for 3.3V Devices like the ESP?** — [channel: @AndreasSpiess](https://www.youtube.com/@AndreasSpiess)
+
 ---
 
 ## Raspberry Pi
@@ -312,6 +375,13 @@ this page (no new tab, no tracking cookies — embeds use YouTube's privacy-frie
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLBcrWxTa5CS3EtciP1wvmlwNdno0XtfPG" title="micro:bit Videos" frameborder="0" allowfullscreen></iframe>
 
 **micro:bit Videos** — [channel: @SparkFun](https://www.youtube.com/@SparkFun)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4jBGclob5PI" title="Clem at Embedded World 2026: Raspberry Pi Microcontrollers" frameborder="0" allowfullscreen></iframe>
+
+**Clem at Embedded World 2026: Raspberry Pi Microcontrollers** — [channel: @element14presents](https://www.youtube.com/@element14presents)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5P49oBjRhjA" title="How Three-Way Switch Circuits Work - The Learning Circuit" frameborder="0" allowfullscreen></iframe>
+
+**How Three-Way Switch Circuits Work - The Learning Circuit** — [channel: @element14presents](https://www.youtube.com/@element14presents)
 
 ---
 
@@ -429,6 +499,34 @@ this page (no new tab, no tracking cookies — embeds use YouTube's privacy-frie
 
 **KiCad 9.0 - Getting Started** — [channel: @digikey](https://www.youtube.com/@digikey)
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/sCHK3P5tn7s" title="I2C Hardware & PCB Design - Phil's Lab #132" frameborder="0" allowfullscreen></iframe>
+
+**I2C Hardware & PCB Design - Phil's Lab #132** — [channel: @PhilsLab](https://www.youtube.com/@PhilsLab)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/O-zNn5k5Bn4" title="KiCad 9 Hardware Design Tutorial (TI MSPM0) 1/2 Schematic - Phil's Lab #165" frameborder="0" allowfullscreen></iframe>
+
+**KiCad 9 Hardware Design Tutorial (TI MSPM0) 1/2 Schematic - Phil's Lab #165** — [channel: @PhilsLab](https://www.youtube.com/@PhilsLab)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nkHFoxe0mrU" title="KiCad 7 STM32 Bluetooth Hardware Design 1/2 Schematic - Phil's Lab #127" frameborder="0" allowfullscreen></iframe>
+
+**KiCad 7 STM32 Bluetooth Hardware Design 1/2 Schematic - Phil's Lab #127** — [channel: @PhilsLab](https://www.youtube.com/@PhilsLab)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FQjvnu6CLWc" title="USB 3.1 to Gigabit Ethernet Adapter Hardware Design - Phil's Lab #174" frameborder="0" allowfullscreen></iframe>
+
+**USB 3.1 to Gigabit Ethernet Adapter Hardware Design - Phil's Lab #174** — [channel: @PhilsLab](https://www.youtube.com/@PhilsLab)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XgsnJdY8LsY" title="TinyUSB + STM32 Tutorial (USB CDC) - Phil's Lab #168" frameborder="0" allowfullscreen></iframe>
+
+**TinyUSB + STM32 Tutorial (USB CDC) - Phil's Lab #168** — [channel: @PhilsLab](https://www.youtube.com/@PhilsLab)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0fteCxn5XXA" title="KiCad Controlled Impedance Traces (e.g. 50Ω) - Phil's Lab #3" frameborder="0" allowfullscreen></iframe>
+
+**KiCad Controlled Impedance Traces (e.g. 50Ω) - Phil's Lab #3** — [channel: @PhilsLab](https://www.youtube.com/@PhilsLab)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1pMiJSMAMso" title="From Block Diagram to Schematic in Minutes" frameborder="0" allowfullscreen></iframe>
+
+**From Block Diagram to Schematic in Minutes** — [channel: @AltiumAcademy](https://www.youtube.com/@AltiumAcademy)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-_9lmqbVUmk" title="Advanced temp/humidity Project 1/x - KiCad schematic" frameborder="0" allowfullscreen></iframe>
+
+**Advanced temp/humidity Project 1/x - KiCad schematic** — [channel: @microType](https://www.youtube.com/@microType)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL3bNyZYHcRSUhUXUt51W6nKvxx2ORvUQB" title="KiCad Tutorial (Shawn Hymel, full series)" frameborder="0" allowfullscreen></iframe>
+
+**KiCad Tutorial (Shawn Hymel, full series)** — [channel: @digikey](https://www.youtube.com/@digikey)
+
 ---
 
 ## Oscilloscope & test gear
@@ -536,6 +634,31 @@ this page (no new tab, no tracking cookies — embeds use YouTube's privacy-frie
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LaY47Qrfs0c" title="How to ACTUALLY Use an Oscilloscope (Beginner-Friendly Guide!)" frameborder="0" allowfullscreen></iframe>
 
 **How to ACTUALLY Use an Oscilloscope (Beginner-Friendly Guide!)** — [channel: @EngineeringMindset](https://www.youtube.com/@EngineeringMindset)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Iq4QlfH-oqk" title="EEVblog #926 - Introduction To The Oscilloscope" frameborder="0" allowfullscreen></iframe>
+
+**EEVblog #926 - Introduction To The Oscilloscope** — [channel: @EEVblog](https://www.youtube.com/@EEVblog)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JTG6jWL0ZqA" title="EEVblog #13 - Digital Storage Oscilloscope Tutorial" frameborder="0" allowfullscreen></iframe>
+
+**EEVblog #13 - Digital Storage Oscilloscope Tutorial** — [channel: @EEVblog](https://www.youtube.com/@EEVblog)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xaELqAo4kkQ" title="EEVblog #279 - How NOT To Blow Up Your Oscilloscope!" frameborder="0" allowfullscreen></iframe>
+
+**EEVblog #279 - How NOT To Blow Up Your Oscilloscope!** — [channel: @EEVblog](https://www.youtube.com/@EEVblog)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KYEMPm0c9kY" title="#286: Basics of, and How To Use an Oscilloscope" frameborder="0" allowfullscreen></iframe>
+
+**#286: Basics of, and How To Use an Oscilloscope** — [channel: @w2aew](https://www.youtube.com/@w2aew)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/j4IxbF0oFRE" title="#19: How to get a stable scope display with two signals close in frequency" frameborder="0" allowfullscreen></iframe>
+
+**#19: How to get a stable scope display with two signals close in frequency** — [channel: @w2aew](https://www.youtube.com/@w2aew)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7pkPunYBcUw" title="Using a TDR to measure cable lengths (Time Domain Reflectometer)" frameborder="0" allowfullscreen></iframe>
+
+**Using a TDR to measure cable lengths (Time Domain Reflectometer)** — [channel: @w2aew](https://www.youtube.com/@w2aew)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/52w3xeXrMU8" title="EEVblog 1636 - Ultimate Multimeter Beginners Guide!" frameborder="0" allowfullscreen></iframe>
+
+**EEVblog 1636 - Ultimate Multimeter Beginners Guide!** — [channel: @EEVblog](https://www.youtube.com/@EEVblog)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zUhnGp5vh60" title="EEVblog #373 - Multimeter Input Protection Tutorial" frameborder="0" allowfullscreen></iframe>
+
+**EEVblog #373 - Multimeter Input Protection Tutorial** — [channel: @EEVblog](https://www.youtube.com/@EEVblog)
 
 ---
 
@@ -669,6 +792,31 @@ this page (no new tab, no tracking cookies — embeds use YouTube's privacy-frie
 
 **Repairs** — [channel: @TheSignalPath](https://www.youtube.com/@TheSignalPath)
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Stxd_YMHF3U" title="Electromechanical Marvel - The Stroboconn Listens! See How It Works!" frameborder="0" allowfullscreen></iframe>
+
+**Electromechanical Marvel - The Stroboconn Listens! See How It Works!** — [channel: @MrCarlsonsLab](https://www.youtube.com/@MrCarlsonsLab)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/H1CI1OoVcS0" title="Restoration Teardown - Was It Done Properly?" frameborder="0" allowfullscreen></iframe>
+
+**Restoration Teardown - Was It Done Properly?** — [channel: @MrCarlsonsLab](https://www.youtube.com/@MrCarlsonsLab)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jzNjFJdaw_I" title="555 at 55 with Big Clive Live" frameborder="0" allowfullscreen></iframe>
+
+**555 at 55 with Big Clive Live** — [channel: @BigCliveDotCom](https://www.youtube.com/@BigCliveDotCom)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_65erGXqXZk" title="Thermal imaging camera teardown and repair (Fireflir ff110)" frameborder="0" allowfullscreen></iframe>
+
+**Thermal imaging camera teardown and repair (Fireflir ff110)** — [channel: @mikeselectricstuff](https://www.youtube.com/@mikeselectricstuff)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/AO7pn3uiWA0" title="Aircraft gyro teardown" frameborder="0" allowfullscreen></iframe>
+
+**Aircraft gyro teardown** — [channel: @mikeselectricstuff](https://www.youtube.com/@mikeselectricstuff)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8Cr8oZck5m8" title="Seek Thermal camera teardown part 1" frameborder="0" allowfullscreen></iframe>
+
+**Seek Thermal camera teardown part 1** — [channel: @mikeselectricstuff](https://www.youtube.com/@mikeselectricstuff)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gD2ri9N8a8A" title="The BEST Way To Learn Electronics Repair" frameborder="0" allowfullscreen></iframe>
+
+**The BEST Way To Learn Electronics Repair** — [channel: @LearnElectronicsRepair](https://www.youtube.com/@LearnElectronicsRepair)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wkAp5x3Z_gc" title="Pure Electronics Repair - Learn Methodical Fault Finding Techniques" frameborder="0" allowfullscreen></iframe>
+
+**Pure Electronics Repair - Learn Methodical Fault Finding Techniques** — [channel: @LearnElectronicsRepair](https://www.youtube.com/@LearnElectronicsRepair)
+
 ---
 
 ## Logic / 8-bit computers
@@ -772,6 +920,28 @@ this page (no new tab, no tracking cookies — embeds use YouTube's privacy-frie
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLwO8CTSLTkigUnMWDyF_YFG1K6ZCcm5-E" title="The Electronics Inside" frameborder="0" allowfullscreen></iframe>
 
 **The Electronics Inside** — [channel: @element14presents](https://www.youtube.com/@element14presents)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HyznrdDSSGM" title="8-bit computer update" frameborder="0" allowfullscreen></iframe>
+
+**8-bit computer update** — [channel: @BenEater](https://www.youtube.com/@BenEater)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kRlSFm519Bo" title="Astable 555 timer - 8-bit computer clock - part 1" frameborder="0" allowfullscreen></iframe>
+
+**Astable 555 timer - 8-bit computer clock - part 1** — [channel: @BenEater](https://www.youtube.com/@BenEater)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SmQ5K7UQPMM" title="Clock logic - 8-bit computer clock - part 4" frameborder="0" allowfullscreen></iframe>
+
+**Clock logic - 8-bit computer clock - part 4** — [channel: @BenEater](https://www.youtube.com/@BenEater)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yl8vPW5hydQ" title="How do CPUs read machine code? - 6502 part 2" frameborder="0" allowfullscreen></iframe>
+
+**How do CPUs read machine code? - 6502 part 2** — [channel: @BenEater](https://www.youtube.com/@BenEater)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/d3NIe1jTZMc" title="Pocket Computers from the 1980s" frameborder="0" allowfullscreen></iframe>
+
+**Pocket Computers from the 1980s** — [channel: @The8BitGuy](https://www.youtube.com/@The8BitGuy)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/o0ZmcvvznTY" title="Ringing in the New Year with a Vacuum Tube Computer" frameborder="0" allowfullscreen></iframe>
+
+**Ringing in the New Year with a Vacuum Tube Computer** — [channel: @UsagiElectric](https://www.youtube.com/@UsagiElectric)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLnw98JPyObn0v-98gRV9PfzAQONTKxql3" title="UE-1 Vacuum Tube Computer (full build series)" frameborder="0" allowfullscreen></iframe>
+
+**UE-1 Vacuum Tube Computer (full build series)** — [channel: @UsagiElectric](https://www.youtube.com/@UsagiElectric)
 
 ---
 
