@@ -1,0 +1,68 @@
+/* Quiz & self-assessment styles for sektor9.dev docs sites. */
+.quiz {
+  border: 1px solid var(--md-default-fg-color--lightest, #ddd);
+  border-radius: 12px;
+  padding: 1rem 1.25rem 1.25rem;
+  margin: 1.5rem 0;
+  background: var(--md-code-bg-color, #f5f5f5);
+}
+.quiz::before {
+  content: "🧪 " attr(data-title);
+  display: block;
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin-bottom: 0.75rem;
+  color: var(--md-typeset-a-color, #3f51b5);
+}
+.quiz .q {
+  margin: 0.9rem 0;
+  padding: 0.6rem 0.8rem;
+  border-left: 3px solid transparent;
+}
+.quiz .question { font-weight: 600; margin: 0 0 0.4rem; }
+.quiz ul.options { list-style: none; margin: 0.3rem 0 0; padding: 0; }
+.quiz li.quiz-opt {
+  padding: 0.45rem 0.7rem;
+  margin: 0.3rem 0;
+  border: 1px solid var(--md-default-fg-color--lightest, #ccc);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+  user-select: none;
+}
+.quiz li.quiz-opt:hover { background: var(--md-default-fg-color--lightest, #eee); }
+.quiz li.quiz-opt.quiz-picked.q-correct { background: #d4edda; border-color: #28a745; }
+.quiz li.quiz-opt.quiz-picked { background: #f8d7da; border-color: #dc3545; }
+.quiz li.quiz-opt:not(.quiz-picked).q-show-answer[data-correct] { background: #d4edda; border-color: #28a745; }
+.quiz .q.q-correct { border-left-color: #28a745; }
+.quiz .q.q-wrong { border-left-color: #dc3545; }
+
+.quiz input.answer {
+  font: inherit;
+  padding: 0.45rem 0.6rem;
+  border: 1px solid var(--md-default-fg-color--lightest, #ccc);
+  border-radius: 8px;
+  min-width: 60%;
+  margin-right: 0.5rem;
+}
+.quiz input.answer.in-correct { border-color: #28a745; background: #d4edda; }
+.quiz input.answer.in-wrong { border-color: #dc3545; background: #f8d7da; }
+.quiz button.quiz-submit {
+  font: inherit;
+  padding: 0.45rem 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--md-typeset-a-color, #3f51b5);
+  background: var(--md-typeset-a-color, #3f51b5);
+  color: #fff;
+  cursor: pointer;
+}
+.quiz .quiz-hint { margin-top: 0.4rem; font-size: 0.9rem; color: #856404; }
+.quiz .quiz-score {
+  display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap;
+  margin-top: 1rem; padding-top: 0.75rem; border-top: 1px dashed var(--md-default-fg-color--lightest, #ccc);
+  font-weight: 600;
+}
+.quiz .quiz-retry {
+  font: inherit; cursor: pointer; padding: 0.3rem 0.8rem; border-radius: 8px;
+  border: 1px solid var(--md-default-fg-color--light, #999); background: transparent;
+}

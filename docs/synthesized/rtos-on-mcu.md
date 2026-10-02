@@ -515,6 +515,43 @@ professional embedded job.
 
 ---
 
+<div class="quiz" data-title="Quick check: FreeRTOS on MCU">
+
+<div class="q" data-type="choice">
+  <p class="question">What is the basic unit of work in FreeRTOS?</p>
+  <ul class="options">
+    <li data-correct>A task</li>
+    <li>A process</li>
+    <li>A thread pool</li>
+    <li>A coroutine</li>
+  </ul>
+</div>
+
+<div class="q" data-type="choice">
+  <p class="question">What does a mutex do?</p>
+  <ul class="options">
+    <li data-correct>Guarantees exclusive access to a shared resource</li>
+    <li>Schedules tasks in round-robin order</li>
+    <li>Counts clock ticks</li>
+    <li>Stops all interrupts</li>
+  </ul>
+</div>
+
+<div class="q" data-type="tf">
+  <p class="question">True or false: a queue in FreeRTOS is the standard way to pass data between tasks safely.</p>
+  <ul class="options">
+    <li data-correct>True</li>
+    <li>False</li>
+  </ul>
+</div>
+
+<div class="q" data-type="fill">
+  <p class="question">The FreeRTOS function that creates a new task is called xTask____ (one word).</p>
+  <input class="answer" data-answers="create, create, xTaskCreate">
+</div>
+
+</div>
+
 ## 🧪 Exercises & Projects
 
 > **Estimated total time:** ~2–3 hours. You'll need an ESP32 devkit (or an AVR board with a

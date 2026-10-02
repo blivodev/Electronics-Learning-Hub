@@ -211,6 +211,43 @@ button → sensor → motor → network, with build steps you can follow today.
 
 ---
 
+<div class="quiz" data-title="Quick check: microcontroller basics">
+
+<div class="q" data-type="choice">
+  <p class="question">What is the key difference between a microcontroller and a microprocessor?</p>
+  <ul class="options">
+    <li data-correct>A microcontroller integrates CPU, memory, and peripherals on one chip</li>
+    <li>A microcontroller is faster than a microprocessor</li>
+    <li>A microprocessor has built-in flash storage</li>
+    <li>There is no difference</li>
+  </ul>
+</div>
+
+<div class="q" data-type="choice">
+  <p class="question">What do GPIO pins do?</p>
+  <ul class="options">
+    <li data-correct>Read or write digital signals to connect to the outside world</li>
+    <li>Provide the main clock signal</li>
+    <li>Supply power to the board</li>
+    <li>Store the firmware</li>
+  </ul>
+</div>
+
+<div class="q" data-type="tf">
+  <p class="question">True or false: an ADC (analog-to-digital converter) converts a continuous voltage into a discrete numeric value.</p>
+  <ul class="options">
+    <li data-correct>True</li>
+    <li>False</li>
+  </ul>
+</div>
+
+<div class="q" data-type="fill">
+  <p class="question">The program that runs on the microcontroller is often called ____ (the word for the low-level code stored in flash).</p>
+  <input class="answer" data-answers="firmware, sketch, program">
+</div>
+
+</div>
+
 ## 🧪 Exercises & Projects
 
 > **Estimated total time:** ~2–3 hours. You'll want a microcontroller board (Arduino Uno

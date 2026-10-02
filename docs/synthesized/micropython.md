@@ -430,6 +430,43 @@ Python classes are lightweight here — no header files, no separate declaration
 
 ---
 
+<div class="quiz" data-title="Quick check: MicroPython">
+
+<div class="q" data-type="choice">
+  <p class="question">What is MicroPython?</p>
+  <ul class="options">
+    <li data-correct>A compact Python interpreter for microcontrollers</li>
+    <li>A Python-to-C compiler</li>
+    <li>A hardware simulator</li>
+    <li>A version of CPython for desktops</li>
+  </ul>
+</div>
+
+<div class="q" data-type="choice">
+  <p class="question">How do you blink the built-in LED on a board like the Raspberry Pi Pico in MicroPython?</p>
+  <ul class="options">
+    <li data-correct>Create a Pin object and toggle its value with machine.Pin</li>
+    <li>Use the Arduino digitalWrite function</li>
+    <li>Call os.system to run C code</li>
+    <li>Edit the boot ROM</li>
+  </ul>
+</div>
+
+<div class="q" data-type="tf">
+  <p class="question">True or false: MicroPython code runs slower than native C but is much faster to write and iterate.</p>
+  <ul class="options">
+    <li data-correct>True</li>
+    <li>False</li>
+  </ul>
+</div>
+
+<div class="q" data-type="fill">
+  <p class="question">The MicroPython module that provides hardware access (pins, ADC, PWM) is called ____.</p>
+  <input class="answer" data-answers="machine, machine module">
+</div>
+
+</div>
+
 ## 🧪 Exercises & Projects
 
 > **Estimated total time:** ~2–3 hours. You'll need a MicroPython board (Pico, Pico W, or

@@ -204,6 +204,43 @@ circuits and turn them into *projects*.
 
 ---
 
+<div class="quiz" data-title="Quick check: circuits & schematics">
+
+<div class="q" data-type="choice">
+  <p class="question">In a series circuit, current is:</p>
+  <ul class="options">
+    <li data-correct>The same through every component</li>
+    <li>Divided among the components</li>
+    <li>Zero in the middle components</li>
+    <li>Different at each point</li>
+  </ul>
+</div>
+
+<div class="q" data-type="choice">
+  <p class="question">What does a schematic symbol with a triangle and a line represent?</p>
+  <ul class="options">
+    <li data-correct>An operational amplifier (op-amp)</li>
+    <li>A resistor</li>
+    <li>A capacitor</li>
+    <li>A ground connection</li>
+  </ul>
+</div>
+
+<div class="q" data-type="tf">
+  <p class="question">True or false: a short circuit is a low-resistance path that can allow dangerously large current.</p>
+  <ul class="options">
+    <li data-correct>True</li>
+    <li>False</li>
+  </ul>
+</div>
+
+<div class="q" data-type="fill">
+  <p class="question">Kirchhoff's current law states that the sum of currents entering a node ____ the sum of currents leaving it (one word: equals, exceeds, or... ).</p>
+  <input class="answer" data-answers="equals, is equal to, balances">
+</div>
+
+</div>
+
 ## 🧪 Exercises & Projects
 
 > **Estimated total time:** ~2–2.5 hours. The schematic-reading exercises need only a

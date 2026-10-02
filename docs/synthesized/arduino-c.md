@@ -496,6 +496,43 @@ expensive ones.
 
 ---
 
+<div class="quiz" data-title="Quick check: Arduino in C">
+
+<div class="q" data-type="choice">
+  <p class="question">In an Arduino sketch, which function runs once at startup?</p>
+  <ul class="options">
+    <li data-correct>setup()</li>
+    <li>loop()</li>
+    <li>main()</li>
+    <li>init()</li>
+  </ul>
+</div>
+
+<div class="q" data-type="choice">
+  <p class="question">What does pinMode(pin, OUTPUT) do?</p>
+  <ul class="options">
+    <li data-correct>Configures a pin as a digital output driver</li>
+    <li>Reads the pin's voltage</li>
+    <li>Turns on the built-in LED</li>
+    <li>Starts the serial port</li>
+  </ul>
+</div>
+
+<div class="q" data-type="tf">
+  <p class="question">True or false: digitalWrite(HIGH) sets the pin to the supply voltage (usually 5 V or 3.3 V).</p>
+  <ul class="options">
+    <li data-correct>True</li>
+    <li>False</li>
+  </ul>
+</div>
+
+<div class="q" data-type="fill">
+  <p class="question">The Arduino function that pauses the program for a given number of milliseconds is ____.</p>
+  <input class="answer" data-answers="delay, delay()">
+</div>
+
+</div>
+
 ## 🧪 Exercises & Projects
 
 > **Estimated total time:** ~2–3 hours. You'll need an Arduino Uno, its USB cable, the

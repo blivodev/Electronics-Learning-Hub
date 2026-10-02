@@ -412,6 +412,43 @@ void loop() {}
 
 ---
 
+<div class="quiz" data-title="Quick check: ESP32 in C/C++">
+
+<div class="q" data-type="choice">
+  <p class="question">Which wireless interfaces does the ESP32 natively support?</p>
+  <ul class="options">
+    <li data-correct>Wi-Fi and Bluetooth</li>
+    <li>Only Zigbee</li>
+    <li>Only LoRa</li>
+    <li>None - it is wired only</li>
+  </ul>
+</div>
+
+<div class="q" data-type="choice">
+  <p class="question">What is ESP-IDF?</p>
+  <ul class="options">
+    <li data-correct>The official Espressif IoT Development Framework</li>
+    <li>A hardware debugger</li>
+    <li>A WiFi router firmware</li>
+    <li>A pin layout diagram</li>
+  </ul>
+</div>
+
+<div class="q" data-type="tf">
+  <p class="question">True or false: the ESP32 has multiple cores (usually 2), so you can run tasks on different CPUs.</p>
+  <ul class="options">
+    <li data-correct>True</li>
+    <li>False</li>
+  </ul>
+</div>
+
+<div class="q" data-type="fill">
+  <p class="question">The low-power sleep mode that keeps RAM alive but pauses the CPU is called ____ sleep.</p>
+  <input class="answer" data-answers="deep, deep sleep, light">
+</div>
+
+</div>
+
 ## 🧪 Exercises & Projects
 
 > **Estimated total time:** ~2–3 hours. You'll need an ESP32 devkit, its USB cable, the
