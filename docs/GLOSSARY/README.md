@@ -181,6 +181,54 @@
 
 - **<a id="gpio-interrupt"></a>GPIO interrupt** — triggering code on a pin edge (rising/falling); used for buttons and sensors without polling.
 
+- **<a id="pcb"></a>PCB (Printed Circuit Board)** — a board with copper traces connecting components; designed in KiCad/EasyEDA then fabricated.
+
+- **<a id="schematic"></a>Schematic** — the symbolic circuit diagram showing how components connect; the first step of any PCB design.
+
+- **<a id="footprint"></a>Footprint (PCB)** — the physical pad layout on a board that a component solders onto; chosen per component in the EDA tool.
+
+- **<a id="gerber"></a>Gerber files** — the standard format (RS-274X) that describes each copper/solder-mask layer for PCB fabrication.
+
+- **<a id="vias"></a>Via** — a plated hole connecting copper layers of a PCB; used to route signals between layers.
+
+- <a id="through-hole"></a>**Through-hole vs SMD** — two component mounting styles: leads through holes (easier to hand-solder) vs surface-mount pads (smaller, machine-assembled).
+
+- **<a id="reflow"></a>Reflow soldering** — melting solder paste in an oven/plate to attach SMD components to a board.
+
+- **<a id="solder"></a>Solder** — a low-melting-point metal alloy that joins components to the board; lead-free (Sn-Ag-Cu) is standard.
+
+- **<a id="battery"></a>Battery** — a portable DC power source; Li-ion/LiPo cells need charge-protection circuits (do not over-discharge).
+
+- **<a id="regulator"></a>Voltage regulator** — a component that outputs a fixed voltage (e.g. 5V, 3.3V) from a higher/unstable input; linear (LDO) or switching (buck/boost).
+
+- **<a id="buck"></a>Buck converter** — a switching regulator that steps voltage down efficiently; the ESP32 dev boards use one to derive 3.3V.
+
+- **<a id="ground"></a>Ground (GND)** — the 0V reference node; everything in a circuit is measured relative to it. Star grounding avoids loops.
+
+- **<a id="noise"></a>Noise (electronics)** — unwanted voltage fluctuations on signals; reduced by decoupling, shielding, and proper grounding.
+
+- **<a id="ble"></a>BLE (Bluetooth Low Energy)** — a low-power wireless protocol on the ESP32; used for beacons, sensors, and phone apps.
+
+- **<a id="mqtt"></a>MQTT** — a lightweight publish/subscribe message protocol for IoT over Wi-Fi; the ESP32 talks to brokers like Mosquitto.
+
+- **<a id="http-server"></a>HTTP server (ESP32)** — running a web server on the ESP32 to serve pages/control GPIO from a browser.
+
+- **<a id="spiffs"></a>SPIFFS / LittleFS** — filesystems for the ESP32 flash; store config, web assets, and data that survives reboot.
+
+- **<a id="tiny-ml"></a>TinyML** — running small machine-learning models (TensorFlow Lite Micro) on microcontrollers like the ESP32/STM32.
+
+- **<a id="jtag"></a>JTAG / SWD** — hardware debugging interfaces to step code, set breakpoints, and flash MCUs (ST-Link, J-Link).
+
+- **<a id="logic-analyzer"></a>Logic analyzer** — an instrument that captures digital signals over time; invaluable for debugging I²C/SPI/UART.
+
+- **<a id="software-uart"></a>Software serial / bit-banging** — implementing a protocol in code (toggling pins manually) when no hardware peripheral is available.
+
+- **<a id="watchdog-esp"></a>Watchdog on ESP32** — the built-in TWDT (Task Watchdog) resets the chip if a task hangs; enable it in long-running projects.
+
+- **<a id="deep-sleep"></a>Deep sleep (ESP32)** — an ultra-low-power mode where the CPU is off and only RTC + ULP run; wake by timer or GPIO.
+
+- **<a id="esp-now"></a>ESP-NOW** — Espressif's connectionless peer-to-peer protocol; low-latency, low-power communication between ESP32s without Wi-Fi infrastructure.
+
 ---
 
 *Built with MkDocs Material · part of the sektor9.dev learning ecosystem.*
