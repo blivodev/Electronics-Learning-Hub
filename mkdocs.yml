@@ -37,6 +37,9 @@ nav:
       - Videos: resources/curated/videos.md
       - Communities: resources/curated/communities.md
   - "Video Library": videos/index.md
+  - "News": /news/
+  - "Interactive Diagrams": interactive/index.md
+  - "Live Playground": playground/index.md
   - Glossary: GLOSSARY/README.md
 
 theme:
@@ -71,6 +74,8 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/quizzes.css
+  - stylesheets/progress.css
 
 extra_javascript:
   - javascripts/quizzes.js
+  - javascripts/progress.js
