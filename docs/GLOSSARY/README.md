@@ -119,6 +119,68 @@
 
 - **<a id="wifi"></a>Wi-Fi** — the wireless networking protocol built into the [ESP32](#esp32); used in the HTTP server tutorial to control an LED from a browser.
 
+- **<a id="pull-up"></a>Pull-up / pull-down resistor** — a resistor that holds a pin at a defined logic level (high/low) when nothing else drives it; essential for buttons and open-drain lines.
+
+- **<a id="pwm"></a>PWM (Pulse-Width Modulation)** — rapidly switching a pin between high and low, varying the duty cycle to fake an analog output (LED dimming, servo control).
+
+- **<a id="gpio"></a>GPIO (General-Purpose Input/Output)** — a programmable pin that can be an input (read) or output (drive high/low); the fundamental way a microcontroller talks to the world.
+
+- **<a id="i2c"></a>I²C (IIC / Two-Wire)** — a two-wire (SDA+SCL) serial bus for connecting sensors and displays; each device has an address.
+
+- **<a id="spi-full"></a>SPI (Serial Peripheral Interface)** — a fast four-wire serial bus (MOSI/MISO/SCK/CS) used for SD cards, displays, and high-speed sensors.
+
+- **<a id="uart-full"></a>UART (Serial)** — an asynchronous two-wire serial link (TX/RX) used for debugging and GPS/module communication; configurable baud rate.
+
+- **<a id="adc-full"></a>ADC (Analog-to-Digital Converter)** — samples a continuous voltage and returns a number; on the ESP32 `analogRead()` returns 0–4095 (12-bit).
+
+- **<a id="dac"></a>DAC (Digital-to-Analog Converter)** — converts a number to an analog voltage; the ESP32 has 2 (8-bit) DAC channels.
+
+- **<a id="rtos"></a>RTOS (Real-Time Operating System)** — an OS for microcontrollers that schedules tasks with priorities and guarantees timing; e.g. FreeRTOS on the ESP32.
+
+- **<a id="task"></a>Task (RTOS)** — a self-contained function scheduled by the RTOS; FreeRTOS runs the highest-priority ready task.
+
+- **<a id="mutex"></a>Mutex** — a lock that guarantees exclusive access to a shared resource between tasks.
+
+- **<a id="queue"></a>Queue (RTOS)** — a thread-safe buffer for passing data between tasks; FreeRTOS `xQueueSend`/`xQueueReceive`.
+
+- **<a id="semaphore"></a>Semaphore** — a counter used for signaling between tasks (binary = mutex-like, counting = resource counting).
+
+- **<a id="mosfet"></a>MOSFET** — a voltage-controlled transistor used to switch higher-power loads (motors, LEDs) from a microcontroller pin.
+
+- **<a id="bjt"></a>BJT (Transistor)** — a current-controlled transistor; the classic amplifier and switch building block.
+
+- **<a id="opamp"></a>Op-amp (Operational Amplifier)** — a high-gain differential amplifier; used for comparators, filters, and signal conditioning.
+
+- **<a id="voltage-divider"></a>Voltage divider** — two resistors in series that produce a fraction of the input voltage; used to scale signals into ADC range.
+
+- **<a id="decoupling"></a>Decoupling capacitor** — a small capacitor (0.1 µF typical) placed near a chip's power pin to smooth supply noise.
+
+- **<a id="oscilloscope"></a>Oscilloscope** — an instrument that displays voltage vs time; essential for debugging signals, PWM, and serial.
+
+- **<a id="multimeter"></a>Multimeter** — a handheld meter that measures voltage, current, and resistance; the first tool every electronics learner needs.
+
+- **<a id="led"></a>LED (Light-Emitting Diode)** — a diode that emits light when forward-biased; needs a current-limiting resistor.
+
+- **<a id="neo-pixel"></a>NeoPixel / WS2812** — an addressable RGB LED with an integrated driver chip; many can be chained on one data pin.
+
+- **<a id="servo"></a>Servo motor** — a motor with position feedback controlled by a PWM pulse width (typically 1–2 ms at 50 Hz).
+
+- **<a id="h-bridge"></a>H-bridge** — a transistor circuit that lets a motor spin both directions by reversing current flow.
+
+- **<a id="isr"></a>Interrupt Service Routine (ISR)** — code that runs when an interrupt fires; should be short and avoid blocking calls.
+
+- **<a id="debounce"></a>Debouncing** — the practice of ignoring the mechanical bouncing of a switch contact (software delay or RC filter).
+
+- **<a id="iomux"></a>Pin muxing (IOMUX)** — remapping a microcontroller pin's function (e.g. UART TX to a different pin).
+
+- **<a id="bootloader-esp"></a>Bootloader (MCU)** — built-in ROM code that loads user firmware over USB/serial; on the ESP32 held by GPIO0 during reset.
+
+- **<a id="flash"></a>Flash memory (MCU)** — non-volatile storage for firmware; on the ESP32 also stores filesystem (SPIFFS/LittleFS).
+
+- **<a id="watchdog"></a>Watchdog timer** — a timer that resets the MCU if the firmware stops responding; guards against hangs.
+
+- **<a id="gpio-interrupt"></a>GPIO interrupt** — triggering code on a pin edge (rising/falling); used for buttons and sensors without polling.
+
 ---
 
 *Built with MkDocs Material · part of the sektor9.dev learning ecosystem.*
