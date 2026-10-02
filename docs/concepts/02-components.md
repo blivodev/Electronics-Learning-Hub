@@ -236,6 +236,43 @@ and wiring your first real LED + resistor circuit.
 
 ---
 
+<div class="quiz" data-title="Quick check: Ohm's law & components">
+
+<div class="q" data-type="choice">
+  <p class="question">Ohm's law states that voltage (V), current (I), and resistance (R) are related by:</p>
+  <ul class="options">
+    <li data-correct>V = I × R</li>
+    <li>V = R / I</li>
+    <li>I = V × R</li>
+    <li>R = V × I</li>
+  </ul>
+</div>
+
+<div class="q" data-type="choice">
+  <p class="question">What is the primary job of a current-limiting resistor in series with an LED?</p>
+  <ul class="options">
+    <li data-correct>To limit current to a safe value so the LED doesn't burn out</li>
+    <li>To increase the LED's brightness</li>
+    <li>To store energy for the LED</li>
+    <li>To block alternating current</li>
+  </ul>
+</div>
+
+<div class="q" data-type="fill">
+  <p class="question">A 3.3&nbsp;V supply drives an LED with a 330&nbsp;Ω series resistor and 2.0&nbsp;V forward drop. The current is about ____ mA (round to the nearest whole number).</p>
+  <input class="answer" data-answers="4, 3.9, 4ma">
+</div>
+
+<div class="q" data-type="tf">
+  <p class="question">True or false: a capacitor blocks DC in the steady state (after it is fully charged).</p>
+  <ul class="options">
+    <li data-correct>True</li>
+    <li>False</li>
+  </ul>
+</div>
+
+</div>
+
 ## 🧪 Exercises & Projects
 
 > **Estimated total time:** ~2 hours. Grab a handful of resistors, an LED, and your

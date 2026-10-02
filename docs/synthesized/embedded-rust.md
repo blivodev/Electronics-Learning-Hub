@@ -422,6 +422,43 @@ is mostly a matter of swapping the HAL import and pin names.
 
 ---
 
+<div class="quiz" data-title="Quick check: embedded Rust">
+
+<div class="q" data-type="choice">
+  <p class="question">What does the embedded Rust HAL (hardware abstraction layer) provide?</p>
+  <ul class="options">
+    <li data-correct>Safe typed access to peripheral registers</li>
+    <li>A full operating system</li>
+    <li>The C standard library</li>
+    <li>Prebuilt device drivers for every sensor</li>
+  </ul>
+</div>
+
+<div class="q" data-type="choice">
+  <p class="question">Which crate generates code from a device's SVD (system view description) file?</p>
+  <ul class="options">
+    <li data-correct>svd2rust</li>
+    <li>embedded-hal</li>
+    <li>cortex-m-rt</li>
+    <li>panic-halt</li>
+  </ul>
+</div>
+
+<div class="q" data-type="tf">
+  <p class="question">True or false: Rust's type system can encode that a GPIO pin is in input mode vs output mode at compile time.</p>
+  <ul class="options">
+    <li data-correct>True</li>
+    <li>False</li>
+  </ul>
+</div>
+
+<div class="q" data-type="fill">
+  <p class="question">The embedded Rust trait set that standardizes peripheral APIs across chips is called ____-hal.</p>
+  <input class="answer" data-answers="embedded, embedded hal, ehal">
+</div>
+
+</div>
+
 ## 🧪 Exercises & Projects
 
 > **Estimated total time:** ~2–3 hours. You'll need the Rust toolchain (`rustup`, `cargo`)

@@ -221,6 +221,43 @@ capacitors, transistors, diodes) that you'll build on top of these ideas.
 
 ---
 
+<div class="quiz" data-title="Quick check: electricity basics">
+
+<div class="q" data-type="choice">
+  <p class="question">Voltage is best described as:</p>
+  <ul class="options">
+    <li data-correct>The electrical pressure (potential difference) pushing charge</li>
+    <li>The amount of charge flowing per second</li>
+    <li>The opposition to current</li>
+    <li>The energy stored in a battery</li>
+  </ul>
+</div>
+
+<div class="q" data-type="choice">
+  <p class="question">Current is measured in:</p>
+  <ul class="options">
+    <li data-correct>Amperes (amps)</li>
+    <li>Volts</li>
+    <li>Ohms</li>
+    <li>Watts</li>
+  </ul>
+</div>
+
+<div class="q" data-type="tf">
+  <p class="question">True or false: alternating current (AC) reverses direction periodically, unlike direct current (DC).</p>
+  <ul class="options">
+    <li data-correct>True</li>
+    <li>False</li>
+  </ul>
+</div>
+
+<div class="q" data-type="fill">
+  <p class="question">A 9 V battery pushing 0.5 A through a circuit delivers ____ watts of power.</p>
+  <input class="answer" data-answers="4.5, 4.5 w, 4.5 watts, 4 5">
+</div>
+
+</div>
+
 ## 🧪 Exercises & Projects
 
 > **Estimated total time:** ~2–3 hours, split across a few sessions. Print the
