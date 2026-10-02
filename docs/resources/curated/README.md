@@ -6,14 +6,15 @@ Each page is organized into categories, and every entry links to an official sou
 
 ## Quick Index
 
-| Page | What's inside | Best for |
-| ---- | ------------- | -------- |
-| [Arduino Resources](arduino.md) | Official docs/IDE, beginner tutorials, AVR bare metal, books | Starting with Arduino, or going beyond sketches |
-| [ESP32 Resources](esp32.md) | ESP-IDF, Arduino-ESP32, MicroPython, datasheets, tutorials, boards | Wi-Fi / Bluetooth / IoT projects |
-| [Microcontroller Resources](microcontrollers.md) | General intro, GPIO/timers/ADC, RTOS, bare-metal C, tools, boards | Understanding what's inside a chip |
-| [Circuits & Electronics Resources](circuits.md) | Simulators, schematics, PCB design (KiCad/EasyEDA), MOOCs, component guides | Circuit theory and building real boards |
-| [Electronics Videos](videos.md) | Verified YouTube channels & playlists (Ben Eater, GreatScott!, EEVblog, etc.) | Learning by watching |
-| [Electronics Communities](communities.md) | Forums, Discord, subreddits (r/arduino, r/esp32, r/electronics, r/embedded) | Getting unstuck and meeting people |
+| Page | What's inside | Best for | Difficulty |
+| ---- | ------------- | -------- | ---------- |
+| [Arduino Resources](arduino.md) | Official docs/IDE, beginner tutorials, AVR bare metal, books | Starting with Arduino, or going beyond sketches | 🟢 Beginner → 🟠 Intermediate |
+| [ESP32 Resources](esp32.md) | ESP-IDF, Arduino-ESP32, MicroPython, datasheets, tutorials, boards | Wi-Fi / Bluetooth / IoT projects | 🟢 Beginner → 🟠 Intermediate |
+| [Microcontroller Resources](microcontrollers.md) | General intro, GPIO/timers/ADC, RTOS, bare-metal C, tools, boards | Understanding what's inside a chip | 🟢 Beginner → 🔴 Hard |
+| [Circuits & Electronics Resources](circuits.md) | Simulators, schematics, PCB design (KiCad/EasyEDA), MOOCs, component guides | Circuit theory and building real boards | 🟢 Beginner → 🔴 Hard |
+| [Electronics Videos](videos.md) | Verified YouTube channels & playlists (Ben Eater, GreatScott!, EEVblog, etc.) | Learning by watching | 🟢 Beginner → 🔴 Hard |
+| [Electronics Communities](communities.md) | Forums, Discord, subreddits (r/arduino, r/esp32, r/electronics, r/embedded) | Getting unstuck and meeting people | — |
+| [Learn by Difficulty](learn-by-difficulty.md) | Beginner → Very Hard ladder for all electronics tutorials/books/videos | Pacing your learning by level | 🟢 Beginner → ⚫ Very Hard |
 
 ## Suggested Reading Order
 
