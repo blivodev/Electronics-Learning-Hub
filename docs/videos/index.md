@@ -57,6 +57,62 @@ this page (no new tab, no tracking cookies — embeds use YouTube's privacy-frie
 
 **Ben Eater - Digital electronics tutorial (logic gates up)** — [channel: @BenEater](https://www.youtube.com/@BenEater)
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/TBt-kxYfync" title="🔌 Basic Electricity - What is voltage?" frameborder="0" allowfullscreen></iframe>
+
+**🔌 Basic Electricity - What is voltage?** — [channel: @Afrotechmods](https://www.youtube.com/@Afrotechmods)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VSpB3HivkhY" title="Basic Electricity - Power and watts" frameborder="0" allowfullscreen></iframe>
+
+**Basic Electricity - Power and watts** — [channel: @Afrotechmods](https://www.youtube.com/@Afrotechmods)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/NfcgA1axPLo" title="Basic Electricity - Resistance and Ohm's law" frameborder="0" allowfullscreen></iframe>
+
+**Basic Electricity - Resistance and Ohm's law** — [channel: @Afrotechmods](https://www.youtube.com/@Afrotechmods)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Yo6JI_bzUzo" title="LED Basics" frameborder="0" allowfullscreen></iframe>
+
+**LED Basics** — [channel: @Afrotechmods](https://www.youtube.com/@Afrotechmods)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLWv9VM947MKhtI0EN2WfYUyuJvz4coCy-" title="Electronic components explained" frameborder="0" allowfullscreen></iframe>
+
+**Electronic components explained** — [channel: @EngineeringMindset](https://www.youtube.com/@EngineeringMindset)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLWv9VM947MKh8Hp6wi2OvIx6T3PCfobZD" title="DC Circuits" frameborder="0" allowfullscreen></iframe>
+
+**DC Circuits** — [channel: @EngineeringMindset](https://www.youtube.com/@EngineeringMindset)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLWv9VM947MKjuqlJVp5m_Edf66SrFSHx2" title="Electricity Basics" frameborder="0" allowfullscreen></iframe>
+
+**Electricity Basics** — [channel: @EngineeringMindset](https://www.youtube.com/@EngineeringMindset)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLWv9VM947MKhB1014urpwYxN3dgoIQyqF" title="Three Phase Electricity" frameborder="0" allowfullscreen></iframe>
+
+**Three Phase Electricity** — [channel: @EngineeringMindset](https://www.youtube.com/@EngineeringMindset)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3KePcASD0NQ" title="How Electricity Works - for visual learners" frameborder="0" allowfullscreen></iframe>
+
+**How Electricity Works - for visual learners** — [channel: @EngineeringMindset](https://www.youtube.com/@EngineeringMindset)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/DKYguNg1vmk" title="MOSFET vs Transistor vs Relay: Most People Get This Wrong" frameborder="0" allowfullscreen></iframe>
+
+**MOSFET vs Transistor vs Relay: Most People Get This Wrong** — [channel: @EngineeringMindset](https://www.youtube.com/@EngineeringMindset)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLB9A78ED3D7EF1AE5" title="Basics on Capacitors and Inductors" frameborder="0" allowfullscreen></iframe>
+
+**Basics on Capacitors and Inductors** — [channel: @w2aew](https://www.youtube.com/@w2aew)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL4ZSD4omd_AzYwgiAXCOsR1eyy3lHsTig" title="Bipolar Transistor Videos" frameborder="0" allowfullscreen></iframe>
+
+**Bipolar Transistor Videos** — [channel: @w2aew](https://www.youtube.com/@w2aew)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLowKtXNTBypFWff2QjXCWuSfJDWcvE0Vm" title="Error detection" frameborder="0" allowfullscreen></iframe>
+
+**Error detection** — [channel: @BenEater](https://www.youtube.com/@BenEater)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLAROrg3NQn7dGPxb9CFtxwbgzLNaaj1Oe" title="Electronics Projects" frameborder="0" allowfullscreen></iframe>
+
+**Electronics Projects** — [channel: @greatscottlab](https://www.youtube.com/@greatscottlab)
+
 ---
 
 ## Arduino projects
@@ -88,6 +144,46 @@ this page (no new tab, no tracking cookies — embeds use YouTube's privacy-frie
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL13BC6E1BF420E839" title="Adafruit Arduino projects & how-tos" frameborder="0" allowfullscreen></iframe>
 
 **Adafruit Arduino projects & how-tos** — [channel: @adafruit](https://www.youtube.com/@adafruit)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLAROrg3NQn7cVnrEFOht5qt5vHEn2bu9r" title="Arduino Alternatives" frameborder="0" allowfullscreen></iframe>
+
+**Arduino Alternatives** — [channel: @greatscottlab](https://www.youtube.com/@greatscottlab)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL0JWuCHXfJ2y92SRi8bs7DDpRxd41X-3T" title="Arduino" frameborder="0" allowfullscreen></iframe>
+
+**Arduino** — [channel: @KevinDarrah](https://www.youtube.com/@KevinDarrah)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL0JWuCHXfJ2zjHiHtHUO2AjGQ1pP4Bzab" title="Low Power Arduino" frameborder="0" allowfullscreen></iframe>
+
+**Low Power Arduino** — [channel: @KevinDarrah](https://www.youtube.com/@KevinDarrah)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLWNDWPAClRVpz1kldq3PktejQH3D-xRaC" title="Motors - Making things that move" frameborder="0" allowfullscreen></iframe>
+
+**Motors - Making things that move** — [channel: @DroneBotWorkshop](https://www.youtube.com/@DroneBotWorkshop)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLWNDWPAClRVpxISt_YX0j8ZugefcFLk4D" title="Sensors - Sensing the outside world" frameborder="0" allowfullscreen></iframe>
+
+**Sensors - Sensing the outside world** — [channel: @DroneBotWorkshop](https://www.youtube.com/@DroneBotWorkshop)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLWNDWPAClRVojCmvkfJQqRusRUnb-bJKb" title="Displays - LCD, LED, OLED, and other display types" frameborder="0" allowfullscreen></iframe>
+
+**Displays - LCD, LED, OLED, and other display types** — [channel: @DroneBotWorkshop](https://www.youtube.com/@DroneBotWorkshop)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLBcrWxTa5CS07xIdM9zoEXU9Xdfx1uwLj" title="SparkFun Inventor's Kit for MicroPython" frameborder="0" allowfullscreen></iframe>
+
+**SparkFun Inventor's Kit for MicroPython** — [channel: @SparkFun](https://www.youtube.com/@SparkFun)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLBcrWxTa5CS0kpIOOj5gK3PrVlWLAK1xI" title="SparkFun Sensors" frameborder="0" allowfullscreen></iframe>
+
+**SparkFun Sensors** — [channel: @SparkFun](https://www.youtube.com/@SparkFun)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLBcrWxTa5CS0u-rQNkGtLMg1yA7h56r6_" title="Adventures in Science!" frameborder="0" allowfullscreen></iframe>
+
+**Adventures in Science!** — [channel: @SparkFun](https://www.youtube.com/@SparkFun)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLBcrWxTa5CS2yEYhVdEIOQ0TRN7CkVL62" title="Qwiic Circuit Creations" frameborder="0" allowfullscreen></iframe>
+
+**Qwiic Circuit Creations** — [channel: @SparkFun](https://www.youtube.com/@SparkFun)
 
 ---
 
@@ -125,6 +221,46 @@ this page (no new tab, no tracking cookies — embeds use YouTube's privacy-frie
 
 **ESP32-CAM MicroSD card (DroneBot Workshop)** — [channel: @DroneBotWorkshop](https://www.youtube.com/@DroneBotWorkshop)
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLXSyc11qLa1Yysttm0BhT7EB9rOQ9A7Rz" title="ESP32" frameborder="0" allowfullscreen></iframe>
+
+**ESP32** — [channel: @PhilsLab](https://www.youtube.com/@PhilsLab)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL0JWuCHXfJ2yWSMd4qVM1_gVtCCLpCIlp" title="WiFi Tutorials" frameborder="0" allowfullscreen></iframe>
+
+**WiFi Tutorials** — [channel: @KevinDarrah](https://www.youtube.com/@KevinDarrah)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL0JWuCHXfJ2yrTzuM8fT32UMIYnUPxqti" title="Bluetooth Low Energy" frameborder="0" allowfullscreen></iframe>
+
+**Bluetooth Low Energy** — [channel: @KevinDarrah](https://www.youtube.com/@KevinDarrah)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL0JWuCHXfJ2yNYbI5W3NihAzF_zMdrdoN" title="EMC" frameborder="0" allowfullscreen></iframe>
+
+**EMC** — [channel: @KevinDarrah](https://www.youtube.com/@KevinDarrah)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLBcrWxTa5CS0w7y-yDVVwsF39ggOm8a7x" title="Internet of Things!" frameborder="0" allowfullscreen></iframe>
+
+**Internet of Things!** — [channel: @SparkFun](https://www.youtube.com/@SparkFun)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Q_5bna_cyBw" title="I Found the Secret to WiFi Antennas! EB#68" frameborder="0" allowfullscreen></iframe>
+
+**I Found the Secret to WiFi Antennas! EB#68** — [channel: @greatscottlab](https://www.youtube.com/@greatscottlab)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/y0UkxnTC1p4" title="GPS Has a HUGE Problem… That We Can Fix? (RTK GPS)" frameborder="0" allowfullscreen></iframe>
+
+**GPS Has a HUGE Problem… That We Can Fix? (RTK GPS)** — [channel: @greatscottlab](https://www.youtube.com/@greatscottlab)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/DYIlM0nRLT0" title="ESP32 Low Power Modes Explained: Active vs Deep Sleep vs Hibernate" frameborder="0" allowfullscreen></iframe>
+
+**ESP32 Low Power Modes Explained: Active vs Deep Sleep vs Hibernate** — [channel: @DroneBotWorkshop](https://www.youtube.com/@DroneBotWorkshop)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8m5M3ZIXlWw" title="Upgrade Your ESP32 Projects Wirelessly | ESP32 OTA Tutorial" frameborder="0" allowfullscreen></iframe>
+
+**Upgrade Your ESP32 Projects Wirelessly | ESP32 OTA Tutorial** — [channel: @DroneBotWorkshop](https://www.youtube.com/@DroneBotWorkshop)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL3XBzmAj53RmwSzQ3oOhxbZJ6INWIPdgq" title="DIY Solar Power" frameborder="0" allowfullscreen></iframe>
+
+**DIY Solar Power** — [channel: @AndreasSpiess](https://www.youtube.com/@AndreasSpiess)
+
 ---
 
 ## Raspberry Pi
@@ -149,6 +285,34 @@ this page (no new tab, no tracking cookies — embeds use YouTube's privacy-frie
 
 **element14 presents - Raspberry Pi 5: Complete Beginner Setup** — [channel: @element14presents](https://www.youtube.com/@element14presents)
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLwO8CTSLTkii9S_vhEOsyJ17RI3jjBZ95" title="The Learning Circuit" frameborder="0" allowfullscreen></iframe>
+
+**The Learning Circuit** — [channel: @element14presents](https://www.youtube.com/@element14presents)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLwO8CTSLTkihc_za1q-yumzOXFWBOs1Cl" title="element14 presents" frameborder="0" allowfullscreen></iframe>
+
+**element14 presents** — [channel: @element14presents](https://www.youtube.com/@element14presents)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL7xF8ooi6qI42Yw1XzPiXctOXKFy1iu9Q" title="RP2040 Evaluation Board Project" frameborder="0" allowfullscreen></iframe>
+
+**RP2040 Evaluation Board Project** — [channel: @microType](https://www.youtube.com/@microType)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RNH-CL8GrF8" title="RP2040 KiCad 6 Hardware Design - Part 1 - Schematic" frameborder="0" allowfullscreen></iframe>
+
+**RP2040 KiCad 6 Hardware Design - Part 1 - Schematic** — [channel: @microType](https://www.youtube.com/@microType)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ios9tLiMyLs" title="RP2040 KiCad 6 Hardware Design - Part 2 - PCB" frameborder="0" allowfullscreen></iframe>
+
+**RP2040 KiCad 6 Hardware Design - Part 2 - PCB** — [channel: @microType](https://www.youtube.com/@microType)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL0JWuCHXfJ2xSfcNWYBeBEYEY4O2MYvRc" title="raspberry Pi" frameborder="0" allowfullscreen></iframe>
+
+**raspberry Pi** — [channel: @KevinDarrah](https://www.youtube.com/@KevinDarrah)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLBcrWxTa5CS3EtciP1wvmlwNdno0XtfPG" title="micro:bit Videos" frameborder="0" allowfullscreen></iframe>
+
+**micro:bit Videos** — [channel: @SparkFun](https://www.youtube.com/@SparkFun)
+
 ---
 
 ## PCB design / KiCad
@@ -172,6 +336,98 @@ this page (no new tab, no tracking cookies — embeds use YouTube's privacy-frie
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLvOlSehNtuHv268f0mW5m1t_hq_RVGRSA" title="EEVblog - Jellybean Components Series" frameborder="0" allowfullscreen></iframe>
 
 **EEVblog - Jellybean Components Series** — [channel: @EEVblog](https://www.youtube.com/@EEVblog)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zeH3WbMWvdg" title="PCB Design Rules 101 - Phil's Lab #170" frameborder="0" allowfullscreen></iframe>
+
+**PCB Design Rules 101 - Phil's Lab #170** — [channel: @PhilsLab](https://www.youtube.com/@PhilsLab)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ao2HUjjhlmQ" title="PCB Copper Pours 101 - Phil's Lab #176" frameborder="0" allowfullscreen></iframe>
+
+**PCB Copper Pours 101 - Phil's Lab #176** — [channel: @PhilsLab](https://www.youtube.com/@PhilsLab)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fQ1BTyvXfKw" title="PCB Via Fencing & Edge Plating Basics - Phil's Lab #175" frameborder="0" allowfullscreen></iframe>
+
+**PCB Via Fencing & Edge Plating Basics - Phil's Lab #175** — [channel: @PhilsLab](https://www.youtube.com/@PhilsLab)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aNYmOIMt7CY" title="PCB Controlled Impedance - Phil's Lab #171" frameborder="0" allowfullscreen></iframe>
+
+**PCB Controlled Impedance - Phil's Lab #171** — [channel: @PhilsLab](https://www.youtube.com/@PhilsLab)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/igQWdVGZGpI" title="KiCad 9 Hardware Design Tutorial (TI MSPM0) (2/2 PCB) - Phil's Lab #166" frameborder="0" allowfullscreen></iframe>
+
+**KiCad 9 Hardware Design Tutorial (TI MSPM0) (2/2 PCB) - Phil's Lab #166** — [channel: @PhilsLab](https://www.youtube.com/@PhilsLab)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xdKBpAGsq1E" title="KiCad 9 Jobsets: Automating Your Design Outputs" frameborder="0" allowfullscreen></iframe>
+
+**KiCad 9 Jobsets: Automating Your Design Outputs** — [channel: @microType](https://www.youtube.com/@microType)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cms3Uvutsa8" title="KiKit For Panelizing PCBs in KiCad in 5(ish) Minutes" frameborder="0" allowfullscreen></iframe>
+
+**KiKit For Panelizing PCBs in KiCad in 5(ish) Minutes** — [channel: @microType](https://www.youtube.com/@microType)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ff8G8ZPj5cQ" title="RP2040 KiCad 6 Hardware Design - Part 3 - Assembly/Testing" frameborder="0" allowfullscreen></iframe>
+
+**RP2040 KiCad 6 Hardware Design - Part 3 - Assembly/Testing** — [channel: @microType](https://www.youtube.com/@microType)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL7xF8ooi6qI6kcPu6k2TD_H3gsydMCati" title="Quick Circuit Tips" frameborder="0" allowfullscreen></iframe>
+
+**Quick Circuit Tips** — [channel: @microType](https://www.youtube.com/@microType)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL7xF8ooi6qI6DNi6onty5FopCeDgK8RwE" title="H-Bridge Arduino PCB Circuit Design" frameborder="0" allowfullscreen></iframe>
+
+**H-Bridge Arduino PCB Circuit Design** — [channel: @microType](https://www.youtube.com/@microType)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL7xF8ooi6qI5ipAyDvvygO6pYqrnUWAVI" title="Custom Eval PCBs" frameborder="0" allowfullscreen></iframe>
+
+**Custom Eval PCBs** — [channel: @microType](https://www.youtube.com/@microType)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLXvLToQzgzdehgGIB_mJdwagVTa91w8_s" title="Tutorials - How to Design & Build Your Own Boards" frameborder="0" allowfullscreen></iframe>
+
+**Tutorials - How to Design & Build Your Own Boards** — [channel: @RobertFeranec](https://www.youtube.com/@RobertFeranec)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLXvLToQzgzdeMHns7IIdK0XFwNt9LSoxo" title="How To Improve Your PCB Layout" frameborder="0" allowfullscreen></iframe>
+
+**How To Improve Your PCB Layout** — [channel: @RobertFeranec](https://www.youtube.com/@RobertFeranec)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLXvLToQzgzdcuyFu3KruvkR_TjpnF1Z7f" title="PCB Layout & Decoupling" frameborder="0" allowfullscreen></iframe>
+
+**PCB Layout & Decoupling** — [channel: @RobertFeranec](https://www.youtube.com/@RobertFeranec)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLXvLToQzgzddPKq_txEXNe0pxaSHqPtMO" title="Every day Hardware Design TIPS" frameborder="0" allowfullscreen></iframe>
+
+**Every day Hardware Design TIPS** — [channel: @RobertFeranec](https://www.youtube.com/@RobertFeranec)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/swTDC0uAcwo" title="6 Reasons Your Op Amp Signal Looks Bad" frameborder="0" allowfullscreen></iframe>
+
+**6 Reasons Your Op Amp Signal Looks Bad** — [channel: @RobertFeranec](https://www.youtube.com/@RobertFeranec)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iZChE0CRpE4" title="Track Crossing on PCBs - Myth vs Reality" frameborder="0" allowfullscreen></iframe>
+
+**Track Crossing on PCBs - Myth vs Reality** — [channel: @RobertFeranec](https://www.youtube.com/@RobertFeranec)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6nRpBZu2T0k" title="How to Design an Antenna That Actually Works | All Steps Explained" frameborder="0" allowfullscreen></iframe>
+
+**How to Design an Antenna That Actually Works | All Steps Explained** — [channel: @RobertFeranec](https://www.youtube.com/@RobertFeranec)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ECGvLFyvoXo" title="EMC Essentials Explained: Theory & Low-Cost Lab Measurements" frameborder="0" allowfullscreen></iframe>
+
+**EMC Essentials Explained: Theory & Low-Cost Lab Measurements** — [channel: @RobertFeranec](https://www.youtube.com/@RobertFeranec)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4g7VwmrATLo" title="PCB Grounding Mistakes Your Datasheet Taught You" frameborder="0" allowfullscreen></iframe>
+
+**PCB Grounding Mistakes Your Datasheet Taught You** — [channel: @AltiumAcademy](https://www.youtube.com/@AltiumAcademy)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/c2uHuAmFq54" title="5 PCB Design Mistakes I Fixed in Under 10 Minutes" frameborder="0" allowfullscreen></iframe>
+
+**5 PCB Design Mistakes I Fixed in Under 10 Minutes** — [channel: @AltiumAcademy](https://www.youtube.com/@AltiumAcademy)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/81-_9peox68" title="Altium Training - PCB Design Rule Checks: Design Rule Checks" frameborder="0" allowfullscreen></iframe>
+
+**Altium Training - PCB Design Rule Checks: Design Rule Checks** — [channel: @AltiumAcademy](https://www.youtube.com/@AltiumAcademy)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLEBQazB0HUyQ5YJSdCBb79orXaR3Uk5vm" title="KiCad 9.0 - Getting Started" frameborder="0" allowfullscreen></iframe>
+
+**KiCad 9.0 - Getting Started** — [channel: @digikey](https://www.youtube.com/@digikey)
 
 ---
 
@@ -217,6 +473,70 @@ this page (no new tab, no tracking cookies — embeds use YouTube's privacy-frie
 
 **DigiKey - Introduction to RTOS Part 1** — [channel: @digikey](https://www.youtube.com/@digikey)
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLzHyxysSubUkzUundTD80dhDrBD3TGOfu" title="Probing Pitfalls" frameborder="0" allowfullscreen></iframe>
+
+**Probing Pitfalls** — [channel: @KeysightLabs](https://www.youtube.com/@KeysightLabs)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLzHyxysSubUnvmcOC3aXoMipRqSoZXFHN" title="The ABCs of EMC" frameborder="0" allowfullscreen></iframe>
+
+**The ABCs of EMC** — [channel: @KeysightLabs](https://www.youtube.com/@KeysightLabs)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLzHyxysSubUmKkWaxbCbv8ptpXxgel1IE" title="How to Read an Oscilloscope Data Sheet" frameborder="0" allowfullscreen></iframe>
+
+**How to Read an Oscilloscope Data Sheet** — [channel: @KeysightLabs](https://www.youtube.com/@KeysightLabs)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLzHyxysSubUnCwzDuHEGOgAJcXCBnjjCK" title="Exposing Signal Integrity Myths" frameborder="0" allowfullscreen></iframe>
+
+**Exposing Signal Integrity Myths** — [channel: @KeysightLabs](https://www.youtube.com/@KeysightLabs)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lUkPjqOoJQU" title="Smith Chart Basics + VNA Paperclip Test" frameborder="0" allowfullscreen></iframe>
+
+**Smith Chart Basics + VNA Paperclip Test** — [channel: @KeysightLabs](https://www.youtube.com/@KeysightLabs)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5mBXHUlC7bk" title="Don't use a multimeter like this" frameborder="0" allowfullscreen></iframe>
+
+**Don't use a multimeter like this** — [channel: @KeysightLabs](https://www.youtube.com/@KeysightLabs)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jqAiKnjjDE8" title="Why these PCB shorts are 50 Ω" frameborder="0" allowfullscreen></iframe>
+
+**Why these PCB shorts are 50 Ω** — [channel: @KeysightLabs](https://www.youtube.com/@KeysightLabs)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLvOlSehNtuHupdUJVYdRnihTTQ_Tw7MHt" title="Frequency Counters & Rubidium Oscillators & Calibration" frameborder="0" allowfullscreen></iframe>
+
+**Frequency Counters & Rubidium Oscillators & Calibration** — [channel: @EEVblog](https://www.youtube.com/@EEVblog)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLvOlSehNtuHuwwQ1fpquOJuA5MSfD4iD6" title="Fluke Multimeters" frameborder="0" allowfullscreen></iframe>
+
+**Fluke Multimeters** — [channel: @EEVblog](https://www.youtube.com/@EEVblog)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLqPERNqo_7YBwaL-fEfikUzDrPz-e42UM" title="Tutorials" frameborder="0" allowfullscreen></iframe>
+
+**Tutorials** — [channel: @TheSignalPath](https://www.youtube.com/@TheSignalPath)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLqPERNqo_7YA0zHqbdyoVhL5zrb0gQWE8" title="Reviews" frameborder="0" allowfullscreen></iframe>
+
+**Reviews** — [channel: @TheSignalPath](https://www.youtube.com/@TheSignalPath)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL4ZSD4omd_AylEyNCQYR3RcEb0olukPEJ" title="NanoVNA" frameborder="0" allowfullscreen></iframe>
+
+**NanoVNA** — [channel: @w2aew](https://www.youtube.com/@w2aew)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL4ZSD4omd_AzGK02MwlAWtK3H1N59QTrD" title="VNA Videos" frameborder="0" allowfullscreen></iframe>
+
+**VNA Videos** — [channel: @w2aew](https://www.youtube.com/@w2aew)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL4ZSD4omd_AzQ7T0Dt4zTBW8sHLQHjqMQ" title="Smith Charts" frameborder="0" allowfullscreen></iframe>
+
+**Smith Charts** — [channel: @w2aew](https://www.youtube.com/@w2aew)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL049620539B359102" title="Fun Oscilloscope Applications" frameborder="0" allowfullscreen></iframe>
+
+**Fun Oscilloscope Applications** — [channel: @w2aew](https://www.youtube.com/@w2aew)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LaY47Qrfs0c" title="How to ACTUALLY Use an Oscilloscope (Beginner-Friendly Guide!)" frameborder="0" allowfullscreen></iframe>
+
+**How to ACTUALLY Use an Oscilloscope (Beginner-Friendly Guide!)** — [channel: @EngineeringMindset](https://www.youtube.com/@EngineeringMindset)
+
 ---
 
 ## Teardowns & repair
@@ -261,6 +581,94 @@ this page (no new tab, no tracking cookies — embeds use YouTube's privacy-frie
 
 **Mr Carlson's Lab - Tech Tips Tuesday** — [channel: @MrCarlsonsLab](https://www.youtube.com/@MrCarlsonsLab)
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/A5jjHDU4f2Y" title="Inside a cheap but impressive laser cube" frameborder="0" allowfullscreen></iframe>
+
+**Inside a cheap but impressive laser cube** — [channel: @BigCliveDotCom](https://www.youtube.com/@BigCliveDotCom)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2MCO9BSswDg" title="Total teardown of a common solenoid valve" frameborder="0" allowfullscreen></iframe>
+
+**Total teardown of a common solenoid valve** — [channel: @BigCliveDotCom](https://www.youtube.com/@BigCliveDotCom)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/d-41yfHILSY" title="Inside a Poundland 2026 phone charger" frameborder="0" allowfullscreen></iframe>
+
+**Inside a Poundland 2026 phone charger** — [channel: @BigCliveDotCom](https://www.youtube.com/@BigCliveDotCom)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4MtXEfR77So" title="Inside the high voltage spaceman" frameborder="0" allowfullscreen></iframe>
+
+**Inside the high voltage spaceman** — [channel: @BigCliveDotCom](https://www.youtube.com/@BigCliveDotCom)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/92MUPNq9OLI" title="Inside an expensive TCP high efficiency light bulb from ASDA" frameborder="0" allowfullscreen></iframe>
+
+**Inside an expensive TCP high efficiency light bulb from ASDA** — [channel: @BigCliveDotCom](https://www.youtube.com/@BigCliveDotCom)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLwJ536x-nypKjg-16HgVgUhUrLqs7o6L_" title="Tech Talk" frameborder="0" allowfullscreen></iframe>
+
+**Tech Talk** — [channel: @MrCarlsonsLab](https://www.youtube.com/@MrCarlsonsLab)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLwJ536x-nypJsHe1XohbMvov16CnUD-EK" title="My Videos" frameborder="0" allowfullscreen></iframe>
+
+**My Videos** — [channel: @MrCarlsonsLab](https://www.youtube.com/@MrCarlsonsLab)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLwJ536x-nypLEeEULG-qO4hC90I5szA7W" title="Time Domain Reflectometer or TDR" frameborder="0" allowfullscreen></iframe>
+
+**Time Domain Reflectometer or TDR** — [channel: @MrCarlsonsLab](https://www.youtube.com/@MrCarlsonsLab)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Dg-lOEqJGGw" title="What Part Failed In This Fluke 6071A? Found And Explained In Detail." frameborder="0" allowfullscreen></iframe>
+
+**What Part Failed In This Fluke 6071A? Found And Explained In Detail.** — [channel: @MrCarlsonsLab](https://www.youtube.com/@MrCarlsonsLab)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SjOxBg6SJuw" title="Why Put Diodes Together In Both Directions? Explained With Examples!" frameborder="0" allowfullscreen></iframe>
+
+**Why Put Diodes Together In Both Directions? Explained With Examples!** — [channel: @MrCarlsonsLab](https://www.youtube.com/@MrCarlsonsLab)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLQ_OzNEYrepVLDfbGpAEoPQ7MgNukIxmi" title="Power Supply Repairs" frameborder="0" allowfullscreen></iframe>
+
+**Power Supply Repairs** — [channel: @LearnElectronicsRepair](https://www.youtube.com/@LearnElectronicsRepair)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLQ_OzNEYrepVCaN0mTFl62SV-mkWjuSXl" title="Tools, Test Equipment and BGA Rework and Soldering Techniques." frameborder="0" allowfullscreen></iframe>
+
+**Tools, Test Equipment and BGA Rework and Soldering Techniques.** — [channel: @LearnElectronicsRepair](https://www.youtube.com/@LearnElectronicsRepair)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLQ_OzNEYrepVejcmwLEFdpnCjILyI0Rgv" title="Computer Repairs" frameborder="0" allowfullscreen></iframe>
+
+**Computer Repairs** — [channel: @LearnElectronicsRepair](https://www.youtube.com/@LearnElectronicsRepair)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLQ_OzNEYrepX6tZUWbq5QfGfx5a_aYc-b" title="Learn Electronics Repair For Beginners" frameborder="0" allowfullscreen></iframe>
+
+**Learn Electronics Repair For Beginners** — [channel: @LearnElectronicsRepair](https://www.youtube.com/@LearnElectronicsRepair)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aBfo4kOVnpY" title="I Salvaged Components From 1970s, 1990s & 2000s PCBs.  Which Was The Best?" frameborder="0" allowfullscreen></iframe>
+
+**I Salvaged Components From 1970s, 1990s & 2000s PCBs.  Which Was The Best?** — [channel: @LearnElectronicsRepair](https://www.youtube.com/@LearnElectronicsRepair)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/DRtmXAhwv4k" title="65'' Samsung LED TV PSU Repair : Local Electronics Shop Sold Me Equivalent MOSFETs. What Happened?" frameborder="0" allowfullscreen></iframe>
+
+**65'' Samsung LED TV PSU Repair : Local Electronics Shop Sold Me Equivalent MOSFETs. What Happened?** — [channel: @LearnElectronicsRepair](https://www.youtube.com/@LearnElectronicsRepair)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLvOlSehNtuHvQr28klnTUYNb_7zb9R_cS" title="Alkaline Battery Leakage" frameborder="0" allowfullscreen></iframe>
+
+**Alkaline Battery Leakage** — [channel: @EEVblog](https://www.youtube.com/@EEVblog)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL0KZLmPyL6AnVxyvFZRKGsIfcpQlHx0xH" title="Teardowns" frameborder="0" allowfullscreen></iframe>
+
+**Teardowns** — [channel: @mikeselectricstuff](https://www.youtube.com/@mikeselectricstuff)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL0KZLmPyL6AlXGKv4MEZrpgyzSho5u9L3" title="Various electronics stuff" frameborder="0" allowfullscreen></iframe>
+
+**Various electronics stuff** — [channel: @mikeselectricstuff](https://www.youtube.com/@mikeselectricstuff)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wbJH08vflEY" title="Sawstop cartridge teardown" frameborder="0" allowfullscreen></iframe>
+
+**Sawstop cartridge teardown** — [channel: @mikeselectricstuff](https://www.youtube.com/@mikeselectricstuff)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/PCiV9UqJrDs" title="Oxford Nanopore MinION DNA sequencer" frameborder="0" allowfullscreen></iframe>
+
+**Oxford Nanopore MinION DNA sequencer** — [channel: @mikeselectricstuff](https://www.youtube.com/@mikeselectricstuff)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLqPERNqo_7YDQG0k54kk9LO84kEko7mEV" title="Repairs" frameborder="0" allowfullscreen></iframe>
+
+**Repairs** — [channel: @TheSignalPath](https://www.youtube.com/@TheSignalPath)
+
 ---
 
 ## Logic / 8-bit computers
@@ -288,6 +696,82 @@ this page (no new tab, no tracking cookies — embeds use YouTube's privacy-frie
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLr_CZLgMkHeXc_45uIgYutY0m6fqmI5du" title="ElectroBOOM - Electronics playlist" frameborder="0" allowfullscreen></iframe>
 
 **ElectroBOOM - Electronics playlist** — [channel: @ElectroBOOM](https://www.youtube.com/@ElectroBOOM)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3XDH-fZKnQk" title="Let's build a digital clock!" frameborder="0" allowfullscreen></iframe>
+
+**Let's build a digital clock!** — [channel: @BenEater](https://www.youtube.com/@BenEater)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jJi5EAWgyEM" title="Sound synth with a 6502" frameborder="0" allowfullscreen></iframe>
+
+**Sound synth with a 6502** — [channel: @BenEater](https://www.youtube.com/@BenEater)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nooPmXxO6K0" title="Modern SID chip substitutes" frameborder="0" allowfullscreen></iframe>
+
+**Modern SID chip substitutes** — [channel: @BenEater](https://www.youtube.com/@BenEater)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LSMQ3U1Thzw" title="The SID: Classic 8-bit sound" frameborder="0" allowfullscreen></iframe>
+
+**The SID: Classic 8-bit sound** — [channel: @BenEater](https://www.youtube.com/@BenEater)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLJyhNWZbnZP4" title="HP 16702 Logic Analyzer Repair" frameborder="0" allowfullscreen></iframe>
+
+**HP 16702 Logic Analyzer Repair** — [channel: @CuriousMarc](https://www.youtube.com/@CuriousMarc)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL-_93BVApb59a1ma8KFWh-JDlOadWt8r-" title="Apollo FDAI Attitude Indicator" frameborder="0" allowfullscreen></iframe>
+
+**Apollo FDAI Attitude Indicator** — [channel: @CuriousMarc](https://www.youtube.com/@CuriousMarc)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL-_93BVApb58rsjI0icp8-iY0SWT_n8aA" title="HP 182C Oscilloscope Repair" frameborder="0" allowfullscreen></iframe>
+
+**HP 182C Oscilloscope Repair** — [channel: @CuriousMarc](https://www.youtube.com/@CuriousMarc)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL-_93BVApb5_MQBUOVLgdKCaUPY1zaPh_" title="HP 5245L Repair-a-thon" frameborder="0" allowfullscreen></iframe>
+
+**HP 5245L Repair-a-thon** — [channel: @CuriousMarc](https://www.youtube.com/@CuriousMarc)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLfABUWdDse7YTMY-iEOyHSp8K-6PDSsAs" title="Restoration Series" frameborder="0" allowfullscreen></iframe>
+
+**Restoration Series** — [channel: @The8BitGuy](https://www.youtube.com/@The8BitGuy)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLfABUWdDse7Y6LLPlfsHKcvBCgqaudzVY" title="Commodore History" frameborder="0" allowfullscreen></iframe>
+
+**Commodore History** — [channel: @The8BitGuy](https://www.youtube.com/@The8BitGuy)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLfABUWdDse7aKLE00YObaVvP1jSH0YqIE" title="Texas tech History" frameborder="0" allowfullscreen></iframe>
+
+**Texas tech History** — [channel: @The8BitGuy](https://www.youtube.com/@The8BitGuy)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/mEpnRM97ACQ" title="What if everything still ran on vacuum tubes?" frameborder="0" allowfullscreen></iframe>
+
+**What if everything still ran on vacuum tubes?** — [channel: @The8BitGuy](https://www.youtube.com/@The8BitGuy)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/r2Tq8jdS6mY" title="How the Tandy Color Computer Works." frameborder="0" allowfullscreen></iframe>
+
+**How the Tandy Color Computer Works.** — [channel: @The8BitGuy](https://www.youtube.com/@The8BitGuy)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-0Jtv8hvau4" title="How the TI-99/4A Home Computer Worked" frameborder="0" allowfullscreen></iframe>
+
+**How the TI-99/4A Home Computer Worked** — [channel: @The8BitGuy](https://www.youtube.com/@The8BitGuy)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLnw98JPyObn2Kj-rqrKqEB5xmS_uOV40f" title="Building a PDP-11/44 Supercomputer" frameborder="0" allowfullscreen></iframe>
+
+**Building a PDP-11/44 Supercomputer** — [channel: @UsagiElectric](https://www.youtube.com/@UsagiElectric)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLnw98JPyObn2PqgY1mfzXOtnUXlsXSMch" title="Data General Nova Fun" frameborder="0" allowfullscreen></iframe>
+
+**Data General Nova Fun** — [channel: @UsagiElectric](https://www.youtube.com/@UsagiElectric)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qT-kwEd3ODA" title="The PDP-11 Supercomputer Just Got SUPER!" frameborder="0" allowfullscreen></iframe>
+
+**The PDP-11 Supercomputer Just Got SUPER!** — [channel: @UsagiElectric](https://www.youtube.com/@UsagiElectric)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/K2eL2D_Ng3I" title="The TM990 Plays 1D Life!" frameborder="0" allowfullscreen></iframe>
+
+**The TM990 Plays 1D Life!** — [channel: @UsagiElectric](https://www.youtube.com/@UsagiElectric)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLwO8CTSLTkigUnMWDyF_YFG1K6ZCcm5-E" title="The Electronics Inside" frameborder="0" allowfullscreen></iframe>
+
+**The Electronics Inside** — [channel: @element14presents](https://www.youtube.com/@element14presents)
 
 ---
 
