@@ -36,6 +36,7 @@ nav:
       - Circuits & Electronics: resources/curated/circuits.md
       - Videos: resources/curated/videos.md
       - Communities: resources/curated/communities.md
+  - "Video Library": videos/index.md
   - Glossary: GLOSSARY/README.md
 
 theme:
