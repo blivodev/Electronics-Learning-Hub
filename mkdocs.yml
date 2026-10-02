@@ -38,6 +38,7 @@ nav:
       - Communities: resources/curated/communities.md
   - "Video Library": videos/index.md
   - "News": /news/
+  - "Browse by Difficulty": browse/index.html
   - "Interactive Diagrams": interactive/index.md
   - "Live Playground": playground/index.md
   - Glossary: GLOSSARY/README.md
