@@ -248,6 +248,76 @@ This page re-presents everything in the hub's curated resource library (tutorial
 
 ---
 
+
+---
+
+## 📚 New library additions by difficulty
+A selection from the recent expansion (books, docs, official guides) — pick by your level. Full difficulty-tagged browse lives on the [Browse by Difficulty](/browse/) page.
+
+### 🟢 Beginner (27 books)
+- [SystemVerilog for verification : a guide to learning the testbench language features](https://archive.org/details/systemverilogfor0003edspea)
+- [Introduction to electricity and electronics : conventional current version, electron flow version : laboratory experiments](https://archive.org/details/introductiontoel0003mott_t0k7)
+- [Introduction to electricity and electronics : conventional current version](https://archive.org/details/introductiontoel0000mott_3ed)
+- [An Introduction To DIGITAL ELECTRONICS Theory, Instruments and Computers](https://archive.org/details/an-introduction-to-digital-electronics-electronics-australia-1974)
+- [Digital and microprocessor fundamentals : theory and applications](https://archive.org/details/digitalmicroproc0000klei)
+- [Programmable logic controllers : an introduction](https://archive.org/details/programmablelogi0000bolt_f8a5)
+- [Circuit sense for elementary teachers and students : understanding and building simple logic circuits](https://archive.org/details/circuitsensefore0000houg)
+- [User's guide and reference manual for LogicAid ; Getting started with SimUaid](https://archive.org/details/isbn_9780534384746)
+- [Electronics (LibreTexts - electrical engineering)](https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics)
+- [Introductory Electrical Engineering (LibreTexts)](https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Introductory_Electrical_Engineering)
+- [Lessons In Electric Circuits (Kuphaldt)](https://www.allaboutcircuits.com/textbook/)
+- [Arduino Cookbook (O'Reilly open)](https://www.oreilly.com/library/view/arduino-cookbook-2nd/9781449323879/)
+
+*…and 15 more — see the [Browse by Difficulty](/browse/) page for the full list.*
+
+### 🟠 Intermediate (114 books)
+- [Adaptive control with finite time persistency of excitation.](https://archive.org/details/adaptivecontrolw00onukpdf)
+- [Drakes Radio Cyclopedia, 3rd Edition, 1929](https://archive.org/details/drakes-radio-cyclopedia-3rd-edition-1929)
+- [Electricity](https://archive.org/details/electricity0000walk)
+- [Maker projects for kids who love electronics](https://archive.org/details/makerprojectsfor0000kopp_q1j1)
+- [Understand amplifiers](https://archive.org/details/understandamplif0000bish)
+- [Troubleshooting solid-state amplifiers](https://archive.org/details/troubleshootings0000gadd)
+- [Car Audio & Electronics November 1989](https://archive.org/details/car-audio-electronics-november-1989)
+- [Ramsey Electronics Model PR100: VHF Low Noise Preamp (manual)](https://archive.org/details/ramsey-pr100-manual)
+- [Improvement in Power Quality in Power system Through of DPFC](https://archive.org/details/11ImprovementInPowerQualityInPowerSystemThroughOfDPFC)
+- [Digital electronics](https://archive.org/details/digitalelectroni02edtokh)
+- [Logic aid](https://archive.org/details/logicaid0000roth)
+- [Troubleshooting microprocessors & digital logic](https://archive.org/details/Troubleshooting_Microprocessors_and_Digital_Logic_1980_Tab_Books)
+
+*…and 102 more — see the [Browse by Difficulty](/browse/) page for the full list.*
+
+### 🔴 Hard (47 books)
+- [Energy Efficient Compression for Wireless Sensor Network](https://archive.org/details/Httpwww.ijtsrd.comengineeringcomputer-engineering18171energy-efficient-compressi)
+- [AC Circuits](https://archive.org/details/2017ACCircuits)
+- [AUTOMOTIVE ELECTRICAL CIRCUITS AND WIRING](https://archive.org/details/automotive-electrical-circuits-and-wiring)
+- [Visual Electronics: Graphic Analysis of Circuits](https://archive.org/details/electr_circ)
+- [DC Circuits](https://archive.org/details/2016DCCircuits)
+- [DC Electrical Circuits Workbook](https://archive.org/details/2018DcElectricalCircuitsWorkbook)
+- [US Army Medical Course Basic Electrical Circuits MD0903](https://archive.org/details/US_Army_Medical_Course_Basic_Electrical_Circuits_MD0903)
+- [Special semiconductor devices](https://archive.org/details/bub_gb_cM0AAAAAcAAJ)
+- [Circuits for wireless communications : selected readings](https://archive.org/details/circuitsforwirel0000unse)
+- [Operational amplifiers with linear integrated circuits](https://archive.org/details/operationalampli0003stan)
+- [Operational amplifiers : integrated and hybrid circuits](https://archive.org/details/operationalampli0000rutk)
+- [Components of printed electronics on flexible substrate with focus on inkjet printed tfts based on random network of singlewalled carbon nanotubes SWCNT](https://archive.org/details/shg.707539-components-of-printed-electronics-on-flexible-substrate-with-focu)
+
+*…and 35 more — see the [Browse by Difficulty](/browse/) page for the full list.*
+
+### ⚫ Advanced (33 books)
+- [Electrical Cotrol Circuits Design Basic Ch 4 5 6 7](https://archive.org/details/electrical-cotrol-circuits-design-basic-ch-4-5-6-7)
+- [Electronic circuits handbook : design, testing and construction](https://archive.org/details/electroniccircui0000tool)
+- [ICECS 2000 : the 7th IEEE International Conference on Electronics, Circuits & Systems, December 17-20, 2000, Jounieh, Lebanon](https://archive.org/details/icecs20007thieee0002ieee)
+- [2003 IEEE International Solid-State Circuits Conference : digest of technical papers : ISSCC 1954-2003](https://archive.org/details/2003ieeeinternat0000ieee)
+- [Design and application of a differential photo amplifier](https://archive.org/details/designapplicatio272whit)
+- [Low-noise amplifier design with Peltier cooled HEMTs](https://archive.org/details/0162026706190)
+- [THEORETICAL AND EXPERIMENTAL STUDIES OF RADIATION-INDUCED DAMAGE TO SEMICONDUCTOR SURFACES AND THE EFFECTS OF THIS DAMAGE ON SEMICONDUCTOR DEVICE PERFORMANCE SEMIANNUAL PROGRESS REPORT NO. 3, 1 MAR. - 31 AUG. 1965](https://archive.org/details/nasa_techdoc_19660006159)
+- [Digital logic design principles](https://archive.org/details/digitallogicdesi0000bala)
+- [Experiments in logic and computer design](https://archive.org/details/experimentsinlog0000teng)
+- [Bit Slice Microprocessor Design](https://archive.org/details/bit-slice-microprocessor-design)
+- [Research on AI (Artificial Intelligence) with the Robotic Arm](https://archive.org/details/93868)
+- [Introduction to Embedded Systems: A Cyber-Physical Systems Approach (Lee & Seshia)](https://ptolemy.berkeley.edu/books/leeseshia/releases/LeeSeshia_DigitalV2_2.pdf)
+
+*…and 21 more — see the [Browse by Difficulty](/browse/) page for the full list.*
+
 ## Beyond the ladder — where to keep going next
 
 Once you can place yourself on this ladder, the trick is not running out of material but knowing **what the next level actually requires**. Each tier above links forward to the next. When you finish a tier, re-read the "How to use this ladder" note, pick the next lane, and move up one rung — the hub's other curated pages (arduino.md, esp32.md, microcontrollers.md, circuits.md, videos.md) carry the full, un-tiered versions of all these resources plus the deep-dive links referenced above.
