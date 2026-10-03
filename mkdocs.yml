@@ -40,6 +40,7 @@ nav:
   - "News": /news/
   - Flashcards: flashcards/index.html
   - "Browse by Difficulty": browse/index.html
+  - "Learning Paths": learning-paths/index.md
   - "Learning Ladder": resources/curated/learn-by-difficulty.md
   - "Interactive Diagrams": interactive/index.md
   - "Live Playground": playground/index.md
