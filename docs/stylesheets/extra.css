@@ -1,0 +1,72 @@
+/* ==========================================================================
+   Electronics Learning Hub — modern dark theme (sektor9.dev)
+   Matches the OSDev hub / book library palette for one coherent look.
+   ========================================================================== */
+
+[data-md-color-scheme="slate"] {
+  --md-hue: 220;
+  --md-default-bg-color:        #0a0c10;
+  --md-default-bg-color--light: #0f1218;
+  --md-default-fg-color:        #e8edf4;
+  --md-default-fg-color--light: #8b95a7;
+  --md-default-fg-color--lighter: #5c6675;
+  --md-code-bg-color:           #12161d;
+  --md-code-fg-color:           #d8e0ec;
+  --md-typeset-a-color:         #5b9dff;
+  --md-accent-fg-color:         #7cb0ff;
+  --md-primary-fg-color:        #0f1218;
+  --md-primary-bg-color:        #e8edf4;
+}
+
+.md-typeset { line-height: 1.65; }
+.md-typeset h1, .md-typeset h2, .md-typeset h3 { font-weight: 700; letter-spacing: -.01em; }
+.md-typeset h2 { border-bottom: 1px solid var(--md-default-fg-color--lighter); padding-bottom: .3rem; }
+
+.md-header { background: #0f1218; border-bottom: 1px solid #242c39; box-shadow: none; }
+.md-tabs { background: #0f1218; border-bottom: 1px solid #242c39; }
+.md-header__title { font-weight: 800; letter-spacing: -.02em; }
+.md-nav__link--active, .md-nav__link:hover { color: #5b9dff; }
+
+.md-typeset pre > code, .highlight { border-radius: 10px; }
+.md-typeset code {
+  border-radius: 5px; padding: .1em .35em;
+  background: rgba(91,157,255,.10); color: #a9c7ff;
+}
+.md-typeset pre code { background: none; color: inherit; }
+
+.md-typeset .admonition, .md-typeset details {
+  border-radius: 10px; border-left-width: 3px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.25);
+}
+
+.md-typeset table:not([class]) { border-radius: 10px; overflow: hidden; border: 1px solid #242c39; }
+.md-typeset table:not([class]) th {
+  background-color: #0f1218; color: #8b95a7; font-weight: 700;
+  text-transform: uppercase; font-size: .68rem; letter-spacing: .04em;
+}
+.md-typeset table:not([class]) tr:hover { background-color: rgba(91,157,255,.05); }
+
+.mermaid {
+  background: #0f1218; border: 1px solid #242c39; border-radius: 10px;
+  padding: 14px; text-align: center; margin: 1em 0; overflow-x: auto;
+}
+
+.md-typeset a[title] { border-bottom: 1px dotted var(--md-default-fg-color--lighter); text-decoration: none; }
+.md-typeset a[title]:hover { border-bottom-color: #5b9dff; }
+
+.md-typeset .md-button { border-radius: 9px; font-weight: 600; }
+.md-typeset .md-button--primary { background: #5b9dff; border-color: #5b9dff; color: #0a0c10; }
+
+.md-typeset .grid.cards > ul > li, .md-typeset .grid > .card {
+  border-radius: 12px; border: 1px solid #242c39; background: #12161d;
+  transition: border-color .15s ease, transform .15s ease;
+}
+.md-typeset .grid.cards > ul > li:hover { border-color: #5b9dff; transform: translateY(-2px); }
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: #0a0c10; }
+::-webkit-scrollbar-thumb { background: #2e3848; border-radius: 6px; }
+::-webkit-scrollbar-thumb:hover { background: #5b9dff; }
+
+.md-footer { background: #0f1218; border-top: 1px solid #242c39; }
+.md-top { background: #5b9dff; color: #0a0c10; border-radius: 99px; font-weight: 600; }
