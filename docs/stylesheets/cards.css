@@ -1,0 +1,117 @@
+/* ==========================================================================
+   sektor9 card-based landing components — modern learning-hub look.
+   Used by osdev + electronics hubs (MkDocs Material).
+   ========================================================================== */
+
+/* ---- hero ---- */
+.s9-hero {
+  margin: 0 0 2rem;
+  padding: 2.2rem 2rem;
+  border-radius: 16px;
+  background:
+    radial-gradient(1200px 300px at 0% 0%, rgba(91,157,255,.14), transparent 60%),
+    linear-gradient(135deg, #12161d, #0d1117);
+  border: 1px solid #242c39;
+}
+.s9-hero h1 {
+  margin: 0 0 .5rem;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -.02em;
+  border: none;
+}
+.s9-hero p { margin: .3rem 0 0; color: #8b95a7; max-width: 70ch; }
+.s9-hero .s9-badge-row { margin-top: 1rem; display: flex; gap: .5rem; flex-wrap: wrap; }
+
+/* ---- badge chips ---- */
+.s9-chip {
+  display: inline-flex; align-items: center; gap: .35rem;
+  padding: .28rem .7rem; border-radius: 99px;
+  font-size: .72rem; font-weight: 600;
+  background: rgba(91,157,255,.12); color: #7cb0ff;
+  border: 1px solid rgba(91,157,255,.3);
+}
+.s9-chip.green { background: rgba(70,209,126,.12); color: #46d17e; border-color: rgba(70,209,126,.3); }
+.s9-chip.amber { background: rgba(227,179,65,.12); color: #e3b341; border-color: rgba(227,179,65,.3); }
+.s9-chip.red   { background: rgba(240,106,106,.12); color: #f06a6a; border-color: rgba(240,106,106,.3); }
+
+/* ---- section heading ---- */
+.s9-sec {
+  display: flex; align-items: center; gap: .5rem;
+  font-size: 1.05rem; font-weight: 700;
+  margin: 2.2rem 0 1rem; color: #e8edf4;
+}
+.s9-sec .n { color: #5b9dff; }
+
+/* ---- card grid ---- */
+.s9-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 14px;
+  margin: 1rem 0 1.6rem;
+}
+.s9-card {
+  display: flex; flex-direction: column; gap: .5rem;
+  padding: 1.1rem 1.15rem;
+  border-radius: 14px;
+  background: #12161d;
+  border: 1px solid #242c39;
+  text-decoration: none !important;
+  color: #e8edf4 !important;
+  transition: border-color .15s ease, transform .15s ease, background .15s ease;
+  position: relative;
+}
+.s9-card:hover {
+  border-color: #5b9dff;
+  transform: translateY(-3px);
+  background: #171c25;
+}
+.s9-card .ico { font-size: 1.6rem; line-height: 1; }
+.s9-card .ttl { font-weight: 700; font-size: .98rem; color: #e8edf4; }
+.s9-card .dsc { font-size: .8rem; color: #8b95a7; line-height: 1.45; }
+.s9-card .meta { font-size: .72rem; color: #5c6675; margin-top: auto; padding-top: .4rem; }
+.s9-card .arrow { position: absolute; top: 1rem; right: 1rem; color: #5c6675; font-size: .9rem; transition: all .15s; }
+.s9-card:hover .arrow { color: #5b9dff; transform: translateX(3px); }
+
+/* accent variants */
+.s9-card.blue  { border-left: 3px solid #5b9dff; }
+.s9-card.green { border-left: 3px solid #46d17e; }
+.s9-card.amber { border-left: 3px solid #e3b341; }
+.s9-card.red   { border-left: 3px solid #f06a6a; }
+.s9-card.purple{ border-left: 3px solid #7c5cff; }
+
+/* ---- path ladder (horizontal steps) ---- */
+.s9-steps { display: flex; flex-direction: column; gap: .6rem; margin: 1rem 0 1.6rem; }
+.s9-step {
+  display: flex; align-items: center; gap: .9rem;
+  padding: .8rem 1rem; border-radius: 12px;
+  background: #12161d; border: 1px solid #242c39;
+}
+.s9-step .dot { width: 10px; height: 10px; border-radius: 50%; flex: 0 0 auto; }
+.s9-step .dot.b { background: #46d17e; box-shadow: 0 0 8px #46d17e; }
+.s9-step .dot.i { background: #e3b341; box-shadow: 0 0 8px #e3b341; }
+.s9-step .dot.a { background: #f06a6a; box-shadow: 0 0 8px #f06a6a; }
+.s9-step .lbl { font-weight: 700; font-size: .85rem; min-width: 92px; }
+.s9-step .txt { font-size: .85rem; color: #8b95a7; }
+
+/* ---- CTA row ---- */
+.s9-cta { display: flex; gap: .7rem; flex-wrap: wrap; margin: 1.4rem 0; }
+.s9-cta a {
+  display: inline-flex; align-items: center; gap: .4rem;
+  padding: .6rem 1.1rem; border-radius: 10px;
+  font-weight: 700; font-size: .85rem; text-decoration: none !important;
+}
+.s9-cta a.primary { background: #5b9dff; color: #0a0c10 !important; }
+.s9-cta a.primary:hover { background: #7cb0ff; }
+.s9-cta a.ghost { border: 1px solid #2e3848; color: #e8edf4 !important; }
+.s9-cta a.ghost:hover { border-color: #5b9dff; color: #5b9dff !important; }
+
+/* ---- info strip ---- */
+.s9-note {
+  padding: .85rem 1.1rem; border-radius: 12px; font-size: .85rem;
+  background: rgba(91,157,255,.07); border: 1px solid rgba(91,157,255,.22);
+  color: #b8c4d6; margin: 1.2rem 0;
+}
+
+/* tighten the default material content spacing on landing pages */
+.md-typeset .s9-grid + h2, .md-typeset .s9-steps + h2 { margin-top: 1.8rem; }
