@@ -80,6 +80,7 @@ markdown_extensions:
   - admonition
 
 extra_css:
+  - stylesheets/cards.css
   - stylesheets/extra.css
   - stylesheets/quizzes.css
   - stylesheets/progress.css
