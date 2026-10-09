@@ -40,6 +40,7 @@ nav:
   - "News": /news/
   - Flashcards: flashcards/index.html
   - "Browse by Difficulty": browse/index.html
+  - "📚 Book Library": https://books.sektor9.dev/
   - "Learning Paths": learning-paths/index.md
   - "Learning Ladder": resources/curated/learn-by-difficulty.md
   - "Interactive Diagrams": interactive/index.md
@@ -54,8 +55,8 @@ theme:
     - toc.integrate
   palette:
     scheme: slate
-    primary: teal
-    accent: amber
+    primary: black
+    accent: blue
 
 plugins:
   - search
@@ -79,6 +80,7 @@ markdown_extensions:
   - admonition
 
 extra_css:
+  - stylesheets/extra.css
   - stylesheets/quizzes.css
   - stylesheets/progress.css
 
