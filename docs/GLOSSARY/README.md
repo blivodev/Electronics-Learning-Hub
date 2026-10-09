@@ -1,13 +1,23 @@
-# Glossary of Electronics Terms
+<div class="s9-hero">
+  <div class="s9-badge-row"><span class="s9-chip">🔤 Electronics Glossary</span><span class="s9-chip green">● ~100 terms</span><span class="s9-chip amber">● jump-to categories</span></div>
+  <h1>Every electronics term, defined</h1>
+  <p>A single-page dictionary of the terms used across this hub — <b>analog/digital, microcontrollers, serial buses, PCB design, RTOS, and more</b>. Jump to a letter group below, or press <kbd>Ctrl</kbd>+<kbd>F</kbd> to search.</p>
+</div>
 
-> **Getting around:** Every bold term below is a dictionary-style entry with a one-line
-> definition. Terms with links refer to each other in context. This is a single-page
-> glossary for now; it will grow into a hover-tooltip index as the wiki expands.
->
-> *(Tip: on the live BookStack wiki — `electronics.sektor9.dev` — many of these become
-> hover-tooltip glossary links inside the tutorials.)*
+<div class="s9-sec"><span class="n">01</span> · Jump to a category</div>
+<div class="s9-cta" style="margin-top:.4rem">
+  <a class="ghost" href="#a-c">🔠 A–C</a>
+  <a class="ghost" href="#d-g">⚡ D–G</a>
+  <a class="ghost" href="#h-m">🧩 H–M</a>
+  <a class="ghost" href="#n-s">🔌 N–S</a>
+  <a class="ghost" href="#t-z">🔋 T–Z</a>
+</div>
+
+<div class="s9-note">💡 <b>Getting around:</b> every bold term below is a dictionary-style entry with a one-line definition. Terms with links refer to each other in context. On the live BookStack wiki — <code>electronics.sektor9.dev</code> — many of these become hover-tooltip glossary links inside the tutorials.</div>
 
 ---
+
+# Glossary of Electronics Terms
 
 ## 🔠 A–C
 
