@@ -49,9 +49,9 @@ value. Once you see memory as addresses, almost all C on a microcontroller becom
 
 ```mermaid
 flowchart LR
-    A["int x = 42;<br/>value 42"] -->|\"&x = 0x100\"| B["x lives at address 0x100"]
+    A["int x = 42;<br/>value 42"] -->|"&x = 0x100"| B["x lives at address 0x100"]
     C["int *p = &x;<br/>p holds 0x100"] --> B
-    B -->|\"*p dereferences\"| A
+    B -->|"*p dereferences"| A
     D["OCR0B register<br/>(special IO address)"]
     E["Writing *p = 99<br/>writes 99 into x's box"]
 ```
