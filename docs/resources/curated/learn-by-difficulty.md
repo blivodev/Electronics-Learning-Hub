@@ -122,7 +122,7 @@ This page re-presents everything in the hub's curated resource library (tutorial
 - [KiCad Documentation](https://docs.kicad.org/) — full official docs and getting-started tutorials for the KiCad workflow.
 - [EasyEDA](https://www.easyeda.com/) — free, browser/desktop EDA tightly integrated with JLCPCB manufacturing; fast for personal projects.
 - [Fritzing](https://www.fritzing.org/) — beginner-friendly EDA that lets you design from a breadboard view first.
-- [PCB Design in KiCad (hub tutorial)](../synthesized/pcb-design-kicad.md) — the hub's full walkthrough from schematic to ordered boards.
+- [PCB Design in KiCad (hub tutorial)](../../synthesized/pcb-design-kicad.md) — the hub's full walkthrough from schematic to ordered boards.
 
 ---
 
@@ -135,7 +135,7 @@ This page re-presents everything in the hub's curated resource library (tutorial
 - [FreeRTOS Kernel (GitHub)](https://github.com/FreeRTOS/FreeRTOS-Kernel) — the isolated kernel source and per-MCU ports; drop it straight into your own firmware.
 - [Zephyr Project](https://www.zephyrproject.org/) — a modern, Linux-inspired RTOS ideal for multi-board portability.
 - [Zephyr Documentation](https://docs.zephyrproject.org/latest/index.html) — the full manual: kernel services, device-driver model, Devicetree, and 1,000+ supported boards.
-- [RTOS on a Microcontroller (hub tutorial)](../synthesized/rtos-on-mcu.md) — FreeRTOS tasks, queues, and priority done right, with a complete three-task project.
+- [RTOS on a Microcontroller (hub tutorial)](../../synthesized/rtos-on-mcu.md) — FreeRTOS tasks, queues, and priority done right, with a complete three-task project.
 
 ### Books
 - [Mastering the FreeRTOS Real Time Kernel (Richard Barry, PDF)](https://www.freertos.org/media/2018/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf) — the official, free hands-on guide by FreeRTOS's creator; tasks, queues, semaphores, and scheduling.
@@ -155,13 +155,13 @@ This page re-presents everything in the hub's curated resource library (tutorial
 - [ESP32-C3 Wireless Adventure (official book)](https://espressif.github.io/esp32-c3-book-en/) — Espressif's free, full-length book walking from ESP-IDF setup through Wi-Fi, ESP RainMaker, and mass production.
 - [Sleep Modes (ESP-IDF API Reference)](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/sleep_modes.html) — the definitive reference for light-sleep, deep-sleep, wake-up sources, and the RTC memory ULP workflow.
 - [Deep Sleep Example (ESP-IDF)](https://github.com/espressif/esp-idf/tree/master/examples/system/deep_sleep) — copy-paste example demonstrating timer, EXT0/EXT1, and GPIO wake-up sources.
-- [ESP32 Advanced (hub tutorial)](../synthesized/esp32-advanced.md) — Wi-Fi with timeouts, HTTP servers, BLE, and deep sleep — the four letters professional IoT firmware engineers write daily.
+- [ESP32 Advanced (hub tutorial)](../../synthesized/esp32-advanced.md) — Wi-Fi with timeouts, HTTP servers, BLE, and deep sleep — the four letters professional IoT firmware engineers write daily.
 
 ### Circuit/lab practice
 - [Raspberry Pi Pico (RP2040) Datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf) — the definitive manual for the Pico chip, including the full Programmable I/O (PIO) subsystem chapter.
 - [Getting Started with Raspberry Pi Pico (C/C++ SDK)](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf) — the official book: toolchain setup, building, flashing, and the first PIO/DMA examples from C.
 - [Pico-SDK (GitHub)](https://github.com/raspberrypi/pico-sdk) — official C/C++ SDK for the RP2040/RP2350; a clean, well-documented modern example of peripheral APIs.
-- [Raspberry Pi Pico (hub tutorial)](../synthesized/raspberry-pi-pico.md) — RP2040, MicroPython, the C SDK, and PIO state machines in one page.
+- [Raspberry Pi Pico (hub tutorial)](../../synthesized/raspberry-pi-pico.md) — RP2040, MicroPython, the C SDK, and PIO state machines in one page.
 - [ST Nucleo boards](https://www.st.com/en/evaluation-tools/nucleo-boards.html) — cheap, breadboard-friendly dev boards for learning STM32 properly.
 
 ---
@@ -179,7 +179,7 @@ This page re-presents everything in the hub's curated resource library (tutorial
 
 ### Books
 - [The Embedded Rust Book](https://docs.rust-embedded.org/book/) — official intro to Rust on microcontrollers; covers the `no_std` ecosystem you'll use in real firmware.
-- [Rust on Embedded (hub tutorial)](../synthesized/embedded-rust.md) — ownership, `no_std`, `embedded-hal` traits, and Embassy async, mapped onto real chips.
+- [Rust on Embedded (hub tutorial)](../../synthesized/embedded-rust.md) — ownership, `no_std`, `embedded-hal` traits, and Embassy async, mapped onto real chips.
 - [Mastering STM32 — Second Edition (Carmine Noviello)](https://leanpub.com/mastering-stm32-2nd) — the updated version covering STM32CubeIDE, DMA, clock trees, and FreeRTOS tickless mode.
 - [STM32 Arm Programming for Embedded Systems (Mazidi & Naimi)](https://www.amazon.com/STM32-Arm-Programming-Embedded-Systems/dp/0997925949) — the peripheral-programming companion if you didn't use it at the previous tier.
 
@@ -190,10 +190,10 @@ This page re-presents everything in the hub's curated resource library (tutorial
 - [ElectroBOOM](https://www.youtube.com/@ElectroBOOM) — entertaining (and genuinely educational) mains-voltage experiments; great for circuit intuition and hard safety lessons.
 
 ### Arduino/ESP32-specific
-- [Arduino in C (hub tutorial)](../synthesized/arduino-c.md) — C pointers, registers, timers, ADC, and interrupts the way an AVR actually thinks; the deep-dive on what Arduino hides.
-- [ESP32 in C/C++ (hub tutorial)](../synthesized/esp32-cpp.md) — classes for sensors, pins, and Wi-Fi; how C++ objects become clean ways to talk to hardware.
+- [Arduino in C (hub tutorial)](../../synthesized/arduino-c.md) — C pointers, registers, timers, ADC, and interrupts the way an AVR actually thinks; the deep-dive on what Arduino hides.
+- [ESP32 in C/C++ (hub tutorial)](../../synthesized/esp32-cpp.md) — classes for sensors, pins, and Wi-Fi; how C++ objects become clean ways to talk to hardware.
 - [ESP-IDF API Reference](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/) — the definitive API reference for GPIO, ADC, Wi-Fi, Bluetooth, timers, and everything else.
-- [MicroPython on the ESP32 (hub tutorial)](../synthesized/micropython.md) — the REPL-first workflow and when to port a prototype to C/Rust; the "prototype fast, polish in C" discipline.
+- [MicroPython on the ESP32 (hub tutorial)](../../synthesized/micropython.md) — the REPL-first workflow and when to port a prototype to C/Rust; the "prototype fast, polish in C" discipline.
 - [MicroPython ESP32 Docs](https://docs.micropython.org/en/latest/esp32/) — official MicroPython port documentation for ESP32; REPL and quickstart notes.
 - [MicroPython machine module reference](https://docs.micropython.org/en/latest/library/machine.html) — the core hardware API (Pin, ADC, PWM, UART, I2C, SPI) used across ports.
 - [DeepBlue Embedded](https://deepbluembedded.com/esp32/) — well-written ESP32 tutorials with code and clear explanations.
