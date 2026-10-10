@@ -50,14 +50,14 @@ catches your memory mistakes before the chip ever runs your code.
 ```mermaid
 flowchart LR
     subgraph move["Move (ownership transfers)"]
-        A[\"let s = String::from(&quot;hi&quot;);<br/>s owns the data\"]
-        B[\"let t = s;<br/>t now owns it\"]
-        C[\"s is DEAD — cannot use it\"]:::bad
+        A["let s = String::from(&quot;hi&quot;);<br/>s owns the data"]
+        B["let t = s;<br/>t now owns it"]
+        C["s is DEAD — cannot use it"]:::bad
     end
     subgraph borrow["Borrow (temporary access)"]
-        D[\"let s = String::from(&quot;hi&quot;);\"]
-        E[\"fn len(s: &String) -> usize\"]
-        F[\"s is still alive afterwards\"]:::good
+        D["let s = String::from(&quot;hi&quot;);"]
+        E["fn len(s: &String) -> usize"]
+        F["s is still alive afterwards"]:::good
     end
     A --> B --> C
     D --> E --> F

@@ -58,9 +58,9 @@ whole point of the language track.
 flowchart LR
     A["Open Thonny<br/>connect board"] --> B["Firmware already flashed"]
     B --> C["REPL prompt >>>"]
-    C -->|\"type a line\"| D["executes instantly"]
-    D -->|\"see the LED / print\"| C
-    C -->|\"done? save as main.py\"| E["runs on every boot"]
+    C -->|"type a line"| D["executes instantly"]
+    D -->|"see the LED / print"| C
+    C -->|"done? save as main.py"| E["runs on every boot"]
 ```
 
 **Your first battery of useful REPL commands:**

@@ -86,5 +86,7 @@ extra_css:
   - stylesheets/progress.css
 
 extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js
+  - javascripts/extra.js
   - javascripts/quizzes.js
   - javascripts/progress.js

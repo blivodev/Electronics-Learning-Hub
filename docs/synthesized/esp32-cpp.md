@@ -77,12 +77,12 @@ flowchart TB
         C["Button class<br/>isPressed()"]
         D["Sensor class<br/>read()"]
     end
-    A -->|\"creates & calls\"| B
-    A -->|\"creates & calls\"| C
-    A -->|\"creates & calls\"| D
-    B -->|\"wraps\"| P["digitalWrite / LEDC PWM"]
-    C -->|\"wraps\"| Q["pin read + debounce"]
-    D -->|\"wraps\"| R["I2C / ADC registers"]
+    A -->|"creates & calls"| B
+    A -->|"creates & calls"| C
+    A -->|"creates & calls"| D
+    B -->|"wraps"| P["digitalWrite / LEDC PWM"]
+    C -->|"wraps"| Q["pin read + debounce"]
+    D -->|"wraps"| R["I2C / ADC registers"]
 ```
 
 **The three C++ keywords that make classes work (and that you'll use today):**
