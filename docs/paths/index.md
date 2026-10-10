@@ -7,10 +7,10 @@
 
 <div class="s9-sec"><span class="n">01</span> · The four paths</div>
 <div class="s9-grid">
-  <a class="s9-card blue" href="arduino/index.md"><span class="ico">🛠️</span><span class="ttl">Arduino (AVR)</span><span class="dsc">8-bit AVR in C — the friendliest on-ramp to bare-metal micros.</span><span class="meta">Blinking LED → structured C → registers</span><span class="arrow">→</span></a>
-  <a class="s9-card green" href="esp32/index.md"><span class="ico">📡</span><span class="ttl">ESP32 (Xtensa / RISC-V)</span><span class="dsc">Dual-core IoT SoC — Wi-Fi/Bluetooth, C/C++ and MicroPython.</span><span class="meta">IoT devices you control from a browser</span><span class="arrow">→</span></a>
-  <a class="s9-card amber" href="mcu/index.md"><span class="ico">🧠</span><span class="ttl">Microcontrollers (general)</span><span class="dsc">Core MCU concepts — GPIO, timers, ADC, serial, RTOS — that apply to every board.</span><span class="meta">Understand any chip, not just one</span><span class="arrow">→</span></a>
-  <a class="s9-card red" href="circuits/index.md"><span class="ico">⚡</span><span class="ttl">Circuits &amp; Schematics</span><span class="dsc">The electronics that make everything work — Ohm's law, schematics, soldering, PCB design.</span><span class="meta">Design and build your own circuits</span><span class="arrow">→</span></a>
+  <a class="s9-card blue" href="arduino/"><span class="ico">🛠️</span><span class="ttl">Arduino (AVR)</span><span class="dsc">8-bit AVR in C — the friendliest on-ramp to bare-metal micros.</span><span class="meta">Blinking LED → structured C → registers</span><span class="arrow">→</span></a>
+  <a class="s9-card green" href="esp32/"><span class="ico">📡</span><span class="ttl">ESP32 (Xtensa / RISC-V)</span><span class="dsc">Dual-core IoT SoC — Wi-Fi/Bluetooth, C/C++ and MicroPython.</span><span class="meta">IoT devices you control from a browser</span><span class="arrow">→</span></a>
+  <a class="s9-card amber" href="mcu/"><span class="ico">🧠</span><span class="ttl">Microcontrollers (general)</span><span class="dsc">Core MCU concepts — GPIO, timers, ADC, serial, RTOS — that apply to every board.</span><span class="meta">Understand any chip, not just one</span><span class="arrow">→</span></a>
+  <a class="s9-card red" href="circuits/"><span class="ico">⚡</span><span class="ttl">Circuits &amp; Schematics</span><span class="dsc">The electronics that make everything work — Ohm's law, schematics, soldering, PCB design.</span><span class="meta">Design and build your own circuits</span><span class="arrow">→</span></a>
 </div>
 
 <div class="s9-sec"><span class="n">02</span> · Not sure which one?</div>
@@ -31,21 +31,21 @@
 
 <div class="s9-sec"><span class="n">04</span> · Core concepts (board-agnostic)</div>
 <div class="s9-grid">
-  <a class="s9-card" href="../concepts/01-electricity.md"><span class="ico">⚡</span><span class="ttl">How electricity works</span><span class="dsc">voltage, current, resistance</span></a>
-  <a class="s9-card" href="../concepts/02-components.md"><span class="ico">🧱</span><span class="ttl">Ohm's law &amp; components</span><span class="dsc">resistors, LEDs, capacitors</span></a>
-  <a class="s9-card" href="../concepts/03-circuits.md"><span class="ico">📐</span><span class="ttl">Circuits &amp; schematics</span><span class="dsc">the blueprint language</span></a>
-  <a class="s9-card" href="../concepts/04-microcontrollers.md"><span class="ico">🧠</span><span class="ttl">Microcontroller basics</span><span class="dsc">what's inside the chip</span></a>
-  <a class="s9-card" href="../concepts/05-projects.md"><span class="ico">🔨</span><span class="ttl">Breadboard → board</span><span class="dsc">putting it all together</span></a>
+  <a class="s9-card" href="../concepts/01-electricity/"><span class="ico">⚡</span><span class="ttl">How electricity works</span><span class="dsc">voltage, current, resistance</span></a>
+  <a class="s9-card" href="../concepts/02-components/"><span class="ico">🧱</span><span class="ttl">Ohm's law &amp; components</span><span class="dsc">resistors, LEDs, capacitors</span></a>
+  <a class="s9-card" href="../concepts/03-circuits/"><span class="ico">📐</span><span class="ttl">Circuits &amp; schematics</span><span class="dsc">the blueprint language</span></a>
+  <a class="s9-card" href="../concepts/04-microcontrollers/"><span class="ico">🧠</span><span class="ttl">Microcontroller basics</span><span class="dsc">what's inside the chip</span></a>
+  <a class="s9-card" href="../concepts/05-projects/"><span class="ico">🔨</span><span class="ttl">Breadboard → board</span><span class="dsc">putting it all together</span></a>
 </div>
 
 <div class="s9-sec"><span class="n">05</span> · Reference libraries</div>
 <div class="s9-grid">
-  <a class="s9-card" href="../synthesized/arduino-c.md"><span class="ico">💻</span><span class="ttl">Arduino in C</span><span class="dsc">deep, code-heavy course</span></a>
-  <a class="s9-card" href="../synthesized/esp32-cpp.md"><span class="ico">💻</span><span class="ttl">ESP32 in C++</span><span class="dsc">deep, code-heavy course</span></a>
-  <a class="s9-card" href="../synthesized/embedded-rust.md"><span class="ico">🦀</span><span class="ttl">Rust on embedded</span><span class="dsc">deep, code-heavy course</span></a>
-  <a class="s9-card" href="../synthesized/micropython.md"><span class="ico">🐍</span><span class="ttl">MicroPython</span><span class="dsc">deep, code-heavy course</span></a>
-  <a class="s9-card" href="../resources/curated/videos.md"><span class="ico">🎬</span><span class="ttl">Curated videos</span><span class="dsc">the best free tutorials &amp; videos</span></a>
-  <a class="s9-card" href="../GLOSSARY/README.md"><span class="ico">🔤</span><span class="ttl">Electronics Glossary</span><span class="dsc">every term, hover-linked and explained</span></a>
+  <a class="s9-card" href="../synthesized/arduino-c/"><span class="ico">💻</span><span class="ttl">Arduino in C</span><span class="dsc">deep, code-heavy course</span></a>
+  <a class="s9-card" href="../synthesized/esp32-cpp/"><span class="ico">💻</span><span class="ttl">ESP32 in C++</span><span class="dsc">deep, code-heavy course</span></a>
+  <a class="s9-card" href="../synthesized/embedded-rust/"><span class="ico">🦀</span><span class="ttl">Rust on embedded</span><span class="dsc">deep, code-heavy course</span></a>
+  <a class="s9-card" href="../synthesized/micropython/"><span class="ico">🐍</span><span class="ttl">MicroPython</span><span class="dsc">deep, code-heavy course</span></a>
+  <a class="s9-card" href="../resources/curated/videos/"><span class="ico">🎬</span><span class="ttl">Curated videos</span><span class="dsc">the best free tutorials &amp; videos</span></a>
+  <a class="s9-card" href="../GLOSSARY/"><span class="ico">🔤</span><span class="ttl">Electronics Glossary</span><span class="dsc">every term, hover-linked and explained</span></a>
 </div>
 
 <div class="s9-note">📌 Looking for the full wiki? The complete book/chapter library lives in BookStack at <b>electronics.sektor9.dev</b>. · <i>Pick one path and continue in it — consistency beats breadth when you're starting out.</i></div>

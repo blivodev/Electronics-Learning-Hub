@@ -7,12 +7,12 @@
 
 <div class="s9-sec"><span class="n">01</span> · ⚡ Electronics &amp; Microcontrollers paths</div>
 <div class="s9-grid">
-  <a class="s9-card blue" href="zero-to-pcb.md"><span class="ico">🔌</span><span class="ttl">Electronics Zero to PCB</span><span class="dsc">Basics → design a real PCB.</span><span class="meta">12 steps · 🟢 → 🔴</span><span class="arrow">→</span></a>
-  <a class="s9-card green" href="arduino-bare-metal.md"><span class="ico">🛠️</span><span class="ttl">Arduino to Bare-Metal</span><span class="dsc">Arduino → AVR register-level C.</span><span class="meta">10 steps · 🟢 → 🔴</span><span class="arrow">→</span></a>
-  <a class="s9-card amber" href="esp32-iot.md"><span class="ico">📡</span><span class="ttl">ESP32 / IoT Mastery</span><span class="dsc">Basics → advanced IoT.</span><span class="meta">12 steps · 🟢 → ⚫</span><span class="arrow">→</span></a>
-  <a class="s9-card red" href="embedded-c-rust.md"><span class="ico">⚙️</span><span class="ttl">Embedded C &amp; Rust</span><span class="dsc">C → embedded Rust.</span><span class="meta">10 steps · 🟠 → 🔴</span><span class="arrow">→</span></a>
-  <a class="s9-card purple" href="rtos-engineer.md"><span class="ico">⏱️</span><span class="ttl">RTOS Engineer</span><span class="dsc">Real-time systems.</span><span class="meta">10 steps · 🟠 → ⚫</span><span class="arrow">→</span></a>
-  <a class="s9-card" href="circuit-design-test.md"><span class="ico">🧪</span><span class="ttl">Circuit Design &amp; Test</span><span class="dsc">Electronics lab skills.</span><span class="meta">10 steps · 🟢 → 🟠</span><span class="arrow">→</span></a>
+  <a class="s9-card blue" href="zero-to-pcb/"><span class="ico">🔌</span><span class="ttl">Electronics Zero to PCB</span><span class="dsc">Basics → design a real PCB.</span><span class="meta">12 steps · 🟢 → 🔴</span><span class="arrow">→</span></a>
+  <a class="s9-card green" href="arduino-bare-metal/"><span class="ico">🛠️</span><span class="ttl">Arduino to Bare-Metal</span><span class="dsc">Arduino → AVR register-level C.</span><span class="meta">10 steps · 🟢 → 🔴</span><span class="arrow">→</span></a>
+  <a class="s9-card amber" href="esp32-iot/"><span class="ico">📡</span><span class="ttl">ESP32 / IoT Mastery</span><span class="dsc">Basics → advanced IoT.</span><span class="meta">12 steps · 🟢 → ⚫</span><span class="arrow">→</span></a>
+  <a class="s9-card red" href="embedded-c-rust/"><span class="ico">⚙️</span><span class="ttl">Embedded C &amp; Rust</span><span class="dsc">C → embedded Rust.</span><span class="meta">10 steps · 🟠 → 🔴</span><span class="arrow">→</span></a>
+  <a class="s9-card purple" href="rtos-engineer/"><span class="ico">⏱️</span><span class="ttl">RTOS Engineer</span><span class="dsc">Real-time systems.</span><span class="meta">10 steps · 🟠 → ⚫</span><span class="arrow">→</span></a>
+  <a class="s9-card" href="circuit-design-test/"><span class="ico">🧪</span><span class="ttl">Circuit Design &amp; Test</span><span class="dsc">Electronics lab skills.</span><span class="meta">10 steps · 🟢 → 🟠</span><span class="arrow">→</span></a>
 </div>
 
 <div class="s9-sec"><span class="n">02</span> · Difficulty badges</div>
