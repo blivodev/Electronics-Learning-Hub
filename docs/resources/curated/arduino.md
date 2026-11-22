@@ -4,46 +4,46 @@ A curated, working bookmark library for learning Arduino — official docs, begi
 
 ## Official Documentation & IDE
 
-- **Arduino Documentation** — https://docs.arduino.cc/ — The modern, canonical home for all official Arduino docs, tutorials, and the full language reference.
-- **Arduino IDE (Download)** — https://www.arduino.cc/en/software/ — Official downloads for the IDE 1.x, IDE 2.x, Cloud, CLI, and web editor. Start here to get running.
-- **Getting Started with IDE 2.x** — https://docs.arduino.cc/software/ide-v2/tutorials/getting-started-ide-v2/ — Official walkthrough of the new IDE: install, board manager, and first upload.
-- **Language Reference (Official)** — https://docs.arduino.cc/language-reference/ — The complete, searchable reference for every built-in function, type, and constant.
-- **Legacy Language Reference** — https://www.arduino.cc/reference/en/ — The classic reference with Arduino-to-C/C++ equivalents and function pages; some prefer its layout.
-- **Function reference (example: digitalWrite)** — https://www.arduino.cc/reference/en/language/functions/digital-io/digitalwrite/ — Dig into individual reference pages; this pattern works for every built-in.
-- **Arduino Learn** — https://docs.arduino.cc/learn/ — Official step-by-step learning paths and guides introduced by Arduino.
-- **Built-in Examples** — https://docs.arduino.cc/built-in-examples/ — Hundreds of short, runnable example sketches that ship with the IDE — the fastest way to learn-by-modifying.
-- **Legacy Tutorials Hub** — https://www.arduino.cc/en/Tutorial/HomePage — The older official tutorial index; still hosts many classic guides.
-- **Arduino Forum** — https://forum.arduino.cc/ — The official Q&A community; almost any error you hit has been answered here.
-- **Arduino Blog** — https://blog.arduino.cc/ — Official news, project spotlights, and product announcements.
+- **Arduino Documentation** — [https://docs.arduino.cc/](https://docs.arduino.cc/) — The modern, canonical home for all official Arduino docs, tutorials, and the full language reference.
+- **Arduino IDE (Download)** — [https://www.arduino.cc/en/software/](https://www.arduino.cc/en/software/) — Official downloads for the IDE 1.x, IDE 2.x, Cloud, CLI, and web editor. Start here to get running.
+- **Getting Started with IDE 2.x** — [https://docs.arduino.cc/software/ide-v2/tutorials/getting-started-ide-v2/](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started-ide-v2/) — Official walkthrough of the new IDE: install, board manager, and first upload.
+- **Language Reference (Official)** — [https://docs.arduino.cc/language-reference/](https://docs.arduino.cc/language-reference/) — The complete, searchable reference for every built-in function, type, and constant.
+- **Legacy Language Reference** — [https://www.arduino.cc/reference/en/](https://www.arduino.cc/reference/en/) — The classic reference with Arduino-to-C/C++ equivalents and function pages; some prefer its layout.
+- **Function reference (example: digitalWrite)** — [https://www.arduino.cc/reference/en/language/functions/digital-io/digitalwrite/](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalwrite/) — Dig into individual reference pages; this pattern works for every built-in.
+- **Arduino Learn** — [https://docs.arduino.cc/learn/](https://docs.arduino.cc/learn/) — Official step-by-step learning paths and guides introduced by Arduino.
+- **Built-in Examples** — [https://docs.arduino.cc/built-in-examples/](https://docs.arduino.cc/built-in-examples/) — Hundreds of short, runnable example sketches that ship with the IDE — the fastest way to learn-by-modifying.
+- **Legacy Tutorials Hub** — [https://www.arduino.cc/en/Tutorial/HomePage](https://www.arduino.cc/en/Tutorial/HomePage) — The older official tutorial index; still hosts many classic guides.
+- **Arduino Forum** — [https://forum.arduino.cc/](https://forum.arduino.cc/) — The official Q&A community; almost any error you hit has been answered here.
+- **Arduino Blog** — [https://blog.arduino.cc/](https://blog.arduino.cc/) — Official news, project spotlights, and product announcements.
 
 ## Beginner Tutorials & Project Sites
 
-- **SparkFun Learn** — https://learn.sparkfun.com/tutorials/ — Excellent beginner mega-tutorials ("What is a circuit", "How to read a schematic", sensor guides).
-- **Adafruit Learning System** — https://learn.adafruit.com/ — Hundreds of friendly, well-illustrated tutorials plus the Adafruit Arduino library ecosystem.
-- **Starting Electronics** — https://startingelectronics.org/ — Straightforward lessons and mini-projects for absolute beginners.
-- **Circuit Basics** — https://www.circuitbasics.com/ — Clear beginner Arduino and electronics tutorials with wiring diagrams.
-- **Arduino Get Started** — https://arduinogetstarted.com/ — Practical, example-driven Arduino tutorials aimed at newcomers.
-- **Core Electronics Tutorials** — https://core-electronics.com.au/tutorials.html — Friendly step-by-step Arduino and sensor tutorials.
-- **Make: Projects** — https://makezine.com/ — Maker magazine project ideas and how-tos that lean heavily on Arduino.
-- **All About Circuits** — https://www.allaboutcircuits.com/ — Textbook-quality EE tutorials that pair well with Arduino hands-on work.
-- **Instructables: Arduino Projects** — https://www.instructables.com/Arduino-Projects/ — Thousands of community Arduino builds, from simple to elaborate.
-- **Arduino Project Hub** — https://projecthub.arduino.cc/ — Arduino's official project showcase; filterable by board and category, with shareable code and wiring.
-- **Programming Electronics Academy** — https://www.programmingelectronics.com/ — Structured beginner courses and free lessons focused on confidently writing Arduino code.
-- **DroneBot Workshop** — https://dronebotworkshop.com/ — Clear, well-illustrated Arduino/ESP32/Pico tutorials and full project write-ups (also a great YouTube channel).
+- **SparkFun Learn** — [https://learn.sparkfun.com/tutorials/](https://learn.sparkfun.com/tutorials/) — Excellent beginner mega-tutorials ("What is a circuit", "How to read a schematic", sensor guides).
+- **Adafruit Learning System** — [https://learn.adafruit.com/](https://learn.adafruit.com/) — Hundreds of friendly, well-illustrated tutorials plus the Adafruit Arduino library ecosystem.
+- **Starting Electronics** — [https://startingelectronics.org/](https://startingelectronics.org/) — Straightforward lessons and mini-projects for absolute beginners.
+- **Circuit Basics** — [https://www.circuitbasics.com/](https://www.circuitbasics.com/) — Clear beginner Arduino and electronics tutorials with wiring diagrams.
+- **Arduino Get Started** — [https://arduinogetstarted.com/](https://arduinogetstarted.com/) — Practical, example-driven Arduino tutorials aimed at newcomers.
+- **Core Electronics Tutorials** — [https://core-electronics.com.au/tutorials.html](https://core-electronics.com.au/tutorials.html) — Friendly step-by-step Arduino and sensor tutorials.
+- **Make: Projects** — [https://makezine.com/](https://makezine.com/) — Maker magazine project ideas and how-tos that lean heavily on Arduino.
+- **All About Circuits** — [https://www.allaboutcircuits.com/](https://www.allaboutcircuits.com/) — Textbook-quality EE tutorials that pair well with Arduino hands-on work.
+- **Instructables: Arduino Projects** — [https://www.instructables.com/Arduino-Projects/](https://www.instructables.com/Arduino-Projects/) — Thousands of community Arduino builds, from simple to elaborate.
+- **Arduino Project Hub** — [https://projecthub.arduino.cc/](https://projecthub.arduino.cc/) — Arduino's official project showcase; filterable by board and category, with shareable code and wiring.
+- **Programming Electronics Academy** — [https://www.programmingelectronics.com/](https://www.programmingelectronics.com/) — Structured beginner courses and free lessons focused on confidently writing Arduino code.
+- **DroneBot Workshop** — [https://dronebotworkshop.com/](https://dronebotworkshop.com/) — Clear, well-illustrated Arduino/ESP32/Pico tutorials and full project write-ups (also a great YouTube channel).
 
 ## AVR Bare-Metal & Under the Hood
 
-- **avr-libc (GitHub mirror)** — https://github.com/avrdudes/avr-libc/ — The standard C library for AVR microcontrollers; essential reference when programming outside the Arduino framework.
-- **avr-libc User Manual** — https://www.nongnu.org/avr-libc/user-manual/ — The official, searchable manual: headers, `avr/io.h` register macros, timers, and the startup code behind every bare-metal AVR program.
-- **Arduino AVR Core (GitHub)** — https://github.com/arduino/ArduinoCore-avr — The actual source of `digitalWrite`, `analogRead`, and the pin mapping tables — read it to see what the framework hides.
-- **ATmega328P Datasheet** — https://www.microchip.com/en-us/product/ATmega328P — Microchip's official page and datasheet for the Uno chip; the register descriptions (DDRx/PORTx/PINx, timers) power real bare-metal work.
-- **Wikipedia: AVR microcontrollers** — https://en.wikipedia.org/wiki/AVR_microcontrollers — Background on the architecture the classic Arduino runs on (ATmega328P), including the register and memory-map overview that makes bare-metal coding click.
+- **avr-libc (GitHub mirror)** — [https://github.com/avrdudes/avr-libc/](https://github.com/avrdudes/avr-libc/) — The standard C library for AVR microcontrollers; essential reference when programming outside the Arduino framework.
+- **avr-libc User Manual** — [https://www.nongnu.org/avr-libc/user-manual/](https://www.nongnu.org/avr-libc/user-manual/) — The official, searchable manual: headers, `avr/io.h` register macros, timers, and the startup code behind every bare-metal AVR program.
+- **Arduino AVR Core (GitHub)** — [https://github.com/arduino/ArduinoCore-avr](https://github.com/arduino/ArduinoCore-avr) — The actual source of `digitalWrite`, `analogRead`, and the pin mapping tables — read it to see what the framework hides.
+- **ATmega328P Datasheet** — [https://www.microchip.com/en-us/product/ATmega328P](https://www.microchip.com/en-us/product/ATmega328P) — Microchip's official page and datasheet for the Uno chip; the register descriptions (DDRx/PORTx/PINx, timers) power real bare-metal work.
+- **Wikipedia: AVR microcontrollers** — [https://en.wikipedia.org/wiki/AVR_microcontrollers](https://en.wikipedia.org/wiki/AVR_microcontrollers) — Background on the architecture the classic Arduino runs on (ATmega328P), including the register and memory-map overview that makes bare-metal coding click.
 
 ## Books
 
-- **Making Embedded Systems (Elecia White, O'Reilly)** — https://www.amazon.com/Making-Embedded-Systems-Patterns-Practices/dp/1449302149 — The best practical intro to firmware design patterns; scalable from Arduino to real embedded work.
-- **Arduino Cookbook (3rd ed., Margolis, O'Reilly)** — https://www.amazon.com/Arduino-Cookbook-Recipes-Beginners-Experts/dp/1449313876 — The classic project recipe book, updated for modern boards.
-- **Arduino Workshop (Boxall, No Starch)** — https://www.amazon.com/Arduino-Workshop-Hands-Introduction-Prototyping/dp/1593274483 — A thorough hands-on intro that teaches you to prototype real hardware.
+- **Making Embedded Systems (Elecia White, O'Reilly)** — [https://www.amazon.com/Making-Embedded-Systems-Patterns-Practices/dp/1449302149](https://www.amazon.com/Making-Embedded-Systems-Patterns-Practices/dp/1449302149) — The best practical intro to firmware design patterns; scalable from Arduino to real embedded work.
+- **Arduino Cookbook (3rd ed., Margolis, O'Reilly)** — [https://www.amazon.com/Arduino-Cookbook-Recipes-Beginners-Experts/dp/1449313876](https://www.amazon.com/Arduino-Cookbook-Recipes-Beginners-Experts/dp/1449313876) — The classic project recipe book, updated for modern boards.
+- **Arduino Workshop (Boxall, No Starch)** — [https://www.amazon.com/Arduino-Workshop-Hands-Introduction-Prototyping/dp/1593274483](https://www.amazon.com/Arduino-Workshop-Hands-Introduction-Prototyping/dp/1593274483) — A thorough hands-on intro that teaches you to prototype real hardware.
 
 ## Suggested Reading Order
 

@@ -413,10 +413,10 @@ price.
 - [In-depth: Raspberry Pi Pico's PIO — programmable I/O!](https://www.youtube.com/watch?v=yYnQYF_Xa8g) — a deep dive through every PIO instruction.
 - [Raspberry Pi Pico Full Guide | Beginner to Pro](https://www.youtube.com/watch?v=4S0_BulQp20) — blink, buttons, sensors, and a display in MicroPython from scratch.
 - [Getting Started with Raspberry Pi Pico C/C++ SDK](https://www.youtube.com/watch?v=x1zH7MOIIA8) — set up the CMake + toolchain path from Part 3.
-- <https://www.youtube-nocookie.com/embed/ODlB05xMg04> — the PIO explainer (free to follow along) to cement Part 5.
-- <https://www.youtube-nocookie.com/embed/yYnQYF_Xa8g> — a deep dive through every PIO instruction.
-- <https://www.youtube-nocookie.com/embed/4S0_BulQp20> — blink, buttons, and sensors in MicroPython from scratch.
-- <https://www.youtube-nocookie.com/embed/x1zH7MOIIA8> — set up the CMake + toolchain path from Part 3.
+- <[https://www.youtube-nocookie.com/embed/ODlB05xMg04](https://www.youtube-nocookie.com/embed/ODlB05xMg04)> — the PIO explainer (free to follow along) to cement Part 5.
+- <[https://www.youtube-nocookie.com/embed/yYnQYF_Xa8g](https://www.youtube-nocookie.com/embed/yYnQYF_Xa8g)> — a deep dive through every PIO instruction.
+- <[https://www.youtube-nocookie.com/embed/4S0_BulQp20](https://www.youtube-nocookie.com/embed/4S0_BulQp20)> — blink, buttons, and sensors in MicroPython from scratch.
+- <[https://www.youtube-nocookie.com/embed/x1zH7MOIIA8](https://www.youtube-nocookie.com/embed/x1zH7MOIIA8)> — set up the CMake + toolchain path from Part 3.
 
 ## ✅ Next steps
 

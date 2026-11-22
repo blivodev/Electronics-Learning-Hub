@@ -458,9 +458,9 @@ you're standing.
 - [Bare-Metal Embedded Systems (AVR & ARM) in C & Assembly — assemble + upload](https://www.youtube.com/watch?v=sphG03nI1GE) — the exact assemble/link/objcopy/hex flow from Part 1, live on an ATmega2560.
 - [Microchip: Intro to Bare Metal Programming — Episode 1](https://www.microchip.com/en-us/about/media-center/videos/_73WcZMLHzo) — the official vendor start on the AVR register mindset.
 - [Arduino Timer0 in Assembly Explained (Instructables companion)](https://www.instructables.com/Atduino-Timer0-Interrupt-Bare-Metal-Avr-Assembly) — register-by-register timer breakdown with friendly analogies.
-- <https://www.youtube-nocookie.com/embed/sphG03nI1GE> — follow along as assembly is assembled, linked, and uploaded.
-- <https://www.youtube-nocookie.com/embed/qsflCf6ahXU> — Digi-Key: hardware interrupts and ISRs on the AVR (RTOS-series bonus).
-- <https://www.youtube-nocookie.com/embed/F321087yYy4> — an RTOS primer, useful to see how ISRs and tasks interact.
+- <[https://www.youtube-nocookie.com/embed/sphG03nI1GE](https://www.youtube-nocookie.com/embed/sphG03nI1GE)> — follow along as assembly is assembled, linked, and uploaded.
+- <[https://www.youtube-nocookie.com/embed/qsflCf6ahXU](https://www.youtube-nocookie.com/embed/qsflCf6ahXU)> — Digi-Key: hardware interrupts and ISRs on the AVR (RTOS-series bonus).
+- <[https://www.youtube-nocookie.com/embed/F321087yYy4](https://www.youtube-nocookie.com/embed/F321087yYy4)> — an RTOS primer, useful to see how ISRs and tasks interact.
 
 ## ✅ Next steps
 

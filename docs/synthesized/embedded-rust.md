@@ -405,7 +405,7 @@ is mostly a matter of swapping the HAL import and pin names.
 - [From 0 to `no_std` in one session (Rust Linz)](https://www.youtube.com/watch?v=Pu4MZmB0E28) — a live walk from nothing to a no_std binary.
 - [How to Do Embedded Development with Rust — Steve Klabnik (GOTO)](https://www.youtube.com/watch?v=7lHtXkYnip8) — the big picture from a Rust core-team member.
 - [Intro to Embassy: embedded development with async Rust](https://www.youtube.com/watch?v=pDd5mXBF4tY) — the modern async layer on top of all this.
-- <https://www.youtube-nocookie.com/embed/MmidT50ElO8> — the same pointer/ownership intuition, taught visually against the C world you already know.
+- <[https://www.youtube-nocookie.com/embed/MmidT50ElO8](https://www.youtube-nocookie.com/embed/MmidT50ElO8)> — the same pointer/ownership intuition, taught visually against the C world you already know.
 
 ## ✅ Next steps
 

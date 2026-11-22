@@ -478,7 +478,7 @@ expensive ones.
 - [Arduino Getting Started: Your first sketch](https://www.youtube.com/watch?v=gEwMEvUPAco) — get your first sketch flashed to a board.
 - [Intro to Pointers in Arduino](https://www.youtube.com/watch?v=MmidT50ElO8) — pointers made visual and concrete.
 - [How To Use Digital Input and Output in Arduino](https://www.youtube.com/watch?v=qh5gOgeqzZo) — wiring real pins and reading inputs.
-- <https://www.youtube-nocookie.com/embed/bF3OyQ3HwfU> — the multimeter tutorial, for when you need to measure what your pins are actually doing.
+- <[https://www.youtube-nocookie.com/embed/bF3OyQ3HwfU](https://www.youtube-nocookie.com/embed/bF3OyQ3HwfU)> — the multimeter tutorial, for when you need to measure what your pins are actually doing.
 
 ## ✅ Next steps
 

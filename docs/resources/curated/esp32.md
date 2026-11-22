@@ -4,83 +4,83 @@ A curated, working library for learning the Espressif ESP32 family — official 
 
 ## ESP-IDF (Official SDK)
 
-- **ESP-IDF Programming Guide** — https://docs.espressif.com/projects/esp-idf/en/latest/esp32/ — The full official documentation: getting started, API references, and every peripheral.
-- **ESP-IDF on GitHub** — https://github.com/espressif/esp-idf — Source, issues, and the release notes; clone or browse to see the real code behind the APIs.
-- **ESP-IDF Releases** — https://github.com/espressif/esp-idf/releases — Changelogs and release candidates; pick the LTS/stable branch for real projects.
-- **API Reference** — https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/ — The definitive API reference for GPIO, ADC, Wi-Fi, Bluetooth, timers, and everything else.
-- **Get Started Guide** — https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html — Step-by-step setup of the toolchain and first blink in IDF-land.
-- **Example Programs (IdfExamples)** — https://github.com/espressif/esp-idf/tree/master/examples — Readable, complete example projects for every peripheral; copy-paste to learn the API.
-- **Peripheral docs: GPIO API** — https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/gpio.html — Example of the detailed peripheral reference pages for configuring pins.
+- **ESP-IDF Programming Guide** — [https://docs.espressif.com/projects/esp-idf/en/latest/esp32/](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/) — The full official documentation: getting started, API references, and every peripheral.
+- **ESP-IDF on GitHub** — [https://github.com/espressif/esp-idf](https://github.com/espressif/esp-idf) — Source, issues, and the release notes; clone or browse to see the real code behind the APIs.
+- **ESP-IDF Releases** — [https://github.com/espressif/esp-idf/releases](https://github.com/espressif/esp-idf/releases) — Changelogs and release candidates; pick the LTS/stable branch for real projects.
+- **API Reference** — [https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/) — The definitive API reference for GPIO, ADC, Wi-Fi, Bluetooth, timers, and everything else.
+- **Get Started Guide** — [https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html) — Step-by-step setup of the toolchain and first blink in IDF-land.
+- **Example Programs (IdfExamples)** — [https://github.com/espressif/esp-idf/tree/master/examples](https://github.com/espressif/esp-idf/tree/master/examples) — Readable, complete example projects for every peripheral; copy-paste to learn the API.
+- **Peripheral docs: GPIO API** — [https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/gpio.html](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/gpio.html) — Example of the detailed peripheral reference pages for configuring pins.
 
 ## Arduino-ESP32
 
-- **arduino-esp32 on GitHub** — https://github.com/espressif/arduino-esp32 — Espressif's official Arduino core port of the ESP32; the most common way beginners start.
-- **Arduino-ESP32 Documentation** — https://docs.espressif.com/projects/arduino-esp32/en/latest/ — Official docs for the Arduino core: install, libraries, boards, and examples.
-- **Installation Guide** — https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html — Official steps for adding ESP32 boards to the Arduino IDE / arduino-cli.
-- **arduino-esp32 libraries** — https://github.com/espressif/arduino-esp32/tree/master/libraries — The bundled per-peripheral libraries shipped with the Arduino core.
+- **arduino-esp32 on GitHub** — [https://github.com/espressif/arduino-esp32](https://github.com/espressif/arduino-esp32) — Espressif's official Arduino core port of the ESP32; the most common way beginners start.
+- **Arduino-ESP32 Documentation** — [https://docs.espressif.com/projects/arduino-esp32/en/latest/](https://docs.espressif.com/projects/arduino-esp32/en/latest/) — Official docs for the Arduino core: install, libraries, boards, and examples.
+- **Installation Guide** — [https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html) — Official steps for adding ESP32 boards to the Arduino IDE / arduino-cli.
+- **arduino-esp32 libraries** — [https://github.com/espressif/arduino-esp32/tree/master/libraries](https://github.com/espressif/arduino-esp32/tree/master/libraries) — The bundled per-peripheral libraries shipped with the Arduino core.
 
 ## MicroPython
 
-- **MicroPython ESP32 Docs** — https://docs.micropython.org/en/latest/esp32/ — Official MicroPython port documentation for ESP32; REPL and quickstart notes.
-- **MicroPython on GitHub** — https://github.com/micropython/micropython — The firmware source and ports, including the ESP32 boards.
-- **machine module reference** — https://docs.micropython.org/en/latest/library/machine.html — The core hardware API (Pin, ADC, PWM, UART, I2C, SPI) used across ports.
-- **MicroPython ESP32 quickref** — https://docs.micropython.org/en/latest/esp32/quickref.html — A compact cheat-sheet of the main ESP32 MicroPython commands.
+- **MicroPython ESP32 Docs** — [https://docs.micropython.org/en/latest/esp32/](https://docs.micropython.org/en/latest/esp32/) — Official MicroPython port documentation for ESP32; REPL and quickstart notes.
+- **MicroPython on GitHub** — [https://github.com/micropython/micropython](https://github.com/micropython/micropython) — The firmware source and ports, including the ESP32 boards.
+- **machine module reference** — [https://docs.micropython.org/en/latest/library/machine.html](https://docs.micropython.org/en/latest/library/machine.html) — The core hardware API (Pin, ADC, PWM, UART, I2C, SPI) used across ports.
+- **MicroPython ESP32 quickref** — [https://docs.micropython.org/en/latest/esp32/quickref.html](https://docs.micropython.org/en/latest/esp32/quickref.html) — A compact cheat-sheet of the main ESP32 MicroPython commands.
 
 ## Datasheets & Boards
 
-- **Espressif DevKits** — https://www.espressif.com/en/products/devkits — Official development boards (DevKitC, DevKitM) and their documentation links.
-- **ESP32-DevKitC product page** — https://www.espressif.com/en/products/hardware/esp32-devkitc/overview — Official page for the most common starter board, with pinout and layout docs.
-- **ESP32 SoC page** — https://www.espressif.com/en/products/socs/esp32 — Official product overview with the datasheet and technical reference manual links.
-- **ESP32 (Wikipedia)** — https://en.wikipedia.org/wiki/ESP32 — Approachable overview of the chips, variants, and the broader ESP32 family.
-- **TinyPICO** — https://tinypico.com/ — A tiny, battery-friendly third-party ESP32 dev board with great docs; good example of the ecosystem.
-- **ElectroSchematics: ESP32 DevKitC pinout** — https://www.electroschematics.com/esp32-devkitc-pinout/ — Handy visual pinout reference for the common DevKitC board.
+- **Espressif DevKits** — [https://www.espressif.com/en/products/devkits](https://www.espressif.com/en/products/devkits) — Official development boards (DevKitC, DevKitM) and their documentation links.
+- **ESP32-DevKitC product page** — [https://www.espressif.com/en/products/hardware/esp32-devkitc/overview](https://www.espressif.com/en/products/hardware/esp32-devkitc/overview) — Official page for the most common starter board, with pinout and layout docs.
+- **ESP32 SoC page** — [https://www.espressif.com/en/products/socs/esp32](https://www.espressif.com/en/products/socs/esp32) — Official product overview with the datasheet and technical reference manual links.
+- **ESP32 (Wikipedia)** — [https://en.wikipedia.org/wiki/ESP32](https://en.wikipedia.org/wiki/ESP32) — Approachable overview of the chips, variants, and the broader ESP32 family.
+- **TinyPICO** — [https://tinypico.com/](https://tinypico.com/) — A tiny, battery-friendly third-party ESP32 dev board with great docs; good example of the ecosystem.
+- **ElectroSchematics: ESP32 DevKitC pinout** — [https://www.electroschematics.com/esp32-devkitc-pinout/](https://www.electroschematics.com/esp32-devkitc-pinout/) — Handy visual pinout reference for the common DevKitC board.
 
 ## Tutorials & Learn Sites
 
-- **Random Nerd Tutorials** — https://randomnerdtutorials.com/ — Arguably the best ESP32 tutorial site; huge library of practical projects and wiring diagrams.
-- **ESP32 Pinout Reference** — https://randomnerdtutorials.com/esp32-pinout-reference-gpios/ — The go-to pinout/gpio guide: which pins are safe, ADC/DAC/PWM channels, strapping pins.
-- **ESP32 ADC (Arduino) tutorial** — https://randomnerdtutorials.com/esp32-adc-analog-read-arduino-ide/ — Clear walkthrough of analog reading plus the pin/attenuation gotchas.
-- **Last Minute Engineers** — https://lastminuteengineers.com/esp32/ — Friendly ESP32 getting-started tutorial hub aimed at Arduino users.
-- **DeepBlue Embedded** — https://deepbluembedded.com/esp32/ — Well-written ESP32 tutorials with code and clear explanations.
-- **DeepBlue: ESP32 ADC tutorial** — https://deepbluembedded.com/esp32-adc-tutorial/ — Detailed ADC tutorial including calibration and nonlinearity discussions.
-- **Random Nerd: ESP32 Projects** — https://randomnerdtutorials.com/projects-esp32/ — A curated index of dozens of complete ESP32 projects.
-- **Random Nerd: ESP32 Web Server** — https://randomnerdtutorials.com/esp32-web-server-arduino-ide/ — Great entry project: build an ESP32 web server and control outputs from a browser.
-- **Wokwi (in-browser simulator)** — https://wokwi.com/ — Free browser simulator for ESP32/Arduino; build and test circuits and firmware without hardware.
-- **Last Minute Engineers: ESP32 Overview** — https://lastminuteengineers.com/ — Clear getting-started guides for ESP32 and peripherals (pinouts, wiring).
-- **RNT: Getting Started with the ESP32** — https://randomnerdtutorials.com/getting-started-with-esp32/ — The canonical first guide: choosing a board, specs, pinout, and flashing your first sketch.
-- **RNT: ESP32 MQTT Publish/Subscribe** — https://randomnerdtutorials.com/esp32-mqtt-publish-subscribe-arduino-ide/ — A practical IoT entry project: ESP32 + Node-RED + Mosquitto messaging.
-- **RNT: ESP32 Flash Memory** — https://randomnerdtutorials.com/esp32-flash-memory/ — How to store and read data that survives reset and power loss.
-- **RNT: ESP32 Save Data with Preferences Library** — https://randomnerdtutorials.com/esp32-save-data-permanently-preferences/ — The simplest way to persist settings on an ESP32 using the `Preferences.h` wrapper over NVS.
+- **Random Nerd Tutorials** — [https://randomnerdtutorials.com/](https://randomnerdtutorials.com/) — Arguably the best ESP32 tutorial site; huge library of practical projects and wiring diagrams.
+- **ESP32 Pinout Reference** — [https://randomnerdtutorials.com/esp32-pinout-reference-gpios/](https://randomnerdtutorials.com/esp32-pinout-reference-gpios/) — The go-to pinout/gpio guide: which pins are safe, ADC/DAC/PWM channels, strapping pins.
+- **ESP32 ADC (Arduino) tutorial** — [https://randomnerdtutorials.com/esp32-adc-analog-read-arduino-ide/](https://randomnerdtutorials.com/esp32-adc-analog-read-arduino-ide/) — Clear walkthrough of analog reading plus the pin/attenuation gotchas.
+- **Last Minute Engineers** — [https://lastminuteengineers.com/esp32/](https://lastminuteengineers.com/esp32/) — Friendly ESP32 getting-started tutorial hub aimed at Arduino users.
+- **DeepBlue Embedded** — [https://deepbluembedded.com/esp32/](https://deepbluembedded.com/esp32/) — Well-written ESP32 tutorials with code and clear explanations.
+- **DeepBlue: ESP32 ADC tutorial** — [https://deepbluembedded.com/esp32-adc-tutorial/](https://deepbluembedded.com/esp32-adc-tutorial/) — Detailed ADC tutorial including calibration and nonlinearity discussions.
+- **Random Nerd: ESP32 Projects** — [https://randomnerdtutorials.com/projects-esp32/](https://randomnerdtutorials.com/projects-esp32/) — A curated index of dozens of complete ESP32 projects.
+- **Random Nerd: ESP32 Web Server** — [https://randomnerdtutorials.com/esp32-web-server-arduino-ide/](https://randomnerdtutorials.com/esp32-web-server-arduino-ide/) — Great entry project: build an ESP32 web server and control outputs from a browser.
+- **Wokwi (in-browser simulator)** — [https://wokwi.com/](https://wokwi.com/) — Free browser simulator for ESP32/Arduino; build and test circuits and firmware without hardware.
+- **Last Minute Engineers: ESP32 Overview** — [https://lastminuteengineers.com/](https://lastminuteengineers.com/) — Clear getting-started guides for ESP32 and peripherals (pinouts, wiring).
+- **RNT: Getting Started with the ESP32** — [https://randomnerdtutorials.com/getting-started-with-esp32/](https://randomnerdtutorials.com/getting-started-with-esp32/) — The canonical first guide: choosing a board, specs, pinout, and flashing your first sketch.
+- **RNT: ESP32 MQTT Publish/Subscribe** — [https://randomnerdtutorials.com/esp32-mqtt-publish-subscribe-arduino-ide/](https://randomnerdtutorials.com/esp32-mqtt-publish-subscribe-arduino-ide/) — A practical IoT entry project: ESP32 + Node-RED + Mosquitto messaging.
+- **RNT: ESP32 Flash Memory** — [https://randomnerdtutorials.com/esp32-flash-memory/](https://randomnerdtutorials.com/esp32-flash-memory/) — How to store and read data that survives reset and power loss.
+- **RNT: ESP32 Save Data with Preferences Library** — [https://randomnerdtutorials.com/esp32-save-data-permanently-preferences/](https://randomnerdtutorials.com/esp32-save-data-permanently-preferences/) — The simplest way to persist settings on an ESP32 using the `Preferences.h` wrapper over NVS.
 
 ## Community
 
-- **ESP32 Official Forum** — https://www.esp32.com/ — Espressif's community forum; great for chip-level and IDF questions.
+- **ESP32 Official Forum** — [https://www.esp32.com/](https://www.esp32.com/) — Espressif's community forum; great for chip-level and IDF questions.
 
 ## ESP32-C3 & ESP32-S3 (RISC-V & AI Chips)
 
-- **ESP32-C3 Wireless Adventure (official book)** — https://espressif.github.io/esp32-c3-book-en/ — Espressif's free, full-length book walking from ESP-IDF setup through Wi-Fi, ESP RainMaker, and mass production; centered on the RISC-V C3.
-- **ESP32-C3 SoC product page** — https://www.espressif.com/en/products/socs/esp32-c3 — Official overview of the single-core RISC-V Wi-Fi/BLE 5 chip, with the datasheet and getting-started links.
-- **ESP-IDF Get Started: ESP32-C3** — https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/get-started/ — Official setup, idf.py targets, and first hello-world specifically for the C3.
-- **ESP32-S3 SoC product page** — https://www.espressif.com/en/products/socs/esp32-s3 — Official page for the dual-core Xtensa LX7 chip with Wi-Fi + BLE 5 + AI acceleration; datasheet and errata links.
-- **ESP32-S3 Datasheet (PDF)** — https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf — The full datasheet: pin map, power domains, ULP coprocessor, and peripherals.
-- **Getting Started with the ESP32-C3 Super Mini** — https://randomnerdtutorials.com/getting-started-esp32-c3-super-mini — Practical guide to the cheap ultra-low-power C3 board: pinout, Arduino IDE setup, deep sleep (~43 µA).
+- **ESP32-C3 Wireless Adventure (official book)** — [https://espressif.github.io/esp32-c3-book-en/](https://espressif.github.io/esp32-c3-book-en/) — Espressif's free, full-length book walking from ESP-IDF setup through Wi-Fi, ESP RainMaker, and mass production; centered on the RISC-V C3.
+- **ESP32-C3 SoC product page** — [https://www.espressif.com/en/products/socs/esp32-c3](https://www.espressif.com/en/products/socs/esp32-c3) — Official overview of the single-core RISC-V Wi-Fi/BLE 5 chip, with the datasheet and getting-started links.
+- **ESP-IDF Get Started: ESP32-C3** — [https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/get-started/](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/get-started/) — Official setup, idf.py targets, and first hello-world specifically for the C3.
+- **ESP32-S3 SoC product page** — [https://www.espressif.com/en/products/socs/esp32-s3](https://www.espressif.com/en/products/socs/esp32-s3) — Official page for the dual-core Xtensa LX7 chip with Wi-Fi + BLE 5 + AI acceleration; datasheet and errata links.
+- **ESP32-S3 Datasheet (PDF)** — [https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf](https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf) — The full datasheet: pin map, power domains, ULP coprocessor, and peripherals.
+- **Getting Started with the ESP32-C3 Super Mini** — [https://randomnerdtutorials.com/getting-started-esp32-c3-super-mini](https://randomnerdtutorials.com/getting-started-esp32-c3-super-mini) — Practical guide to the cheap ultra-low-power C3 board: pinout, Arduino IDE setup, deep sleep (~43 µA).
 
 ## FreeRTOS on ESP32
 
-- **FreeRTOS Overview (ESP-IDF)** — https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/freertos.html — How ESP-IDF integrates FreeRTOS (the default RTOS for all ESP-IDF apps), including the SMP implementations on dual-core chips.
-- **FreeRTOS (free and open source)** — https://freertos.org/ — The kernel itself; extensive docs, task/queue/semaphore references, and the SMP + RISC-V ports used by ESP-IDF.
+- **FreeRTOS Overview (ESP-IDF)** — [https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/freertos.html](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/freertos.html) — How ESP-IDF integrates FreeRTOS (the default RTOS for all ESP-IDF apps), including the SMP implementations on dual-core chips.
+- **FreeRTOS (free and open source)** — [https://freertos.org/](https://freertos.org/) — The kernel itself; extensive docs, task/queue/semaphore references, and the SMP + RISC-V ports used by ESP-IDF.
 
 ## Power Management & Deep Sleep
 
-- **Sleep Modes (ESP-IDF API Reference)** — https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/sleep_modes.html — The definitive reference for light-sleep, deep-sleep, wake-up sources, and the RTC memory ULP workflow.
-- **Power Management (ESP-IDF)** — https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/power_management.html — Frequency scaling and power-save behavior for building battery-friendly firmware.
-- **Deep Sleep Example (ESP-IDF examples)** — https://github.com/espressif/esp-idf/tree/master/examples/system/deep_sleep — Copy-paste example demonstrating timer, EXT0/EXT1, and GPIO wake-up sources.
-- **ESP32 Deep Sleep with Arduino IDE and Wake Up Sources** — https://randomnerdtutorials.com/esp32-deep-sleep-arduino-ide-wake-up-sources/ — Beginner walkthrough of timer, touch, and external wake-up with code and wiring.
+- **Sleep Modes (ESP-IDF API Reference)** — [https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/sleep_modes.html](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/sleep_modes.html) — The definitive reference for light-sleep, deep-sleep, wake-up sources, and the RTC memory ULP workflow.
+- **Power Management (ESP-IDF)** — [https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/power_management.html](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/power_management.html) — Frequency scaling and power-save behavior for building battery-friendly firmware.
+- **Deep Sleep Example (ESP-IDF examples)** — [https://github.com/espressif/esp-idf/tree/master/examples/system/deep_sleep](https://github.com/espressif/esp-idf/tree/master/examples/system/deep_sleep) — Copy-paste example demonstrating timer, EXT0/EXT1, and GPIO wake-up sources.
+- **ESP32 Deep Sleep with Arduino IDE and Wake Up Sources** — [https://randomnerdtutorials.com/esp32-deep-sleep-arduino-ide-wake-up-sources/](https://randomnerdtutorials.com/esp32-deep-sleep-arduino-ide-wake-up-sources/) — Beginner walkthrough of timer, touch, and external wake-up with code and wiring.
 
 ## ESP-IDF Components & the Component Registry
 
-- **ESP Component Registry** — https://components.espressif.com/ — Espressif's official package hub for ESP-IDF: reusable components (sensors, displays, LVGL, ESP-DSP, led_strip) declared in `idf_component.yml`.
-- **IDF Component Manager Documentation** — https://docs.espressif.com/projects/idf-component-manager/en/latest/index.html — How to add dependencies, publish components, and manage your project's manifest.
+- **ESP Component Registry** — [https://components.espressif.com/](https://components.espressif.com/) — Espressif's official package hub for ESP-IDF: reusable components (sensors, displays, LVGL, ESP-DSP, led_strip) declared in `idf_component.yml`.
+- **IDF Component Manager Documentation** — [https://docs.espressif.com/projects/idf-component-manager/en/latest/index.html](https://docs.espressif.com/projects/idf-component-manager/en/latest/index.html) — How to add dependencies, publish components, and manage your project's manifest.
 
 ## Suggested Reading Order
 

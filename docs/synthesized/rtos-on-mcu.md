@@ -493,10 +493,10 @@ professional embedded job.
 - [Getting Started with FreeRTOS — Part 2](https://www.youtube.com/watch?v=JIr7Xm_riRs) — creating your first task on the ESP32, step by step.
 - [Task Scheduling & Management — Part 3](https://www.youtube.com/watch?v=95yUbClyf3E) — how priorities and round-robin actually behave.
 - [FreeRTOS Queue Example — Part 5](https://www.youtube.com/watch?v=pHJ3lxOoWeI) — the exact queue pattern we built, with a full challenge.
-- <https://www.youtube-nocookie.com/embed/JIr7Xm_riRs> — follow along with Part 2 to see a task get created and scheduled live.
-- <https://www.youtube-nocookie.com/embed/F321087yYy4> — Part 1: what an RTOS is and what "real-time" means.
-- <https://www.youtube-nocookie.com/embed/95yUbClyf3E> — Part 3: priorities and round-robin scheduling in action.
-- <https://www.youtube-nocookie.com/embed/pHJ3lxOoWeI> — Part 5: the exact queue pattern from Part 4, with its challenge.
+- <[https://www.youtube-nocookie.com/embed/JIr7Xm_riRs](https://www.youtube-nocookie.com/embed/JIr7Xm_riRs)> — follow along with Part 2 to see a task get created and scheduled live.
+- <[https://www.youtube-nocookie.com/embed/F321087yYy4](https://www.youtube-nocookie.com/embed/F321087yYy4)> — Part 1: what an RTOS is and what "real-time" means.
+- <[https://www.youtube-nocookie.com/embed/95yUbClyf3E](https://www.youtube-nocookie.com/embed/95yUbClyf3E)> — Part 3: priorities and round-robin scheduling in action.
+- <[https://www.youtube-nocookie.com/embed/pHJ3lxOoWeI](https://www.youtube-nocookie.com/embed/pHJ3lxOoWeI)> — Part 5: the exact queue pattern from Part 4, with its challenge.
 
 ## ✅ Next steps
 

@@ -344,7 +344,7 @@ Upload, open the **Serial Monitor at 115200 baud**, and you'll see:
 ```
 Connecting to Wi-Fi......
 Wi-Fi connected!
-Open this URL in your browser: http://192.168.1.42
+Open this URL in your browser: [http://192.168.1.42](http://192.168.1.42)
 ```
 
 Point a browser at that IP and the buttons work. That's end-to-end: C++, a class-free simple
@@ -395,7 +395,7 @@ void loop() {}
 - [A beginner's guide to ESP32 — hardware & coding basics + Wi-Fi server demo](https://www.youtube.com/watch?v=UuxBfKA3U5M)
 - [How to Setup and Program the ESP32 — complete guide](https://www.youtube.com/watch?v=xPlN_Tk3VLQ)
 - [ESP32 HTTPS Secure Web Server & WiFi GPIO remote control](https://www.youtube.com/watch?v=4bS5ktABELE)
-- <https://www.youtube-nocookie.com/embed/Zy64kZEM_bg> — see the same "prototype fast" workflow from the MicroPython side of the same chip.
+- <[https://www.youtube-nocookie.com/embed/Zy64kZEM_bg](https://www.youtube-nocookie.com/embed/Zy64kZEM_bg)> — see the same "prototype fast" workflow from the MicroPython side of the same chip.
 
 ## ✅ Next steps
 

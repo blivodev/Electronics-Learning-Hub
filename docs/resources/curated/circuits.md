@@ -4,60 +4,60 @@ A curated, working library for learning circuit theory and the practical craft o
 
 ## Circuit Simulators
 
-- **Falstad Circuit Simulator** — https://www.falstad.com/circuit/ — Free, instant interactive in-browser simulator; perfect for experimenting with your very first circuits.
-- **CircuitLab** — https://www.circuitlab.com/ — Online simulator and schematic editor with a free tier; good for DC/AC and transient analysis.
-- **EveryCircuit** — https://everycircuit.com/ — Animated, drag-and-drop circuit builder; great visual intuition for how current flows.
-- **Tinkercad Circuits** — https://www.tinkercad.com/ — Free browser tool that simulates real Arduino + breadboard circuits; ideal for total beginners.
-- **NI Multisim** — https://www.ni.com/en/support/downloads/software-products/download.multisim.html — The industry-grade simulator used in many electronics courses (free student/education options).
-- **Multisim Live** — https://www.multisim.com/ — Free browser version of Multisim by NI; no install needed for quick simulations.
-- **LTspice (Analog Devices)** — https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html — The free, fast, industry-standard SPICE simulator for analog circuits; schematic capture, transient/AC/noise analysis, and tons of op-amp models.
+- **Falstad Circuit Simulator** — [https://www.falstad.com/circuit/](https://www.falstad.com/circuit/) — Free, instant interactive in-browser simulator; perfect for experimenting with your very first circuits.
+- **CircuitLab** — [https://www.circuitlab.com/](https://www.circuitlab.com/) — Online simulator and schematic editor with a free tier; good for DC/AC and transient analysis.
+- **EveryCircuit** — [https://everycircuit.com/](https://everycircuit.com/) — Animated, drag-and-drop circuit builder; great visual intuition for how current flows.
+- **Tinkercad Circuits** — [https://www.tinkercad.com/](https://www.tinkercad.com/) — Free browser tool that simulates real Arduino + breadboard circuits; ideal for total beginners.
+- **NI Multisim** — [https://www.ni.com/en/support/downloads/software-products/download.multisim.html](https://www.ni.com/en/support/downloads/software-products/download.multisim.html) — The industry-grade simulator used in many electronics courses (free student/education options).
+- **Multisim Live** — [https://www.multisim.com/](https://www.multisim.com/) — Free browser version of Multisim by NI; no install needed for quick simulations.
+- **LTspice (Analog Devices)** — [https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html](https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html) — The free, fast, industry-standard SPICE simulator for analog circuits; schematic capture, transient/AC/noise analysis, and tons of op-amp models.
 
 ## Digital Logic
 
-- **CircuitBread: Lessons in Electric Circuits, Vol. IV (Digital)** — https://www.circuitbread.com/textbooks/lessons-in-electric-circuits-volume-iv-digital — The free, public-domain digital logic text: gates, flip-flops, counters, and shift registers.
-- **CircuitBread: Digital Signals and Gates** — https://www.circuitbread.com/textbooks/lessons-in-electric-circuits-volume-iv-digital/logic-gates/digital-signals-and-gates — The perfect first lesson: how transistor circuits represent binary 1s and 0s as logic levels.
-- **Electronics Tutorials: Digital Logic** — https://www.electronics-tutorials.ws/logic/ — Clear, structured lessons on combinational and sequential logic, logic gates, and Boolean algebra.
+- **CircuitBread: Lessons in Electric Circuits, Vol. IV (Digital)** — [https://www.circuitbread.com/textbooks/lessons-in-electric-circuits-volume-iv-digital](https://www.circuitbread.com/textbooks/lessons-in-electric-circuits-volume-iv-digital) — The free, public-domain digital logic text: gates, flip-flops, counters, and shift registers.
+- **CircuitBread: Digital Signals and Gates** — [https://www.circuitbread.com/textbooks/lessons-in-electric-circuits-volume-iv-digital/logic-gates/digital-signals-and-gates](https://www.circuitbread.com/textbooks/lessons-in-electric-circuits-volume-iv-digital/logic-gates/digital-signals-and-gates) — The perfect first lesson: how transistor circuits represent binary 1s and 0s as logic levels.
+- **Electronics Tutorials: Digital Logic** — [https://www.electronics-tutorials.ws/logic/](https://www.electronics-tutorials.ws/logic/) — Clear, structured lessons on combinational and sequential logic, logic gates, and Boolean algebra.
 
 ## Op-Amps & Filters
 
-- **SparkFun: Introduction to Operational Amplifiers with LTspice** — https://learn.sparkfun.com/tutorials/introduction-to-operational-amplifiers-with-ltspice/all — A friendly, simulation-first intro to op-amp behavior using free LTspice.
-- **Electronics Tutorials: Operational Amplifiers** — https://www.electronics-tutorials.ws/opamp/ — Complete op-amp curriculum: inverting/non-inverting, summing, integrator, comparator, and active filters.
-- **Electronics Tutorials: Op-Amp Basics** — https://www.electronics-tutorials.ws/opamp/opamp_1.html — The starting lesson: ideal characteristics, gain-bandwidth product, and the golden rules.
-- **CircuitBread: Op-Amp Video Series** — https://www.circuitbread.com/tutorials/series/operational-amplifiers-op-amps — Short, visual op-amp tutorials from fundamentals through comparators and integrators.
-- **CircuitBread: Fundamentals of EE — Operational Amplifiers** — https://www.circuitbread.com/textbooks/fundamentals-of-electrical-engineering-i/analog-signal-processing/operational-amplifiers — Textbook chapter deriving op-amp gain and real-world limitations.
+- **SparkFun: Introduction to Operational Amplifiers with LTspice** — [https://learn.sparkfun.com/tutorials/introduction-to-operational-amplifiers-with-ltspice/all](https://learn.sparkfun.com/tutorials/introduction-to-operational-amplifiers-with-ltspice/all) — A friendly, simulation-first intro to op-amp behavior using free LTspice.
+- **Electronics Tutorials: Operational Amplifiers** — [https://www.electronics-tutorials.ws/opamp/](https://www.electronics-tutorials.ws/opamp/) — Complete op-amp curriculum: inverting/non-inverting, summing, integrator, comparator, and active filters.
+- **Electronics Tutorials: Op-Amp Basics** — [https://www.electronics-tutorials.ws/opamp/opamp_1.html](https://www.electronics-tutorials.ws/opamp/opamp_1.html) — The starting lesson: ideal characteristics, gain-bandwidth product, and the golden rules.
+- **CircuitBread: Op-Amp Video Series** — [https://www.circuitbread.com/tutorials/series/operational-amplifiers-op-amps](https://www.circuitbread.com/tutorials/series/operational-amplifiers-op-amps) — Short, visual op-amp tutorials from fundamentals through comparators and integrators.
+- **CircuitBread: Fundamentals of EE — Operational Amplifiers** — [https://www.circuitbread.com/textbooks/fundamentals-of-electrical-engineering-i/analog-signal-processing/operational-amplifiers](https://www.circuitbread.com/textbooks/fundamentals-of-electrical-engineering-i/analog-signal-processing/operational-amplifiers) — Textbook chapter deriving op-amp gain and real-world limitations.
 
 ## Schematics & Theory
 
-- **Khan Academy: Electrical Engineering** — https://www.khanacademy.org/science/electrical-engineering — Free, video-based course covering circuits, voltages, and signals from zero.
-- **MIT OpenCourseWare: Circuits & Electronics (6.002)** — https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/ — The legendary MIT intro circuit theory course, free with lecture notes and problem sets.
-- **All About Circuits** — https://www.allaboutcircuits.com/ — Free, thorough reference covering Ohm's law through AC circuits and semiconductors.
-- **Electronics Tutorials** — https://www.electronics-tutorials.ws/ — Structured lessons with worked examples for basic laws, resistors, capacitors, and more.
+- **Khan Academy: Electrical Engineering** — [https://www.khanacademy.org/science/electrical-engineering](https://www.khanacademy.org/science/electrical-engineering) — Free, video-based course covering circuits, voltages, and signals from zero.
+- **MIT OpenCourseWare: Circuits & Electronics (6.002)** — [https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/) — The legendary MIT intro circuit theory course, free with lecture notes and problem sets.
+- **All About Circuits** — [https://www.allaboutcircuits.com/](https://www.allaboutcircuits.com/) — Free, thorough reference covering Ohm's law through AC circuits and semiconductors.
+- **Electronics Tutorials** — [https://www.electronics-tutorials.ws/](https://www.electronics-tutorials.ws/) — Structured lessons with worked examples for basic laws, resistors, capacitors, and more.
 
 ## PCB Design
 
-- **KiCad** — https://www.kicad.org/ — The leading free, open-source EDA suite for schematic capture and PCB layout; cross-platform.
-- **KiCad Documentation** — https://docs.kicad.org/ — Full official docs and getting-started tutorials for the KiCad workflow.
-- **EasyEDA** — https://www.easyeda.com/ — Free, browser/desktop EDA tightly integrated with JLCPCB manufacturing; fast for personal projects.
-- **Fritzing** — https://www.fritzing.org/ — Beginner-friendly EDA that lets you design from a breadboard view first.
-- **Autodesk EAGLE** — https://www.autodesk.com/products/eagle/overview — Long-time industry EDA tool now under Autodesk Fusion (fusion electronics).
-- **Altium** — https://www.altium.com/ — The industry-professional PCB design suite; worth knowing even if you start in KiCad.
-- **JLCPCB** — https://jlcpcb.com/ — Cheap, popular PCB fab with a generous hobbyist offering; pair with EasyEDA.
-- **PCBWay** — https://www.pcbway.com/ — Another popular low-cost board fabrication and assembly service.
+- **KiCad** — [https://www.kicad.org/](https://www.kicad.org/) — The leading free, open-source EDA suite for schematic capture and PCB layout; cross-platform.
+- **KiCad Documentation** — [https://docs.kicad.org/](https://docs.kicad.org/) — Full official docs and getting-started tutorials for the KiCad workflow.
+- **EasyEDA** — [https://www.easyeda.com/](https://www.easyeda.com/) — Free, browser/desktop EDA tightly integrated with JLCPCB manufacturing; fast for personal projects.
+- **Fritzing** — [https://www.fritzing.org/](https://www.fritzing.org/) — Beginner-friendly EDA that lets you design from a breadboard view first.
+- **Autodesk EAGLE** — [https://www.autodesk.com/products/eagle/overview](https://www.autodesk.com/products/eagle/overview) — Long-time industry EDA tool now under Autodesk Fusion (fusion electronics).
+- **Altium** — [https://www.altium.com/](https://www.altium.com/) — The industry-professional PCB design suite; worth knowing even if you start in KiCad.
+- **JLCPCB** — [https://jlcpcb.com/](https://jlcpcb.com/) — Cheap, popular PCB fab with a generous hobbyist offering; pair with EasyEDA.
+- **PCBWay** — [https://www.pcbway.com/](https://www.pcbway.com/) — Another popular low-cost board fabrication and assembly service.
 
 ## Electronics MOOCs & Courses
 
-- **edX: Electronics courses** — https://www.edx.org/learn/electronics — University electronics courses (including MITx) searchable by topic and level.
-- **Coursera: Electronics courses** — https://www.coursera.org/courses?query=electronics — Structured video courses from universities and industry.
+- **edX: Electronics courses** — [https://www.edx.org/learn/electronics](https://www.edx.org/learn/electronics) — University electronics courses (including MITx) searchable by topic and level.
+- **Coursera: Electronics courses** — [https://www.coursera.org/courses?query=electronics](https://www.coursera.org/courses?query=electronics) — Structured video courses from universities and industry.
 
 ## Component & Reference Guides
 
-- **SparkFun Learn** — https://learn.sparkfun.com/tutorials/ — The best beginner guides to components: resistors, capacitors, transistors, and reading datasheets.
-- **CircuitBread** — https://www.circuitbread.com/ — Tutorials and reference calculators for everyday analog design.
-- **ElectroSchematics** — https://www.electroschematics.com/ — Practical circuit ideas and component hookup guides.
-- **Build Electronic Circuits** — https://www.build-electronic-circuits.com/ — Friendly, plain-language guides to components and simple circuit building.
-- **Circuito.io** — https://www.circuito.io/ — Wire up your chosen parts and get a generated wiring diagram and quick component info.
+- **SparkFun Learn** — [https://learn.sparkfun.com/tutorials/](https://learn.sparkfun.com/tutorials/) — The best beginner guides to components: resistors, capacitors, transistors, and reading datasheets.
+- **CircuitBread** — [https://www.circuitbread.com/](https://www.circuitbread.com/) — Tutorials and reference calculators for everyday analog design.
+- **ElectroSchematics** — [https://www.electroschematics.com/](https://www.electroschematics.com/) — Practical circuit ideas and component hookup guides.
+- **Build Electronic Circuits** — [https://www.build-electronic-circuits.com/](https://www.build-electronic-circuits.com/) — Friendly, plain-language guides to components and simple circuit building.
+- **Circuito.io** — [https://www.circuito.io/](https://www.circuito.io/) — Wire up your chosen parts and get a generated wiring diagram and quick component info.
 - **How resistors, LEDs and Ohm's law interact** — start with Khan Academy above, then confirm with an LED-series-resistor calculator on any of the tutorial sites listed.
-- **The Art of Electronics (Horowitz & Hill)** — https://www.amazon.com/Art-Electronics-3rd-Paul-Horowitz/dp/0521809266 — The legendary reference text; worth owning once you go beyond hobby basics.
+- **The Art of Electronics (Horowitz & Hill)** — [https://www.amazon.com/Art-Electronics-3rd-Paul-Horowitz/dp/0521809266](https://www.amazon.com/Art-Electronics-3rd-Paul-Horowitz/dp/0521809266) — The legendary reference text; worth owning once you go beyond hobby basics.
 
 ## Suggested Reading Order
 

@@ -481,10 +481,10 @@ connect and the sleep — the structure above is the frame everything hangs on.
 - [How to Configure the ESP32 for Light and Deep Sleep Modes](https://www.youtube.com/watch?v=kgtsSNjnzSI) — multiple wake sources (timer + GPIO) in one project, with NTP/Wi-Fi in between sleeps.
 - [BLE with ESP32 tutorial part 1: the Server](https://www.youtube.com/watch?v=0Yvd_k0hbVs) — build exactly the BLE server from Part 4 and test it with nRF Connect.
 - [ESP32 BLE Beacon Tutorial — Build with ESP-IDF & VS Code](https://www.youtube.com/watch?v=PasaGWMPkK8) — go deeper into BLE advertising and NimBLE.
-- <https://www.youtube-nocookie.com/embed/OUwTBQAQ1go> — follow along to see deep sleep measured live on a benchtop meter.
-- <https://www.youtube-nocookie.com/embed/kgtsSNjnzSI> — light & deep sleep with multiple wake sources, plus NTP between sleeps.
-- <https://www.youtube-nocookie.com/embed/0Yvd_k0hbVs> — build the BLE server from Part 4 and test it with nRF Connect.
-- <https://www.youtube-nocookie.com/embed/PasaGWMPkK8> — go deeper into BLE advertising with a beacon.
+- <[https://www.youtube-nocookie.com/embed/OUwTBQAQ1go](https://www.youtube-nocookie.com/embed/OUwTBQAQ1go)> — follow along to see deep sleep measured live on a benchtop meter.
+- <[https://www.youtube-nocookie.com/embed/kgtsSNjnzSI](https://www.youtube-nocookie.com/embed/kgtsSNjnzSI)> — light & deep sleep with multiple wake sources, plus NTP between sleeps.
+- <[https://www.youtube-nocookie.com/embed/0Yvd_k0hbVs](https://www.youtube-nocookie.com/embed/0Yvd_k0hbVs)> — build the BLE server from Part 4 and test it with nRF Connect.
+- <[https://www.youtube-nocookie.com/embed/PasaGWMPkK8](https://www.youtube-nocookie.com/embed/PasaGWMPkK8)> — go deeper into BLE advertising with a beacon.
 
 ## ✅ Next steps
 

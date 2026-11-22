@@ -303,10 +303,10 @@ nothing more satisfying than soldering a board you designed.
 - [KiCad for Beginners | Step-by-Step Tutorial to get started | 2025](https://www.youtube.com/watch?v=d9_-lQq8ShE) — the full workflow with modern menus, including Gerber export.
 - [How To Make Your Own Printed Circuit Boards (PCB) (Bitesize)](https://www.youtube.com/watch?v=djBMQhjfbys) — recreates the Arduino Nano, and demonstrates why good *placement* prevents routing pain.
 - [KiCad Tutorial — A to Z of PCB Design for Beginners](https://www.youtube.com/watch?v=7vs7-pJzWf8) — a complete walkthrough aimed squarely at first-time board designers.
-- <https://www.youtube-nocookie.com/embed/d9_-lQq8ShE> — follow along with the step-by-step KiCad video to see the exact clicks described above.
-- <https://www.youtube-nocookie.com/embed/TJPyqRnhytA> — Bitesize's beginner first-PCB walkthrough, breadboard to design.
-- <https://www.youtube-nocookie.com/embed/djBMQhjfbys> — schematic-to-Gerbers with a great lesson on placement.
-- <https://www.youtube-nocookie.com/embed/7vs7-pJzWf8> — a complete A-to-Z walkthrough for first-time board designers.
+- <[https://www.youtube-nocookie.com/embed/d9_-lQq8ShE](https://www.youtube-nocookie.com/embed/d9_-lQq8ShE)> — follow along with the step-by-step KiCad video to see the exact clicks described above.
+- <[https://www.youtube-nocookie.com/embed/TJPyqRnhytA](https://www.youtube-nocookie.com/embed/TJPyqRnhytA)> — Bitesize's beginner first-PCB walkthrough, breadboard to design.
+- <[https://www.youtube-nocookie.com/embed/djBMQhjfbys](https://www.youtube-nocookie.com/embed/djBMQhjfbys)> — schematic-to-Gerbers with a great lesson on placement.
+- <[https://www.youtube-nocookie.com/embed/7vs7-pJzWf8](https://www.youtube-nocookie.com/embed/7vs7-pJzWf8)> — a complete A-to-Z walkthrough for first-time board designers.
 
 ## ✅ Next steps
 

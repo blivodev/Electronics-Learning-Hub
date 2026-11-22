@@ -303,7 +303,7 @@ addr = socket.getaddrinfo("0.0.0.0", 80)[0][-1]
 s = socket.socket()
 s.bind(addr)
 s.listen(1)
-print("listening on http://%s" % wlan.ifconfig()[0])
+print("listening on [http://%s](http://%s)" % wlan.ifconfig()[0])
 
 while True:
     cl, addr = s.accept()
@@ -413,7 +413,7 @@ Python classes are lightweight here — no header files, no separate declaration
 - [Raspberry Pi Pico — Control the (I/O) World](https://www.youtube.com/watch?v=Zy64kZEM_bg) — the Pico's I/O from MicroPython.
 - [Raspberry Pi Pico Full Guide — Beginner to Pro](https://www.youtube.com/watch?v=4S0_BulQp20) — a thorough all-in-one walkthrough.
 - [NeoPixel LED Ring with ESP32 using MicroPython](https://www.youtube.com/watch?v=p5dFbF2WVNM) — see the color loop live on real hardware.
-- <https://www.youtube-nocookie.com/embed/gEwMEvUPAco> — the same "first flash" workflow the Arduino path uses, for comparing workflows.
+- <[https://www.youtube-nocookie.com/embed/gEwMEvUPAco](https://www.youtube-nocookie.com/embed/gEwMEvUPAco)> — the same "first flash" workflow the Arduino path uses, for comparing workflows.
 
 ## ✅ Next steps
 
